@@ -34,7 +34,7 @@ const defineConfig: UserConfigFn = ({ command, mode }) => {
     },
   };
   if (command === 'serve') {
-    if (mode === 'analysis') {
+    if (mode === 'analyze') {
       config.plugins.push(
         visualizer({
           filename: './node_modules/.cache/visualizer/stats.html',
