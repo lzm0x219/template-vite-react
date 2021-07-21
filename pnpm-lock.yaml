@@ -26,7 +26,7 @@ specifiers:
   rollup-plugin-visualizer: 5.5.2
   sort-package-json: 1.50.0
   typescript: 4.3.5
-  vite: 2.4.2
+  vite: 2.4.3
   vite-plugin-mkcert: 1.3.2
   vite-plugin-windicss: 1.2.5
   vite-react-jsx: 1.1.2
@@ -46,7 +46,7 @@ devDependencies:
   '@types/rollup-plugin-visualizer': 4.2.1
   '@typescript-eslint/eslint-plugin': 4.28.4_b1648df9f9ba40bdeef3710a5a5af353
   '@typescript-eslint/parser': 4.28.4_eslint@7.31.0+typescript@4.3.5
-  '@vitejs/plugin-legacy': 1.4.4_vite@2.4.2
+  '@vitejs/plugin-legacy': 1.4.4_vite@2.4.3
   '@vitejs/plugin-react-refresh': 1.3.5
   eslint: 7.31.0
   eslint-config-airbnb-typescript: 12.3.1_647eea76ed76c5ea8d37c25a199e0729
@@ -62,11 +62,11 @@ devDependencies:
   rollup-plugin-visualizer: 5.5.2
   sort-package-json: 1.50.0
   typescript: 4.3.5
-  vite: 2.4.2
+  vite: 2.4.3
   vite-plugin-mkcert: 1.3.2
-  vite-plugin-windicss: 1.2.5_vite@2.4.2
-  vite-react-jsx: 1.1.2_vite@2.4.2
-  vite-tsconfig-paths: 3.3.13_vite@2.4.2
+  vite-plugin-windicss: 1.2.5_vite@2.4.3
+  vite-react-jsx: 1.1.2_vite@2.4.3
+  vite-tsconfig-paths: 3.3.13_vite@2.4.3
   windicss: 3.1.5
   windicss-analysis: 0.3.4
 
@@ -922,7 +922,7 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /@vitejs/plugin-legacy/1.4.4_vite@2.4.2:
+  /@vitejs/plugin-legacy/1.4.4_vite@2.4.3:
     resolution: {integrity: sha512-pVYeQUDPG5InWwrTu7acy187WWjGonJnL/GMqMLmeKCFiwkZ6UcsoUjojiKmCUI0nAJTrrKH5lhjTqkccY9Iow==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -933,7 +933,7 @@ packages:
       magic-string: 0.25.7
       regenerator-runtime: 0.13.7
       systemjs: 6.10.2
-      vite: 2.4.2
+      vite: 2.4.3
     dev: true
 
   /@vitejs/plugin-react-refresh/1.3.5:
@@ -3850,7 +3850,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss/1.2.5_vite@2.4.2:
+  /vite-plugin-windicss/1.2.5_vite@2.4.3:
     resolution: {integrity: sha512-6z2XXQpV0WhSEoyWim4gaWyxrBhszhbufjQ3oiyJbtENoft90trJtnWYvPHXaTB0sspy1LIfSSQquru8N7KZJQ==}
     peerDependencies:
       vite: ^2.0.1
@@ -3858,13 +3858,13 @@ packages:
       '@windicss/plugin-utils': 1.2.5
       chalk: 4.1.1
       debug: 4.3.2
-      vite: 2.4.2
+      vite: 2.4.3
       windicss: 3.1.5
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-react-jsx/1.1.2_vite@2.4.2:
+  /vite-react-jsx/1.1.2_vite@2.4.3:
     resolution: {integrity: sha512-cv0kcBnr8pRZWreLhCIl0/wSnm6lwUc61kPYqGoVQLl4D2JdDMLMMWgKHDpFLc95l3U1pTX8lTVXq2KdeBE9IA==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -3874,12 +3874,12 @@ packages:
       '@babel/plugin-syntax-typescript': 7.14.5_@babel+core@7.14.6
       '@babel/plugin-transform-react-jsx': 7.14.5_@babel+core@7.14.6
       resolve: 1.20.0
-      vite: 2.4.2
+      vite: 2.4.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.3.13_vite@2.4.2:
+  /vite-tsconfig-paths/3.3.13_vite@2.4.3:
     resolution: {integrity: sha512-G7OO+1g2H6xVN61RIp1xFjvciqJoF5cGKcWfP6ZOZFeA8QRy2X7yaGUZLhXtKxNLEsR2MthDm7KwSNTKQHzwvA==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -3888,13 +3888,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.1
       tsconfig-paths: 3.10.1
-      vite: 2.4.2
+      vite: 2.4.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.4.2:
-    resolution: {integrity: sha512-2MifxD2I9fjyDmmEzbULOo3kOUoqX90A58cT6mECxoVQlMYFuijZsPQBuA14mqSwvV3ydUsqnq+BRWXyO9Qa+w==}
+  /vite/2.4.3:
+    resolution: {integrity: sha512-iT6NPeiUUZ2FkzC3eazytOEMRaM4J+xgRQcNcpRcbmfYjakCFP4WKPJpeEz1U5JEKHAtwv3ZBQketQUFhFU3ng==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
