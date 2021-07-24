@@ -27,7 +27,7 @@ specifiers:
   sort-package-json: 1.50.0
   typescript: 4.3.5
   vite: 2.4.3
-  vite-plugin-mkcert: 1.3.2
+  vite-plugin-mkcert: 1.4.0
   vite-plugin-windicss: 1.2.5
   vite-react-jsx: 1.1.2
   vite-tsconfig-paths: 3.3.13
@@ -63,7 +63,7 @@ devDependencies:
   sort-package-json: 1.50.0
   typescript: 4.3.5
   vite: 2.4.3
-  vite-plugin-mkcert: 1.3.2
+  vite-plugin-mkcert: 1.4.0
   vite-plugin-windicss: 1.2.5_vite@2.4.3
   vite-react-jsx: 1.1.2_vite@2.4.3
   vite-tsconfig-paths: 3.3.13_vite@2.4.3
@@ -3839,8 +3839,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-mkcert/1.3.2:
-    resolution: {integrity: sha512-y0SZiKx6CabyiPbLjXb6uba/oFrvUyYXHMV1Y27gssxBW01aldYqmqtnAvyyVcRVwVmLmJGpKQJLpt25NxV0IA==}
+  /vite-plugin-mkcert/1.4.0:
+    resolution: {integrity: sha512-airdNxpegNuyS9dQaJEhg0vWOjo5YUUdwJ5mn9UGSgka3x8P5UJQ5IHnb9b1kqBOeRhcE6MK7p9gqKouOGGRSQ==}
     dependencies:
       '@octokit/rest': 18.6.7
       axios: 0.21.1_debug@4.3.2
