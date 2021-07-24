@@ -42,8 +42,8 @@
   },
   "homepage": "https://github.com/0x219/vite-template-react-plus#readme",
   "devDependencies": {
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
     "@types/react": "17.0.14",
     "@types/react-dom": "17.0.9",
     "@types/rollup-plugin-visualizer": "4.2.1",
