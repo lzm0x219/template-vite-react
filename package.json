@@ -67,7 +67,7 @@
     "typescript": "4.3.5",
     "vite": "2.4.3",
     "vite-plugin-mkcert": "1.4.0",
-    "vite-plugin-windicss": "1.2.5",
+    "vite-plugin-windicss": "1.2.7",
     "vite-react-jsx": "1.1.2",
     "vite-tsconfig-paths": "3.3.13",
     "windicss": "3.1.6",
