@@ -1,7 +1,0 @@
-additional-dependency-files:
-  - type: npm-package-json
-    path: package.json
-additional-deps:
-  javascript:
-    - react
-    - react-dom
