@@ -70,7 +70,7 @@
     "vite-plugin-windicss": "1.2.7",
     "vite-react-jsx": "1.1.2",
     "vite-tsconfig-paths": "3.3.13",
-    "windicss": "3.1.6",
+    "windicss": "3.1.7",
     "windicss-analysis": "0.3.4"
   }
 }
