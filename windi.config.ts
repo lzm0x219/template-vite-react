@@ -1,13 +1,12 @@
-import { defineConfig } from 'windicss/helpers';
+import { defineConfig } from "windicss/helpers";
 
 export default defineConfig({
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
-    extend: {
-    },
+    extend: {},
   },
   extract: {
-    include: ['src/**/*.{ts,tsx}'],
-    exclude: ['node_modules', '.git'],
+    include: ["src/**/*.{ts,tsx}"],
+    exclude: ["node_modules", ".git"],
   },
 });
