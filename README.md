@@ -1,6 +1,7 @@
 # Vite Template React Plus
 
-A Vite + React starter template.
+🚀 A React quick start project template powered by vite.
+
 
 ## ✨ Feature
 
@@ -27,7 +28,7 @@ npx degit 0x219/vite-template-react-plus myapp
 
 cd myapp
 
-pnpm install
+npm install
 
-pnpm dev
+npm dev
 ```
