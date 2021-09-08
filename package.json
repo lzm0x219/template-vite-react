@@ -29,17 +29,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/0x219/vite-template-react-plus.git"
-  },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/0x219/vite-template-react-plus/issues"
-  },
-  "homepage": "https://github.com/0x219/vite-template-react-plus#readme",
   "devDependencies": {
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
