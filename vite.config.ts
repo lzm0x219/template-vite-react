@@ -1,4 +1,4 @@
-import { UserConfigFn } from "vite";
+import type { UserConfigFn, UserConfig } from "vite";
 import reactRefresh from "@vitejs/plugin-react-refresh";
 import legacy from "@vitejs/plugin-legacy";
 import tsconfigPaths from "vite-tsconfig-paths";
@@ -8,7 +8,7 @@ import { visualizer } from "rollup-plugin-visualizer";
 import mkcert from "vite-plugin-mkcert";
 
 const defineConfig: UserConfigFn = ({ command, mode }) => {
-  const config = {
+  const config: UserConfig = {
     server: {
       https: true,
     },
@@ -34,7 +34,7 @@ const defineConfig: UserConfigFn = ({ command, mode }) => {
     },
   };
   if (mode === "analyze") {
-    config.plugins.push(
+    config.plugins?.push(
       visualizer({
         filename: "./node_modules/.cache/visualizer/stats.html",
         open: true,
