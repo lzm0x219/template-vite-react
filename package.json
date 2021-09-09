@@ -59,7 +59,7 @@
     "vite-plugin-mkcert": "1.5.1",
     "vite-plugin-windicss": "1.4.2",
     "vite-react-jsx": "1.1.2",
-    "vite-tsconfig-paths": "3.3.13",
+    "vite-tsconfig-paths": "3.3.14",
     "windicss": "3.1.7",
     "windicss-analysis": "0.3.4"
   }
