@@ -2,7 +2,6 @@
 
 🚀 A React quick start project template powered by vite.
 
-
 ## ✨ Feature
 
 - Language: [typescript](https://www.typescriptlang.org/)
@@ -24,11 +23,11 @@
 ## 🎉 Quick start
 
 ```bash
-npx degit 0x219/vite-template-react-plus myapp
+pnpx degit 0x219/vite-template-react-plus myapp
 
 cd myapp
 
-npm install
+pnpx install
 
-npm dev
+pnpx dev
 ```
