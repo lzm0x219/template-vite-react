@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
-  '@types/react': 17.0.21
+  '@types/react': 17.0.22
   '@types/react-dom': 17.0.9
   '@types/rollup-plugin-visualizer': 4.2.1
   '@typescript-eslint/eslint-plugin': 4.31.1
@@ -42,7 +42,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 13.1.0
   '@commitlint/config-conventional': 13.1.0
-  '@types/react': 17.0.21
+  '@types/react': 17.0.22
   '@types/react-dom': 17.0.9
   '@types/rollup-plugin-visualizer': 4.2.1
   '@typescript-eslint/eslint-plugin': 4.31.1_e2d3c88d378335c4183365c112128ce9
@@ -745,8 +745,8 @@ packages:
       csstype: 3.0.8
     dev: true
 
-  /@types/react/17.0.21:
-    resolution: {integrity: sha512-GzzXCpOthOjXvrAUFQwU/svyxu658cwu00Q9ugujS4qc1zXgLFaO0kS2SLOaMWLt2Jik781yuHCWB7UcYdGAeQ==}
+  /@types/react/17.0.22:
+    resolution: {integrity: sha512-kq/BMeaAVLJM6Pynh8C2rnr/drCK+/5ksH0ch9asz+8FW3DscYCIEFtCeYTFeIx/ubvOsMXmRfy7qEJ76gM96A==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
