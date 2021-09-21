@@ -29,7 +29,7 @@ specifiers:
   typescript: 4.4.3
   vite: 2.5.10
   vite-plugin-mkcert: 1.5.1
-  vite-plugin-windicss: 1.4.3
+  vite-plugin-windicss: 1.4.4
   vite-react-jsx: 1.1.2
   vite-tsconfig-paths: 3.3.14
   windicss: 3.1.7
@@ -66,7 +66,7 @@ devDependencies:
   typescript: 4.4.3
   vite: 2.5.10
   vite-plugin-mkcert: 1.5.1
-  vite-plugin-windicss: 1.4.3_typescript@4.4.3+vite@2.5.10
+  vite-plugin-windicss: 1.4.4_typescript@4.4.3+vite@2.5.10
   vite-react-jsx: 1.1.2_vite@2.5.10
   vite-tsconfig-paths: 3.3.14_vite@2.5.10
   windicss: 3.1.7
@@ -76,6 +76,12 @@ packages:
 
   /@antfu/utils/0.2.4:
     resolution: {integrity: sha512-2bZNkVfL9IZESmvE26UKi8SzyvSoaIsGXDcnbHFMtmGMqUiB1fXpAJ1ijGf+tSqKRQ5yagck2U1Qk0p+705/kw==}
+    dependencies:
+      '@types/throttle-debounce': 2.1.0
+    dev: true
+
+  /@antfu/utils/0.3.0:
+    resolution: {integrity: sha512-UU8TLr/EoXdg7OjMp0h9oDoIAVr+Z/oW9cpOxQQyrsz6Qzd2ms/1CdWx8fl2OQdFpxGmq5Vc4TwfLHId6nAZjA==}
     dependencies:
       '@types/throttle-debounce': 2.1.0
     dev: true
@@ -913,12 +919,12 @@ packages:
       - typescript
     dev: true
 
-  /@windicss/config/1.4.3_typescript@4.4.3:
-    resolution: {integrity: sha512-6lm1EFmnDHfmgyVl2PJ2PVy4puYp6+99QFkuQlzcjAZfJ1bLGtk1Yl/LlWTz2BVzORUvqWmGLFXTCC1oPBrGVQ==}
+  /@windicss/config/1.4.4_typescript@4.4.3:
+    resolution: {integrity: sha512-tKV1a/jg5rvRRCuigxgUG1E2xw4lVIlNs+It34YXN8/hvvEN7FQzksAs0aov4+nOvi8deNNP0dv/X3AVtKtrbQ==}
     dependencies:
       debug: 4.3.2
-      jiti: 1.12.0
-      tsup: 4.14.0_typescript@4.4.3
+      jiti: 1.12.3
+      tsup: 5.1.0_typescript@4.4.3
       windicss: 3.1.7
     transitivePeerDependencies:
       - supports-color
@@ -942,11 +948,11 @@ packages:
       - typescript
     dev: true
 
-  /@windicss/plugin-utils/1.4.3_typescript@4.4.3:
-    resolution: {integrity: sha512-hxZWUAI623olh8FemHMWYllS3CVnm1SvBoQG5U556MDfcjAcRY/0rLkGUoaW+wMbJcCdP8+GpqYdPui05XqvCw==}
+  /@windicss/plugin-utils/1.4.4_typescript@4.4.3:
+    resolution: {integrity: sha512-vNMk2IKsEuaTzfqAzUDl/DH9UF+loADAEvXGA2tIB8lKEr1cIJJPea2p6w8SzCCymfsehTs4n55V9F45HO52LQ==}
     dependencies:
-      '@antfu/utils': 0.2.4
-      '@windicss/config': 1.4.3_typescript@4.4.3
+      '@antfu/utils': 0.3.0
+      '@windicss/config': 1.4.4_typescript@4.4.3
       debug: 4.3.2
       fast-glob: 3.2.7
       magic-string: 0.25.7
@@ -1644,6 +1650,12 @@ packages:
 
   /esbuild/0.12.26:
     resolution: {integrity: sha512-YmTkhPKjvTJ+G5e96NyhGf69bP+hzO0DscqaVJTi5GM34uaD4Ecj7omu5lJO+NrxCUBRhy2chONLK1h/2LwoXA==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
+
+  /esbuild/0.12.28:
+    resolution: {integrity: sha512-pZ0FrWZXlvQOATlp14lRSk1N9GkeJ3vLIwOcUoo3ICQn9WNR4rWoNi81pbn6sC1iYUy7QPqNzI3+AEzokwyVcA==}
     hasBin: true
     requiresBuild: true
     dev: true
@@ -2550,8 +2562,8 @@ packages:
     hasBin: true
     dev: true
 
-  /jiti/1.12.0:
-    resolution: {integrity: sha512-0yGfdPjYZ+RkYR9HRo9cbeS7UiOleg+1Wg0QNk0vOjeSaXNw0dKp7fz+JeqEpHjmFuTN48eh7bY0FsizSYOLDQ==}
+  /jiti/1.12.3:
+    resolution: {integrity: sha512-p88jl9WzvZYekMS5ZOB61bJ1SPV69o7nEpAU+mFpGzXErqLEg3WvNz3jeXylAiSfLZzvqZssrAu08N3AuvaqwQ==}
     hasBin: true
     dev: true
 
@@ -3901,6 +3913,34 @@ packages:
       - ts-node
     dev: true
 
+  /tsup/5.1.0_typescript@4.4.3:
+    resolution: {integrity: sha512-shox7rIKPneySkC6CI7py1N1Buqlp++sofTztZxGAESP4od2WrPD/y0FwNo6+XaoXfuzVV6bDAwvCtDpc0bq1A==}
+    hasBin: true
+    peerDependencies:
+      typescript: ^4.2.3
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      cac: 6.7.3
+      chalk: 4.1.2
+      chokidar: 3.5.2
+      debug: 4.3.2
+      esbuild: 0.12.28
+      execa: 5.1.1
+      globby: 11.0.4
+      joycon: 3.0.1
+      postcss-load-config: 3.1.0
+      resolve-from: 5.0.0
+      rollup: 2.56.3
+      sucrase: 3.20.1
+      tree-kill: 1.2.2
+      typescript: 4.4.3
+    transitivePeerDependencies:
+      - supports-color
+      - ts-node
+    dev: true
+
   /tsutils/3.21.0_typescript@4.4.3:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
@@ -4009,12 +4049,12 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss/1.4.3_typescript@4.4.3+vite@2.5.10:
-    resolution: {integrity: sha512-gHlN+2kQxMI3mgAv0hMXEMPk2JRSYtqD8POwlSl+ZKMF7nfB3lxZVT65xIk14y33tYLFtj32l+xr/4CEKrShCA==}
+  /vite-plugin-windicss/1.4.4_typescript@4.4.3+vite@2.5.10:
+    resolution: {integrity: sha512-EYazv3+qRj7pv1F7RxKSHicCgEEIEARV9GT1iWvIMnSeWYXfmn2BGnzkdojEUW4o9NDq3VGKd4D/lVuL8I2v3w==}
     peerDependencies:
       vite: ^2.0.1
     dependencies:
-      '@windicss/plugin-utils': 1.4.3_typescript@4.4.3
+      '@windicss/plugin-utils': 1.4.4_typescript@4.4.3
       chalk: 4.1.2
       debug: 4.3.2
       vite: 2.5.10
