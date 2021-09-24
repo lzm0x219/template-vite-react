@@ -25,7 +25,7 @@ specifiers:
   react: 17.0.2
   react-dom: 17.0.2
   rollup-plugin-visualizer: 5.5.2
-  sort-package-json: 1.51.0
+  sort-package-json: 1.52.0
   typescript: 4.4.3
   vite: 2.5.10
   vite-plugin-mkcert: 1.5.1
@@ -62,7 +62,7 @@ devDependencies:
   lint-staged: 11.1.2
   prettier: 2.4.1
   rollup-plugin-visualizer: 5.5.2
-  sort-package-json: 1.51.0
+  sort-package-json: 1.52.0
   typescript: 4.4.3
   vite: 2.5.10
   vite-plugin-mkcert: 1.5.1
@@ -3610,8 +3610,8 @@ packages:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
     dev: true
 
-  /sort-package-json/1.51.0:
-    resolution: {integrity: sha512-+92YlWIDj2nlE4lbO2UPDwU3xEt9sKsk7mV7bOO6GjdEzBPC+i55U5lbyqotVQsUDM2qIwfD6b2sORdwb13iwg==}
+  /sort-package-json/1.52.0:
+    resolution: {integrity: sha512-TsKDXgH3kPsaSrjAszQgg+n2/FDYdPrBrXD4YxMxExpogsi8LCek0YzK/jZ70i5Gi53WcpV+mVzvb5CHB5LpZw==}
     hasBin: true
     dependencies:
       detect-indent: 6.1.0
