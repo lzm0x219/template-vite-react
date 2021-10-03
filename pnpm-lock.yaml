@@ -8,7 +8,7 @@ specifiers:
   '@types/rollup-plugin-visualizer': 4.2.1
   '@typescript-eslint/eslint-plugin': 4.32.0
   '@typescript-eslint/parser': 4.32.0
-  '@vitejs/plugin-legacy': 1.5.3
+  '@vitejs/plugin-legacy': 1.6.0
   '@vitejs/plugin-react-refresh': 1.3.6
   eslint: 7.32.0
   eslint-config-airbnb: 18.2.1
@@ -47,7 +47,7 @@ devDependencies:
   '@types/rollup-plugin-visualizer': 4.2.1
   '@typescript-eslint/eslint-plugin': 4.32.0_1eacf2495a01e8a68ffa99482308e8ec
   '@typescript-eslint/parser': 4.32.0_eslint@7.32.0+typescript@4.4.3
-  '@vitejs/plugin-legacy': 1.5.3_vite@2.5.10
+  '@vitejs/plugin-legacy': 1.6.0_vite@2.5.10
   '@vitejs/plugin-react-refresh': 1.3.6
   eslint: 7.32.0
   eslint-config-airbnb: 18.2.1_d09752a374c106d7445cadaeba3c9e01
@@ -352,8 +352,8 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@babel/standalone/7.15.6:
-    resolution: {integrity: sha512-1N9+KHL9ZYKiDDXFgBvg8Sl135evIJgP/YZdOhqdfMMTL/zuAm6bUi/FYEwzTXYhQS8MBtRMVmmcIurif7hYiQ==}
+  /@babel/standalone/7.15.7:
+    resolution: {integrity: sha512-1dPLi+eQEJE0g1GnUM0Ik2GcS5SMXivoxt6meQxQxGWEd/DCdSBRJClUVlQ25Vbqe49g1HG5Ej0ULhmsqtSMmg==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -900,14 +900,14 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /@vitejs/plugin-legacy/1.5.3_vite@2.5.10:
-    resolution: {integrity: sha512-/b2x6dU+BbdW7C7KWxh9kMrVzv1JlUi1ucPQpSzWUUUVJjihbG+GRlpqcvfQ0p/TnAKl2d/VecbTLByVJJHORg==}
+  /@vitejs/plugin-legacy/1.6.0_vite@2.5.10:
+    resolution: {integrity: sha512-MrOT7DWJyln10Eobh38TL9Pg0yDjRec5ZlK0Opi+jZA/qniXgofvGJskOyvfbSKKmUkjLO2dUDLz2rIm2oIYtw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.0.0
     dependencies:
-      '@babel/standalone': 7.15.6
-      core-js: 3.17.3
+      '@babel/standalone': 7.15.7
+      core-js: 3.18.1
       magic-string: 0.25.7
       regenerator-runtime: 0.13.9
       systemjs: 6.10.3
@@ -1430,8 +1430,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /core-js/3.17.3:
-    resolution: {integrity: sha512-lyvajs+wd8N1hXfzob1LdOCCHFU4bGMbqqmLn1Q4QlCpDqWPpGf+p0nj+LNrvDDG33j0hZXw2nsvvVpHysxyNw==}
+  /core-js/3.18.1:
+    resolution: {integrity: sha512-vJlUi/7YdlCZeL6fXvWNaLUPh/id12WXj3MbkMw5uOyF0PfWPBNOCNbs53YqgrvtujLNlt9JQpruyIKkUZ+PKA==}
     requiresBuild: true
     dev: true
 
