@@ -32,7 +32,7 @@ specifiers:
   vite-plugin-windicss: 1.4.9
   vite-react-jsx: 1.1.2
   vite-tsconfig-paths: 3.3.14
-  windicss: 3.1.8
+  windicss: 3.1.9
   windicss-analysis: 0.3.4
 
 dependencies:
@@ -69,7 +69,7 @@ devDependencies:
   vite-plugin-windicss: 1.4.9_typescript@4.4.3+vite@2.6.3
   vite-react-jsx: 1.1.2_vite@2.6.3
   vite-tsconfig-paths: 3.3.14_vite@2.6.3
-  windicss: 3.1.8
+  windicss: 3.1.9
   windicss-analysis: 0.3.4_typescript@4.4.3
 
 packages:
@@ -4410,6 +4410,12 @@ packages:
 
   /windicss/3.1.8:
     resolution: {integrity: sha512-G1UfnnSZ3s4MZnqqIL8DOQbL8rBArQKlodlby8OvP333TPaRouamuIuYyCt5kSNEJzFrkx168TSRIkqhDs9bOA==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dev: true
+
+  /windicss/3.1.9:
+    resolution: {integrity: sha512-5YoKvXeCQXIdwc91BoOgpKbIImr2JS8I14rPMa/5dKDDPA4ot3NgICWKELkml39R/8rn4Q0BVUUTqN+w+hjDSA==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
