@@ -31,7 +31,7 @@ specifiers:
   vite-plugin-mkcert: 1.5.1
   vite-plugin-windicss: 1.4.9
   vite-react-jsx: 1.1.2
-  vite-tsconfig-paths: 3.3.14
+  vite-tsconfig-paths: 3.3.15
   windicss: 3.1.9
   windicss-analysis: 0.3.4
 
@@ -68,7 +68,7 @@ devDependencies:
   vite-plugin-mkcert: 1.5.1
   vite-plugin-windicss: 1.4.9_typescript@4.4.3+vite@2.6.5
   vite-react-jsx: 1.1.2_vite@2.6.5
-  vite-tsconfig-paths: 3.3.14_vite@2.6.5
+  vite-tsconfig-paths: 3.3.15_vite@2.6.5
   windicss: 3.1.9
   windicss-analysis: 0.3.4_typescript@4.4.3
 
@@ -4329,8 +4329,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.3.14_vite@2.6.5:
-    resolution: {integrity: sha512-Z501YCOTTwBk+zDq0furrD+O+X/zawKIo8L3eE0GVSr700AvWAArnlUHOzoRJQw0fJLfd+61rD7jkT20Jh8gtA==}
+  /vite-tsconfig-paths/3.3.15_vite@2.6.5:
+    resolution: {integrity: sha512-SFPj6Y5HWB2Vy6eZZSA2VF06Lkg74kkTtMYfs47QJ2z8Fm3qFNggKHWsGDH/gesW56Ly9xmDGr1IBC8o77G+mw==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
