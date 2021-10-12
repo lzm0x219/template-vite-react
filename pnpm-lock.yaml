@@ -29,7 +29,7 @@ specifiers:
   typescript: 4.4.4
   vite: 2.6.5
   vite-plugin-mkcert: 1.5.2
-  vite-plugin-windicss: 1.4.10
+  vite-plugin-windicss: 1.4.11
   vite-react-jsx: 1.1.2
   vite-tsconfig-paths: 3.3.15
   windicss: 3.1.9
@@ -66,7 +66,7 @@ devDependencies:
   typescript: 4.4.4
   vite: 2.6.5
   vite-plugin-mkcert: 1.5.2
-  vite-plugin-windicss: 1.4.10_vite@2.6.5
+  vite-plugin-windicss: 1.4.11_vite@2.6.5
   vite-react-jsx: 1.1.2_vite@2.6.5
   vite-tsconfig-paths: 3.3.15_vite@2.6.5
   windicss: 3.1.9
@@ -924,11 +924,11 @@ packages:
       - supports-color
     dev: true
 
-  /@windicss/config/1.4.10:
-    resolution: {integrity: sha512-mKybK7j6mW4B9b1+r5PgNMbCMaSxLlChaCrhlumBxQmdd2R2psnG6QZyVOvFjnVx8tlEtOzaMZkUtTzPfEs7Cg==}
+  /@windicss/config/1.4.11:
+    resolution: {integrity: sha512-fNq8bo0RMUDUyzmXfKBUjSQOn0D9WLgGmv71IbbkH7UH+2NUYwCL0mgjdtX1MzlFyUXk1O35XnXpee/bscH2Gw==}
     dependencies:
       debug: 4.3.2
-      jiti: 1.12.6
+      jiti: 1.12.7
       windicss: 3.1.9
     transitivePeerDependencies:
       - supports-color
@@ -947,11 +947,11 @@ packages:
       - typescript
     dev: true
 
-  /@windicss/plugin-utils/1.4.10:
-    resolution: {integrity: sha512-GzdyNfE0JaxkcST1zl8EKA20Sw5v8bfsr0HGBqxNtfn23ihl4sKdFksjkX+KXr5cva4qCLfEkObymVEl7CT2WQ==}
+  /@windicss/plugin-utils/1.4.11:
+    resolution: {integrity: sha512-lMxHnMCSFS8Cbae4lftYVLHJJoQ0ytVQQ4d71QhRYWjz1e8Axr/pJKxDgrlOUYb9B7LJ74/3ggMjCK5/X8Hiaw==}
     dependencies:
       '@antfu/utils': 0.3.0
-      '@windicss/config': 1.4.10
+      '@windicss/config': 1.4.11
       debug: 4.3.2
       fast-glob: 3.2.7
       magic-string: 0.25.7
@@ -2750,8 +2750,8 @@ packages:
     hasBin: true
     dev: true
 
-  /jiti/1.12.6:
-    resolution: {integrity: sha512-drQ/qnYriF9KiU47sRF0rTvfQmJo4JEmFMhCk2SJIsUj+hGnQaxkwaKfyvK9KenX20JNTQmVfJOz7VWe0cSntw==}
+  /jiti/1.12.7:
+    resolution: {integrity: sha512-2v5iYsJp5l7iX6ettW/hD7A9qZtsib3gMBfxbQxASszzOpZ0dFZBZAUQGKKIQ780XGR3sGEp1L/8t1JyyPq5Fg==}
     hasBin: true
     dev: true
 
@@ -4266,12 +4266,12 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss/1.4.10_vite@2.6.5:
-    resolution: {integrity: sha512-/ewtLXMP9sWok2lmb6QHJOtG7FeCmAdqtkucuXPj+nZ5pD2kpHxXfR4s7NYXGdzG/+3YKgCv3LeOEHgI/vNMFQ==}
+  /vite-plugin-windicss/1.4.11_vite@2.6.5:
+    resolution: {integrity: sha512-0DQN6wM7hVppGN29STJnDg5NYsALTsF1E/FOIYUMxBQg5gCMmk/yAwl95rvf5PTlL7qzjyp7shpy9Sct4fNktQ==}
     peerDependencies:
       vite: ^2.0.1
     dependencies:
-      '@windicss/plugin-utils': 1.4.10
+      '@windicss/plugin-utils': 1.4.11
       chalk: 4.1.2
       debug: 4.3.2
       vite: 2.6.5
