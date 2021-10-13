@@ -8,7 +8,7 @@ specifiers:
   '@types/rollup-plugin-visualizer': 4.2.1
   '@typescript-eslint/eslint-plugin': 4.33.0
   '@typescript-eslint/parser': 4.33.0
-  '@vitejs/plugin-legacy': 1.6.1
+  '@vitejs/plugin-legacy': 1.6.2
   '@vitejs/plugin-react-refresh': 1.3.6
   eslint: 8.0.0
   eslint-config-airbnb: 18.2.1
@@ -47,7 +47,7 @@ devDependencies:
   '@types/rollup-plugin-visualizer': 4.2.1
   '@typescript-eslint/eslint-plugin': 4.33.0_8f86c7130ad984271912010a3b14f5e0
   '@typescript-eslint/parser': 4.33.0_eslint@8.0.0+typescript@4.4.4
-  '@vitejs/plugin-legacy': 1.6.1_vite@2.6.5
+  '@vitejs/plugin-legacy': 1.6.2_vite@2.6.5
   '@vitejs/plugin-react-refresh': 1.3.6
   eslint: 8.0.0
   eslint-config-airbnb: 18.2.1_65009f38e76be0c1424efab885a35803
@@ -891,8 +891,8 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /@vitejs/plugin-legacy/1.6.1_vite@2.6.5:
-    resolution: {integrity: sha512-isBi2ti+AlCZUpfA1P6L8gseltBy/qi6Rsi92aDzeL2elpwXgN4Hv/xLS2UUSSj9F0mFmxXCYPWlBPaJnlYamQ==}
+  /@vitejs/plugin-legacy/1.6.2_vite@2.6.5:
+    resolution: {integrity: sha512-p5Bv/827WUpVN2m95ZYXzmjE3AblFE4CHasVoZ7dIwOPlyNcpg70SehEi5AWqyC0E7C1rHD8Nju9rWoV9uBLiw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.0.0
