@@ -55,7 +55,7 @@
     "rollup-plugin-visualizer": "5.5.2",
     "sort-package-json": "1.52.0",
     "typescript": "4.4.4",
-    "vite": "2.6.5",
+    "vite": "2.6.7",
     "vite-plugin-mkcert": "1.5.2",
     "vite-plugin-windicss": "1.4.11",
     "vite-react-jsx": "1.1.2",
