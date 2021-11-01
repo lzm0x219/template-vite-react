@@ -1,33 +1,46 @@
-# Vite Template React Plus
+# React Template（⚡️）
 
 🚀 A React quick start project template powered by vite.
 
-## ✨ Feature
+## Feature
 
-- Language: [typescript](https://www.typescriptlang.org/)
-- Code Linter: [eslint](https://eslint.org/) + [eslint-config-airbnb-typescript](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
-- Git Commit Linter: [husky](https://github.com/typicode/husky)
-- Git Message Linter: [commitlint](https://github.com/conventional-changelog/commitlint)
-- Code format: [prettier](https://prettier.io/)
-- Css util: [windicss](https://windicss.org/)
-- Vite plugins:
+- ⚡️ Fast - Build tools based on vite.
+- 👻 Small - Based on the smallest runnable build.
+- 💄 Prettier - Integrated Prettier to help you format the code.
+- ✅ Safety - Https is enabled by default.
+- 😎 Reliable - Integrated eslint and commitlint.
+- 🤖 Intelligent - Integrated renovate to help you maintain the dependent version.
 
-  - [@vitejs/plugin-react-refresh](https://github.com/vitejs/vite/tree/main/packages/plugin-react-refresh#readme) - Provides React Refresh support for Vite.
-  - [@vitejs/plugin-legacy](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy#readme) - This plugin provides support for legacy browsers that do not support native ESM.
-  - [vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths) - Give vite the ability to resolve imports using TypeScript's path mapping.
-  - [vite-react-jsx](https://github.com/alloc/vite-react-jsx#readme) - React 17's automatic JSX runtime for your entire bundle
-  - [vite-plugin-windicss](https://github.com/windicss/vite-plugin-windicss) - Windi CSS for Vite, it's fast!
-  - [rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer) - Visuallize your bundle
-  - [vite-plugin-mkcert](https://github.com/liuweiGL/vite-plugin-mkcert) - Provide certificates for vite's https dev service.
+## Getting Started
 
-## 🎉 Quick start
 
 ```bash
-pnpx degit 0x219/vite-template-react-plus myapp
+npx degit 0x219/vite-template-react-plus myapp
 
 cd myapp
-
-pnpx install
-
-pnpx dev
 ```
+
+### Prerequisites
+
+- `npm` and `pnpm` should be installed.
+- `git` should be installed (recommended v2.4.11 or higher)
+
+### Available scripts
+
+
+#### `pnpm dev`
+
+Runs the app in development mode.
+Open https://localhost:3000 to view it in the browser.
+
+The page will automatically reload if you make changes to the code.
+You will see the build errors and lint warnings in the console.
+
+#### `pnpm build`
+
+Builds the app for production to the `dist` folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+
+Your app is ready to be deployed.
