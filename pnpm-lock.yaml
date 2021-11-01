@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 13.2.1
-  '@commitlint/config-conventional': 13.2.0
   '@types/react': 17.0.33
   '@types/react-dom': 17.0.10
   '@types/rollup-plugin-visualizer': 4.2.1
@@ -39,8 +39,8 @@ dependencies:
   react-dom: 17.0.2_react@17.0.2
 
 devDependencies:
+  '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 13.2.1
-  '@commitlint/config-conventional': 13.2.0
   '@types/react': 17.0.33
   '@types/react-dom': 17.0.10
   '@types/rollup-plugin-visualizer': 4.2.1
@@ -71,6 +71,12 @@ devDependencies:
   windicss-analysis: 0.3.4_typescript@4.4.4
 
 packages:
+
+  /@0x219/commitlint-config/1.0.2:
+    resolution: {integrity: sha512-52xSTePepptEY+lRr4p5WJ3z7Q1FChqEagA5lxjjeFpky+UUJhxOkiN/3NnuBgRv4VaUjDuMV4EY3ZMKgFpCYw==}
+    dependencies:
+      conventional-changelog-conventionalcommits: 4.6.1
+    dev: true
 
   /@antfu/utils/0.2.4:
     resolution: {integrity: sha512-2bZNkVfL9IZESmvE26UKi8SzyvSoaIsGXDcnbHFMtmGMqUiB1fXpAJ1ijGf+tSqKRQ5yagck2U1Qk0p+705/kw==}
@@ -417,13 +423,6 @@ packages:
       resolve-from: 5.0.0
       resolve-global: 1.0.0
       yargs: 17.1.1
-    dev: true
-
-  /@commitlint/config-conventional/13.2.0:
-    resolution: {integrity: sha512-7u7DdOiF+3qSdDlbQGfpvCH8DCQdLFvnI2+VucYmmV7E92iD6t9PBj+UjIoSQCaMAzYp27Vkall78AkcXBh6Xw==}
-    engines: {node: '>=v12'}
-    dependencies:
-      conventional-changelog-conventionalcommits: 4.6.1
     dev: true
 
   /@commitlint/ensure/13.2.0:
