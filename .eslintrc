@@ -16,5 +16,6 @@
   "env": {
     "browser": true,
     "node": true
-  }
+  },
+  "ignorePatterns": "*.config.ts"
 }
