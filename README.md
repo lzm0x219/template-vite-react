@@ -7,7 +7,7 @@
 - ⚡️ Fast - Build tools based on vite.
 - 👻 Small - Based on the smallest runnable build.
 - 💄 Prettier - Integrated Prettier to help you format the code.
-- ✅ Safety - Https is enabled by default.
+- ✅ Safety - Https is enabled by default.
 - 😎 Reliable - Integrated eslint and commitlint.
 - 🤖 Intelligent - Integrated renovate to help you maintain the dependent version.
 
