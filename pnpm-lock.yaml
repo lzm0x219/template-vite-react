@@ -17,7 +17,7 @@ specifiers:
   eslint-plugin-jsx-a11y: 6.4.1
   eslint-plugin-prettier: 4.0.0
   eslint-plugin-react: 7.26.1
-  eslint-plugin-react-hooks: 4.2.0
+  eslint-plugin-react-hooks: 4.3.0
   husky: 7.0.4
   lint-staged: 11.2.6
   prettier: 2.4.1
@@ -43,14 +43,14 @@ devDependencies:
   '@vitejs/plugin-legacy': 1.6.2_vite@2.6.13
   '@vitejs/plugin-react': 1.0.7
   eslint: 8.2.0
-  eslint-config-airbnb: 18.2.1_f692936fe4ba1e1c341f0e9a5cfb6d3b
+  eslint-config-airbnb: 18.2.1_ef1862997bc8a0ea79c1a252b2e8460f
   eslint-config-airbnb-typescript: 15.0.0_fa7efc7fbdb4aa3f97f0d14d5827371b
   eslint-config-prettier: 8.3.0_eslint@8.2.0
   eslint-plugin-import: 2.25.2_eslint@8.2.0
   eslint-plugin-jsx-a11y: 6.4.1_eslint@8.2.0
   eslint-plugin-prettier: 4.0.0_307f015733298e29da9050ea0cee5b9e
   eslint-plugin-react: 7.26.1_eslint@8.2.0
-  eslint-plugin-react-hooks: 4.2.0_eslint@8.2.0
+  eslint-plugin-react-hooks: 4.3.0_eslint@8.2.0
   husky: 7.0.4
   lint-staged: 11.2.6
   prettier: 2.4.1
@@ -1668,7 +1668,7 @@ packages:
       - eslint-plugin-import
     dev: true
 
-  /eslint-config-airbnb/18.2.1_f692936fe4ba1e1c341f0e9a5cfb6d3b:
+  /eslint-config-airbnb/18.2.1_ef1862997bc8a0ea79c1a252b2e8460f:
     resolution: {integrity: sha512-glZNDEZ36VdlZWoxn/bUR1r/sdFKPd1mHPbqUtkctgNG4yT2DLLtJ3D+yCV+jzZCc2V1nBVkmdknOJBZ5Hc0fg==}
     engines: {node: '>= 6'}
     peerDependencies:
@@ -1683,7 +1683,7 @@ packages:
       eslint-plugin-import: 2.25.2_eslint@8.2.0
       eslint-plugin-jsx-a11y: 6.4.1_eslint@8.2.0
       eslint-plugin-react: 7.26.1_eslint@8.2.0
-      eslint-plugin-react-hooks: 4.2.0_eslint@8.2.0
+      eslint-plugin-react-hooks: 4.3.0_eslint@8.2.0
       object.assign: 4.1.2
       object.entries: 1.1.4
     dev: true
@@ -1772,11 +1772,11 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-react-hooks/4.2.0_eslint@8.2.0:
-    resolution: {integrity: sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ==}
+  /eslint-plugin-react-hooks/4.3.0_eslint@8.2.0:
+    resolution: {integrity: sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==}
     engines: {node: '>=10'}
     peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
     dependencies:
       eslint: 8.2.0
     dev: true
