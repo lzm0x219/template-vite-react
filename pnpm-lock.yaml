@@ -23,7 +23,7 @@ specifiers:
   prettier: 2.4.1
   react: 17.0.2
   react-dom: 17.0.2
-  sort-package-json: 1.52.0
+  sort-package-json: 1.53.0
   typescript: 4.4.4
   vite: 2.6.14
   vite-plugin-mkcert: 1.5.2
@@ -54,7 +54,7 @@ devDependencies:
   husky: 7.0.4
   lint-staged: 11.2.6
   prettier: 2.4.1
-  sort-package-json: 1.52.0
+  sort-package-json: 1.53.0
   typescript: 4.4.4
   vite: 2.6.14
   vite-plugin-mkcert: 1.5.2
@@ -3300,8 +3300,8 @@ packages:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
     dev: true
 
-  /sort-package-json/1.52.0:
-    resolution: {integrity: sha512-TsKDXgH3kPsaSrjAszQgg+n2/FDYdPrBrXD4YxMxExpogsi8LCek0YzK/jZ70i5Gi53WcpV+mVzvb5CHB5LpZw==}
+  /sort-package-json/1.53.0:
+    resolution: {integrity: sha512-nvWUed2LBr4CcASBvlXTi3c5ttgaj6a2BWhemBhr2PFYAqNu6DqxcNF0mWzzfaQwblFO7Qrse6AfD3KygeuZKw==}
     hasBin: true
     dependencies:
       detect-indent: 6.1.0
