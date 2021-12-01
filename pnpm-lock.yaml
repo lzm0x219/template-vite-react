@@ -11,7 +11,7 @@ specifiers:
   '@vitejs/plugin-react': 1.1.0
   eslint: 8.3.0
   eslint-config-airbnb: 19.0.1
-  eslint-config-airbnb-typescript: 16.0.0
+  eslint-config-airbnb-typescript: 16.1.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-import: 2.25.3
   eslint-plugin-jsx-a11y: 6.5.1
@@ -44,7 +44,7 @@ devDependencies:
   '@vitejs/plugin-react': 1.1.0
   eslint: 8.3.0
   eslint-config-airbnb: 19.0.1_ea5cabb8f170e6410bd6f44cb743d65d
-  eslint-config-airbnb-typescript: 16.0.0_069bfbc98d3cac76be829d6acfcc8e7e
+  eslint-config-airbnb-typescript: 16.1.0_069bfbc98d3cac76be829d6acfcc8e7e
   eslint-config-prettier: 8.3.0_eslint@8.3.0
   eslint-plugin-import: 2.25.3_eslint@8.3.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.3.0
@@ -1641,8 +1641,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-airbnb-typescript/16.0.0_069bfbc98d3cac76be829d6acfcc8e7e:
-    resolution: {integrity: sha512-qDOyD0YYZo5Us1YvOnWig2Ly/+IlQKmMZpnqKnJgVtHdK8SkjaSyVBHKbD41dEaQxk8vRVGBC94PuR2ceSwbLQ==}
+  /eslint-config-airbnb-typescript/16.1.0_069bfbc98d3cac76be829d6acfcc8e7e:
+    resolution: {integrity: sha512-W5Cq20KpEx5ZLC54bnVrC37zq2+WD956Kp/Ma3nYFRjT1v9KM63v+DPkrrmmrVqrlDKaD0ivm/qeYmyHV6qKlw==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.0.0
       '@typescript-eslint/parser': ^5.0.0
