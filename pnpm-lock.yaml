@@ -7,7 +7,7 @@ specifiers:
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.6.0
   '@typescript-eslint/parser': 5.6.0
-  '@vitejs/plugin-legacy': 1.6.3
+  '@vitejs/plugin-legacy': 1.6.4
   '@vitejs/plugin-react': 1.1.1
   eslint: 8.4.0
   eslint-config-airbnb: 19.0.2
@@ -40,7 +40,7 @@ devDependencies:
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.6.0_c73ee81e7e5a72fe329c49340cf4792a
   '@typescript-eslint/parser': 5.6.0_eslint@8.4.0+typescript@4.5.2
-  '@vitejs/plugin-legacy': 1.6.3_vite@2.7.1
+  '@vitejs/plugin-legacy': 1.6.4_vite@2.7.1
   '@vitejs/plugin-react': 1.1.1
   eslint: 8.4.0
   eslint-config-airbnb: 19.0.2_1b2789c3dcf440185947c531a6011f5a
@@ -843,8 +843,8 @@ packages:
       eslint-visitor-keys: 3.1.0
     dev: true
 
-  /@vitejs/plugin-legacy/1.6.3_vite@2.7.1:
-    resolution: {integrity: sha512-YivdG6gT91/wjFL6woTwVRgK9KHrju8GwXwgv5FdfAVo0GK0FK4V+YEobmDKRcOMKXQ1U5awY5HqbPIsoJalKQ==}
+  /@vitejs/plugin-legacy/1.6.4_vite@2.7.1:
+    resolution: {integrity: sha512-geH2F3hTRN++E4n9NZ0JFumxIWUKqW4FA9PAgM7Q6RvUOUUYW4tlURhEmCBYfZSN24H/yX3mEolX+wFVErsAYQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.0.0
