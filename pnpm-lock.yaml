@@ -27,7 +27,7 @@ specifiers:
   typescript: 4.5.5
   vite: 2.7.13
   vite-plugin-mkcert: 1.5.2
-  vite-tsconfig-paths: 3.3.17
+  vite-tsconfig-paths: 3.4.0
 
 dependencies:
   react: 17.0.2
@@ -58,7 +58,7 @@ devDependencies:
   typescript: 4.5.5
   vite: 2.7.13
   vite-plugin-mkcert: 1.5.2
-  vite-tsconfig-paths: 3.3.17_vite@2.7.13
+  vite-tsconfig-paths: 3.4.0_vite@2.7.13
 
 packages:
 
@@ -3570,15 +3570,6 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /tsconfig-paths/3.11.0:
-    resolution: {integrity: sha512-7ecdYDnIdmv639mmDwslG6KQg1Z9STTz1j7Gcz0xa+nshh/gKDAHcPxRbWOsA3SPp0tXP2leTcY9Kw+NAkfZzA==}
-    dependencies:
-      '@types/json5': 0.0.29
-      json5: 1.0.1
-      minimist: 1.2.5
-      strip-bom: 3.0.0
-    dev: true
-
   /tsconfig-paths/3.12.0:
     resolution: {integrity: sha512-e5adrnOYT6zqVnWqZu7i/BQ3BnhzvGbjEjejFXO20lKIKpwTaupkCPgEfv4GZK1IBciJUEhYs3J3p75FdaTFVg==}
     dependencies:
@@ -3694,15 +3685,15 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.3.17_vite@2.7.13:
-    resolution: {integrity: sha512-wx+rfC53moVLxMBj2EApJZgY6HtvWUFVZ4dBxNGYBxSSqU6UaHdKlcOxrfGDxyTGtYEr9beWCryHn18C4EtZkg==}
+  /vite-tsconfig-paths/3.4.0_vite@2.7.13:
+    resolution: {integrity: sha512-os+oAdJxkZvNLmisVQ76eDdCWC3aH4bKTy3EXI5oJi//zQ0G+qJfUeFR6Need4iyzL/Xus9R7AECF/YfGS0ZEw==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.3
       globrex: 0.1.2
       recrawl-sync: 2.2.1
-      tsconfig-paths: 3.11.0
+      tsconfig-paths: 3.12.0
       vite: 2.7.13
     transitivePeerDependencies:
       - supports-color
