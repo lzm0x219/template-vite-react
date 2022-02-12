@@ -7,7 +7,7 @@ specifiers:
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.10.2
   '@typescript-eslint/parser': 5.10.2
-  '@vitejs/plugin-legacy': 1.6.4
+  '@vitejs/plugin-legacy': 1.7.1
   '@vitejs/plugin-react': 1.1.4
   eslint: 8.9.0
   eslint-config-airbnb: 19.0.4
@@ -40,7 +40,7 @@ devDependencies:
   '@types/react-dom': 17.0.11
   '@typescript-eslint/eslint-plugin': 5.10.2_1b08c9fe96cd93d27d9e149ef6ced69d
   '@typescript-eslint/parser': 5.10.2_eslint@8.9.0+typescript@4.5.5
-  '@vitejs/plugin-legacy': 1.6.4_vite@2.7.13
+  '@vitejs/plugin-legacy': 1.7.1_vite@2.7.13
   '@vitejs/plugin-react': 1.1.4
   eslint: 8.9.0
   eslint-config-airbnb: 19.0.4_cded826960a6a3d1bba2e72d77d93106
@@ -309,8 +309,8 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@babel/standalone/7.16.4:
-    resolution: {integrity: sha512-FDRLwjeQfPm5jaHNuB+vwNyGCp24Ah3kEsbLzKmh0eSru+QCr4DmjgbRPoz71AwXLVtXU+l/i7MlVlIj5XO7Gw==}
+  /@babel/standalone/7.17.2:
+    resolution: {integrity: sha512-Adjbjnlk0IBuBEldyuicdIeq1P/YI5nfm7HnOVd8blGDRetPW2NllESjlrItMKORWVuILWqKe10D+b8yEybeBA==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -877,17 +877,17 @@ packages:
       eslint-visitor-keys: 3.2.0
     dev: true
 
-  /@vitejs/plugin-legacy/1.6.4_vite@2.7.13:
-    resolution: {integrity: sha512-geH2F3hTRN++E4n9NZ0JFumxIWUKqW4FA9PAgM7Q6RvUOUUYW4tlURhEmCBYfZSN24H/yX3mEolX+wFVErsAYQ==}
+  /@vitejs/plugin-legacy/1.7.1_vite@2.7.13:
+    resolution: {integrity: sha512-RqgILXsGpfV7NHodVCdBVau8ss5+ynMXp6JGF/F7nhSy0bnwSQPlMS3KFqh7twfifXK8VuMriqfU4CxOiqmNnA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
-      vite: ^2.0.0
+      vite: ^2.8.0
     dependencies:
-      '@babel/standalone': 7.16.4
-      core-js: 3.19.1
+      '@babel/standalone': 7.17.2
+      core-js: 3.21.0
       magic-string: 0.25.7
       regenerator-runtime: 0.13.9
-      systemjs: 6.11.0
+      systemjs: 6.12.1
       vite: 2.7.13
     dev: true
 
@@ -1275,8 +1275,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /core-js/3.19.1:
-    resolution: {integrity: sha512-Tnc7E9iKd/b/ff7GFbhwPVzJzPztGrChB8X8GLqoYGdEOG8IpLnK1xPyo3ZoO3HsK6TodJS58VGPOxA+hLHQMg==}
+  /core-js/3.21.0:
+    resolution: {integrity: sha512-YUdI3fFu4TF/2WykQ2xzSiTQdldLB4KVuL9WeAy5XONZYt5Cun/fpQvctoKbCgvPhmzADeesTk/j2Rdx77AcKQ==}
     requiresBuild: true
     dev: true
 
@@ -3506,8 +3506,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /systemjs/6.11.0:
-    resolution: {integrity: sha512-7YPIY44j+BoY+E6cGBSw0oCU8SNTTIHKZgftcBdwWkDzs/M86Fdlr21FrzAyph7Zo8r3CFGscyFe4rrBtixrBg==}
+  /systemjs/6.12.1:
+    resolution: {integrity: sha512-hqTN6kW+pN6/qro6G9OZ7ceDQOcYno020zBQKpZQLsJhYTDMCMNfXi/Y8duF5iW+4WWZr42ry0MMkcRGpbwG2A==}
     dev: true
 
   /text-extensions/1.9.0:
