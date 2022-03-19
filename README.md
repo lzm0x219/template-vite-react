@@ -1,6 +1,6 @@
 # React Template（⚡️）
 
-🚀 A React quick start project template powered by vite.
+⚡️ A minimal React Vite starter template.
 
 ## Feature
 
