@@ -15,7 +15,7 @@
 
 
 ```bash
-npx degit 0x219/vite-template-react-plus myapp
+npx degit UmaruLab/vite-template-react-plus myapp
 
 cd myapp
 ```
