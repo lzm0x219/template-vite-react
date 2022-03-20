@@ -5,17 +5,20 @@
     "project": "./tsconfig.json"
   },
   "extends": [
-    "airbnb",
-    "airbnb-typescript",
-    "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
     "plugin:react/jsx-runtime",
+    "plugin:prettier/recommended",
     "prettier"
   ],
-  "plugins": ["@typescript-eslint", "react", "jsx-a11y", "prettier"],
+  "plugins": ["@typescript-eslint", "react", "prettier"],
   "env": {
     "browser": true,
     "node": true
   },
-  "ignorePatterns": "*.config.ts"
+  "settings": {
+    "react": {
+      "version": "17.0.2"
+    }
+  }
 }

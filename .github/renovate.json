@@ -1,6 +1,6 @@
 {
-  "extends": [
-    "config:base",
-    ":dependencyDashboard"
-  ]
+  "extends": ["config:base"],
+  "labels": ["dependencies"],
+  "assignees": [],
+  "reviewers": []
 }

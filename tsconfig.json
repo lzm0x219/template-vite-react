@@ -10,7 +10,7 @@
     "baseUrl": "./",
     "strict": true,
     "paths": {
-      "@app/*": ["./src/*"]
+      "@/*": ["./src/*"]
     },
     "allowSyntheticDefaultImports": true
   }

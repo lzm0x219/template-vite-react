@@ -11,8 +11,11 @@
 - 😎 Reliable - Integrated eslint and commitlint.
 - 🤖 Intelligent - Integrated renovate to help you maintain the dependent version.
 
-## Getting Started
+## Preview
 
+[![qekup8.png](https://s1.ax1x.com/2022/03/20/qekup8.png)](https://imgtu.com/i/qekup8)
+
+## Getting Started
 
 ```bash
 npx degit UmaruLab/vite-template-react-plus myapp
@@ -26,7 +29,6 @@ cd myapp
 - `git` should be installed (recommended v2.4.11 or higher)
 
 ### Available scripts
-
 
 #### `pnpm dev`
 
