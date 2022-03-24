@@ -17,7 +17,7 @@ specifiers:
   is-ci: 3.0.1
   lint-staged: 12.3.7
   prettier: 2.6.0
-  prettier-plugin-packagejson: 2.2.16
+  prettier-plugin-packagejson: 2.2.17
   prettier-plugin-tailwindcss: 0.1.8
   react: 17.0.2
   react-dom: 17.0.2
@@ -48,7 +48,7 @@ devDependencies:
   is-ci: 3.0.1
   lint-staged: 12.3.7
   prettier: 2.6.0
-  prettier-plugin-packagejson: 2.2.16_prettier@2.6.0
+  prettier-plugin-packagejson: 2.2.17_prettier@2.6.0
   prettier-plugin-tailwindcss: 0.1.8_prettier@2.6.0
   serve: 13.0.2
   typescript: 4.6.2
@@ -3117,13 +3117,13 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-packagejson/2.2.16_prettier@2.6.0:
-    resolution: {integrity: sha512-nlLXAcw0xz3X1a8qSWSG9CEcAJXq5djdbpHq5lYRM8K50+s+xvLwUa0gvzqyJ80VjdtLLLgB+Pqp8hoN0Y+cEQ==}
+  /prettier-plugin-packagejson/2.2.17_prettier@2.6.0:
+    resolution: {integrity: sha512-Z1l3stIdkEzuv5w2ZyLl7mvl1Q/7vr2wjLAaKCQtafPHB7h09dir0tgXK/W5iEc/jP+C4XtvJl/HhiZBvPh4rQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
     dependencies:
       prettier: 2.6.0
-      sort-package-json: 1.54.0
+      sort-package-json: 1.55.0
     dev: true
 
   /prettier-plugin-tailwindcss/0.1.8_prettier@2.6.0:
@@ -3512,8 +3512,8 @@ packages:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
     dev: true
 
-  /sort-package-json/1.54.0:
-    resolution: {integrity: sha512-MA0nRiSfZ4/CNM/9rz70Hwq4PpvtBc3v532tzQSmoaLSdeBB3cCd488xmNruLL0fb/ZdbKlcaDDudwnrObbjBw==}
+  /sort-package-json/1.55.0:
+    resolution: {integrity: sha512-xhKvRD8WGbALjXQkVuk4/93Z/2NIO+5IzKamdMjN5kn3L+N+M9YWQssmM6GXlQr9v1F7PGWsOJEo1gvXOhM7Mg==}
     hasBin: true
     dependencies:
       detect-indent: 6.1.0
