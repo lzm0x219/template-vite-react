@@ -16,7 +16,7 @@ specifiers:
   husky: 7.0.4
   is-ci: 3.0.1
   lint-staged: 12.3.7
-  prettier: 2.6.0
+  prettier: 2.6.1
   prettier-plugin-packagejson: 2.2.17
   prettier-plugin-tailwindcss: 0.1.8
   react: 17.0.2
@@ -42,14 +42,14 @@ devDependencies:
   '@vitejs/plugin-react': 1.2.0
   eslint: 8.12.0
   eslint-config-prettier: 8.5.0_eslint@8.12.0
-  eslint-plugin-prettier: 4.0.0_d31a386daced1db91f33c91b25a43736
+  eslint-plugin-prettier: 4.0.0_b253a92c95b42c3296c682f11cccb3bd
   eslint-plugin-react: 7.29.4_eslint@8.12.0
   husky: 7.0.4
   is-ci: 3.0.1
   lint-staged: 12.3.7
-  prettier: 2.6.0
-  prettier-plugin-packagejson: 2.2.17_prettier@2.6.0
-  prettier-plugin-tailwindcss: 0.1.8_prettier@2.6.0
+  prettier: 2.6.1
+  prettier-plugin-packagejson: 2.2.17_prettier@2.6.1
+  prettier-plugin-tailwindcss: 0.1.8_prettier@2.6.1
   serve: 13.0.2
   typescript: 4.6.2
   vite: 2.8.6
@@ -1812,7 +1812,7 @@ packages:
       eslint: 8.12.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_d31a386daced1db91f33c91b25a43736:
+  /eslint-plugin-prettier/4.0.0_b253a92c95b42c3296c682f11cccb3bd:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -1825,7 +1825,7 @@ packages:
     dependencies:
       eslint: 8.12.0
       eslint-config-prettier: 8.5.0_eslint@8.12.0
-      prettier: 2.6.0
+      prettier: 2.6.1
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -3117,26 +3117,26 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-packagejson/2.2.17_prettier@2.6.0:
+  /prettier-plugin-packagejson/2.2.17_prettier@2.6.1:
     resolution: {integrity: sha512-Z1l3stIdkEzuv5w2ZyLl7mvl1Q/7vr2wjLAaKCQtafPHB7h09dir0tgXK/W5iEc/jP+C4XtvJl/HhiZBvPh4rQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
     dependencies:
-      prettier: 2.6.0
+      prettier: 2.6.1
       sort-package-json: 1.55.0
     dev: true
 
-  /prettier-plugin-tailwindcss/0.1.8_prettier@2.6.0:
+  /prettier-plugin-tailwindcss/0.1.8_prettier@2.6.1:
     resolution: {integrity: sha512-hwarSBCswAXa+kqYtaAkFr3Vop9o04WOyZs0qo3NyvW8L7f1rif61wRyq0+ArmVThOuRBcJF5hjGXYk86cwemg==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
     dependencies:
-      prettier: 2.6.0
+      prettier: 2.6.1
     dev: true
 
-  /prettier/2.6.0:
-    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
+  /prettier/2.6.1:
+    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
