@@ -39,7 +39,7 @@
     "husky": "7.0.4",
     "is-ci": "3.0.1",
     "lint-staged": "12.3.7",
-    "prettier": "2.6.0",
+    "prettier": "2.6.1",
     "prettier-plugin-packagejson": "2.2.17",
     "prettier-plugin-tailwindcss": "0.1.8",
     "serve": "13.0.2",
