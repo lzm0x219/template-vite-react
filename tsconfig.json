@@ -9,6 +9,7 @@
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
+    "types": ["react/next", "react-dom/next"],
     "paths": {
       "@/*": ["./src/*"]
     },
