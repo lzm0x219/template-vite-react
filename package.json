@@ -5,7 +5,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preinstall": "is-ci || npx only-allow pnpm",
+    "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install",
     "preview": "serve dist"
   },
