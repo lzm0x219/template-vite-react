@@ -9,7 +9,6 @@
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
-    "types": ["react", "react-dom"],
     "paths": {
       "@/*": ["./src/*"]
     },
