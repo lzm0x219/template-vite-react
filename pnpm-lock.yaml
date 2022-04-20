@@ -15,7 +15,7 @@ specifiers:
   eslint-plugin-react: 7.29.4
   husky: 7.0.4
   is-ci: 3.0.1
-  lint-staged: 12.3.8
+  lint-staged: 12.4.0
   prettier: 2.6.2
   prettier-plugin-packagejson: 2.2.17
   prettier-plugin-tailwindcss: 0.1.10
@@ -46,7 +46,7 @@ devDependencies:
   eslint-plugin-react: 7.29.4_eslint@8.13.0
   husky: 7.0.4
   is-ci: 3.0.1
-  lint-staged: 12.3.8
+  lint-staged: 12.4.0
   prettier: 2.6.2
   prettier-plugin-packagejson: 2.2.17_prettier@2.6.2
   prettier-plugin-tailwindcss: 0.1.10_prettier@2.6.2
@@ -2613,8 +2613,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/12.3.8:
-    resolution: {integrity: sha512-0+UpNaqIwKRSGAFOCcpuYNIv/j5QGVC+xUVvmSdxHO+IfIGoHbFLo3XcPmV/LLnsVj5EAncNHVtlITSoY5qWGQ==}
+  /lint-staged/12.4.0:
+    resolution: {integrity: sha512-3X7MR0h9b7qf4iXf/1n7RlVAx+EzpAZXoCEMhVSpaBlgKDfH2ewf+QUm7BddFyq29v4dgPP+8+uYpWuSWx035A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
