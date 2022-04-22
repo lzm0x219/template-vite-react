@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 16.2.3
-  '@types/react': 18.0.5
+  '@types/react': 18.0.6
   '@types/react-dom': 18.0.1
   '@typescript-eslint/eslint-plugin': 5.20.0
   '@typescript-eslint/parser': 5.20.0
@@ -34,7 +34,7 @@ dependencies:
 devDependencies:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 16.2.3
-  '@types/react': 18.0.5
+  '@types/react': 18.0.6
   '@types/react-dom': 18.0.1
   '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
   '@typescript-eslint/parser': 5.20.0_eslint@8.13.0+typescript@4.6.3
@@ -741,11 +741,11 @@ packages:
   /@types/react-dom/18.0.1:
     resolution: {integrity: sha512-jCwTXvHtRLiyVvKm9aEdHXs8rflVOGd5Sl913JZrPshfXjn8NYsTNZOz70bCsA31IR0TOqwi3ad+X4tSCBoMTw==}
     dependencies:
-      '@types/react': 18.0.5
+      '@types/react': 18.0.6
     dev: true
 
-  /@types/react/18.0.5:
-    resolution: {integrity: sha512-UPxNGInDCIKlfqBrm8LDXYWNfLHwIdisWcsH5GpMyGjhEDLFgTtlRBaoWuCua9HcyuE0rMkmAeZ3FXV1pYLIYQ==}
+  /@types/react/18.0.6:
+    resolution: {integrity: sha512-bPqwzJRzKtfI0mVYr5R+1o9BOE8UEXefwc1LwcBtfnaAn6OoqMhLa/91VA8aeWfDPJt1kHvYKI8RHcQybZLHHA==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
