@@ -20,8 +20,8 @@
     "!(*pnpm-lock).yaml": "prettier --write"
   },
   "dependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
   },
   "devDependencies": {
     "@0x219/commitlint-config": "1.0.2",
