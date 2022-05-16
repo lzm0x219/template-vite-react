@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@0x219/commitlint-config": "1.0.2",
-    "@commitlint/cli": "16.3.0",
+    "@commitlint/cli": "17.0.0",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.4",
     "@typescript-eslint/eslint-plugin": "5.23.0",
