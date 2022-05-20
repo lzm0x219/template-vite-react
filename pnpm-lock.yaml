@@ -24,7 +24,7 @@ specifiers:
   serve: 13.0.2
   typescript: 4.6.4
   vite: 2.9.9
-  vite-plugin-mkcert: 1.6.0
+  vite-plugin-mkcert: 1.6.1
   vite-tsconfig-paths: 3.4.1
 
 dependencies:
@@ -53,7 +53,7 @@ devDependencies:
   serve: 13.0.2
   typescript: 4.6.4
   vite: 2.9.9
-  vite-plugin-mkcert: 1.6.0
+  vite-plugin-mkcert: 1.6.1
   vite-tsconfig-paths: 3.4.1_vite@2.9.9
 
 packages:
@@ -594,7 +594,7 @@ packages:
       '@octokit/graphql': 4.8.0
       '@octokit/request': 5.6.1
       '@octokit/request-error': 2.1.0
-      '@octokit/types': 6.27.0
+      '@octokit/types': 6.34.0
       before-after-hook: 2.2.2
       universal-user-agent: 6.0.0
     dev: true
@@ -613,10 +613,6 @@ packages:
       '@octokit/request': 5.6.1
       '@octokit/types': 6.34.0
       universal-user-agent: 6.0.0
-    dev: true
-
-  /@octokit/openapi-types/10.1.1:
-    resolution: {integrity: sha512-ygp/6r25Ezb1CJuVMnFfOsScEtPF0zosdTJDZ7mZ+I8IULl7DP1BS5ZvPRwglcarGPXOvS5sHdR0bjnVDDfQdQ==}
     dev: true
 
   /@octokit/openapi-types/11.2.0:
@@ -676,12 +672,6 @@ packages:
       '@octokit/plugin-paginate-rest': 2.17.0_@octokit+core@3.5.1
       '@octokit/plugin-request-log': 1.0.4_@octokit+core@3.5.1
       '@octokit/plugin-rest-endpoint-methods': 5.13.0_@octokit+core@3.5.1
-    dev: true
-
-  /@octokit/types/6.27.0:
-    resolution: {integrity: sha512-ha27f8DToxXBPEJdzHCCuqpw7AgKfjhWGdNf3yIlBAhAsaexBXTfWw36zNSsncALXGvJq4EjLy1p3Wz45Aqb4A==}
-    dependencies:
-      '@octokit/openapi-types': 10.1.1
     dev: true
 
   /@octokit/types/6.34.0:
@@ -1081,10 +1071,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /axios/0.21.4_debug@4.3.3:
+  /axios/0.21.4_debug@4.3.4:
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
     dependencies:
-      follow-redirects: 1.14.3_debug@4.3.3
+      follow-redirects: 1.14.3_debug@4.3.4
     transitivePeerDependencies:
       - debug
     dev: true
@@ -2155,7 +2145,7 @@ packages:
     resolution: {integrity: sha512-JaTY/wtrcSyvXJl4IMFHPKyFur1sE9AUqc0QnhOaJ0CxHtAoIV8pYDzeEfAaNEtGkOfq4gr3LBFmdXW5mOQFnA==}
     dev: true
 
-  /follow-redirects/1.14.3_debug@4.3.3:
+  /follow-redirects/1.14.3_debug@4.3.4:
     resolution: {integrity: sha512-3MkHxknWMUtb23apkgz/83fDoe+y+qr0TdgacGIA7bew+QLBo3vdgEN2xEsuXNivpFy4CyDhBBZnNZOtalmenw==}
     engines: {node: '>=4.0'}
     peerDependencies:
@@ -2164,7 +2154,7 @@ packages:
       debug:
         optional: true
     dependencies:
-      debug: 4.3.3
+      debug: 4.3.4
     dev: true
 
   /fs-extra/10.0.0:
@@ -4016,14 +4006,19 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-plugin-mkcert/1.6.0:
-    resolution: {integrity: sha512-zVa/sKM67htmIwey0fbUf93ufpsr54iqHWg5w0pFk2/pW4qCOPoG7XhEfsAawv4SSB/oWaWdFUgoZApXVCAG4Q==}
+  /vite-plugin-mkcert/1.6.1:
+    resolution: {integrity: sha512-Racl7hCVpWQXjeU0tiRQ2qnS1wmOCrsUAkLmW1s8RbHJFcTo3B1HxyXRWIQQ1WvLKHFcT8ToeT5FJpFQ/3QvVg==}
+    engines: {node: '>=v16.0.0'}
     dependencies:
       '@octokit/rest': 18.12.0
-      axios: 0.21.4_debug@4.3.3
-      debug: 4.3.3
+      axios: 0.21.4_debug@4.3.4
+      debug: 4.3.4
       picocolors: 1.0.0
+      vite: 2.9.9
     transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
       - supports-color
     dev: true
 
