@@ -18,7 +18,7 @@
 ## Getting Started
 
 ```bash
-npx degit 0x219/vite-template-react myapp
+npx degit 0x219/template-vite-react myapp
 
 cd myapp
 ```
