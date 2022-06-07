@@ -24,7 +24,7 @@ specifiers:
   serve: 13.0.2
   typescript: 4.7.3
   vite: 2.9.10
-  vite-plugin-mkcert: 1.6.4
+  vite-plugin-mkcert: 1.7.1
   vite-tsconfig-paths: 3.5.0
 
 dependencies:
@@ -53,7 +53,7 @@ devDependencies:
   serve: 13.0.2
   typescript: 4.7.3
   vite: 2.9.10
-  vite-plugin-mkcert: 1.6.4
+  vite-plugin-mkcert: 1.7.1
   vite-tsconfig-paths: 3.5.0_vite@2.9.10
 
 packages:
@@ -3063,7 +3063,7 @@ packages:
     dev: true
 
   /once/1.4.0:
-    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=}
+    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
     dependencies:
       wrappy: 1.0.2
     dev: true
@@ -4019,8 +4019,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-plugin-mkcert/1.6.4:
-    resolution: {integrity: sha512-l9HguzMXducZuI22oF8nlnrTkpzRgeBSzGYuHdvdpoe2TFtr6AdUclFeFBK3tsGmyz3/qdrp/7QjrsJoavF26g==}
+  /vite-plugin-mkcert/1.7.1:
+    resolution: {integrity: sha512-foEmCUf0bjehltORUPowM6HWHnJvZOhJTehUuSWy1hlJp48SAJbWraEpIdxL/38LhGEmwxfJBqwLCQqo3tH9pQ==}
     engines: {node: '>=v16.0.0'}
     dependencies:
       '@octokit/rest': 18.12.0
