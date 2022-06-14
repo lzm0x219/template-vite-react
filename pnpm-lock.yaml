@@ -19,8 +19,8 @@ specifiers:
   prettier: 2.6.2
   prettier-plugin-packagejson: 2.2.18
   prettier-plugin-tailwindcss: 0.1.11
-  react: 18.1.0
-  react-dom: 18.1.0
+  react: 18.2.0
+  react-dom: 18.2.0
   serve: 13.0.2
   typescript: 4.7.3
   vite: 2.9.12
@@ -28,8 +28,8 @@ specifiers:
   vite-tsconfig-paths: 3.5.0
 
 dependencies:
-  react: 18.1.0
-  react-dom: 18.1.0_react@18.1.0
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
   '@0x219/commitlint-config': 1.0.2
@@ -3311,14 +3311,14 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
-  /react-dom/18.1.0_react@18.1.0:
-    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: ^18.1.0
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.1.0
-      scheduler: 0.22.0
+      react: 18.2.0
+      scheduler: 0.23.0
     dev: false
 
   /react-is/16.13.1:
@@ -3330,8 +3330,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react/18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -3504,8 +3504,8 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: true
 
-  /scheduler/0.22.0:
-    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
