@@ -15,7 +15,7 @@ specifiers:
   eslint-plugin-react: 7.30.0
   husky: 8.0.1
   is-ci: 3.0.1
-  lint-staged: 13.0.1
+  lint-staged: 13.0.2
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.2.18
   prettier-plugin-tailwindcss: 0.1.11
@@ -46,7 +46,7 @@ devDependencies:
   eslint-plugin-react: 7.30.0_eslint@8.18.0
   husky: 8.0.1
   is-ci: 3.0.1
-  lint-staged: 13.0.1
+  lint-staged: 13.0.2
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.2.18_prettier@2.7.1
   prettier-plugin-tailwindcss: 0.1.11_prettier@2.7.1
@@ -2712,8 +2712,8 @@ packages:
     resolution: {integrity: sha512-8ZmlJFVK9iCmtLz19HpSsR8HaAMWBT284VMNednLwlIMDP2hJDCIhUp0IZ2xUcZ+Ob6BM0VvCSJwzASDM45NLQ==}
     dev: true
 
-  /lint-staged/13.0.1:
-    resolution: {integrity: sha512-Ykaf4QTi0a02BF7cnq7JIPGOJxH4TkNMWhSlJdH9wOekd0X+gog47Jfh/0L31DqZe5AiydLGC7LkPqpaNm+Kvg==}
+  /lint-staged/13.0.2:
+    resolution: {integrity: sha512-qQLfLTh9z34eMzfEHENC+QBskZfxjomrf+snF3xJ4BzilORbD989NLqQ00ughsF/A+PT41e87+WsMFabf9++pQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3834,7 +3834,7 @@ packages:
     dev: true
 
   /through/2.3.8:
-    resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
+    resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
 
   /through2/4.0.2:
