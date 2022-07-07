@@ -4,7 +4,7 @@ specifiers:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 17.0.3
   '@types/react': 18.0.15
-  '@types/react-dom': 18.0.5
+  '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.30.5
   '@typescript-eslint/parser': 5.30.5
   '@vitejs/plugin-legacy': 1.8.2
@@ -35,7 +35,7 @@ devDependencies:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 17.0.3
   '@types/react': 18.0.15
-  '@types/react-dom': 18.0.5
+  '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.30.5_6zdoc3rn4mpiddqwhppni2mnnm
   '@typescript-eslint/parser': 5.30.5_4x5o4skxv6sl53vpwefgt23khm
   '@vitejs/plugin-legacy': 1.8.2_vite@2.9.13
@@ -740,8 +740,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/18.0.5:
-    resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
+  /@types/react-dom/18.0.6:
+    resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
       '@types/react': 18.0.15
     dev: true
