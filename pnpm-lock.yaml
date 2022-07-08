@@ -18,7 +18,7 @@ specifiers:
   lint-staged: 13.0.3
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.2.18
-  prettier-plugin-tailwindcss: 0.1.11
+  prettier-plugin-tailwindcss: 0.1.12
   react: 18.2.0
   react-dom: 18.2.0
   serve: 13.0.4
@@ -49,7 +49,7 @@ devDependencies:
   lint-staged: 13.0.3
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.2.18_prettier@2.7.1
-  prettier-plugin-tailwindcss: 0.1.11_prettier@2.7.1
+  prettier-plugin-tailwindcss: 0.1.12_prettier@2.7.1
   serve: 13.0.4
   typescript: 4.7.4
   vite: 2.9.13
@@ -3204,8 +3204,8 @@ packages:
       sort-package-json: 1.57.0
     dev: true
 
-  /prettier-plugin-tailwindcss/0.1.11_prettier@2.7.1:
-    resolution: {integrity: sha512-a28+1jvpIZQdZ/W97wOXb6VqI762MKE/TxMMuibMEHhyYsSxQA8Ek30KObd5kJI2HF1ldtSYprFayXJXi3pz8Q==}
+  /prettier-plugin-tailwindcss/0.1.12_prettier@2.7.1:
+    resolution: {integrity: sha512-pEZ6tppwknCeq3ObR9g8t61AhWtVRRR3I0EQNeiRrrJ3D42FJGeUDxiFc/LJRYEeAx5JOxagsF0MICwuWOJa+w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
