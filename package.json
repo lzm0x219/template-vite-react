@@ -7,7 +7,7 @@
     "dev": "vite",
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install",
-    "preview": "serve dist"
+    "preview": "vite preview"
   },
   "commitlint": {
     "extends": [
@@ -42,7 +42,6 @@
     "prettier": "2.7.1",
     "prettier-plugin-packagejson": "2.2.18",
     "prettier-plugin-tailwindcss": "0.1.12",
-    "serve": "13.0.4",
     "typescript": "4.7.4",
     "vite": "2.9.14",
     "vite-plugin-mkcert": "1.7.2",
