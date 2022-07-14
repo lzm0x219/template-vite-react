@@ -43,7 +43,7 @@
     "prettier-plugin-packagejson": "2.2.18",
     "prettier-plugin-tailwindcss": "0.1.12",
     "typescript": "4.7.4",
-    "vite": "2.9.14",
+    "vite": "3.0.0",
     "vite-plugin-mkcert": "1.7.2",
     "vite-tsconfig-paths": "3.5.0"
   }
