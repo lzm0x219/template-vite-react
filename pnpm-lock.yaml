@@ -23,7 +23,7 @@ specifiers:
   react-dom: 18.2.0
   typescript: 4.7.4
   vite: 3.0.0
-  vite-plugin-mkcert: 1.8.1
+  vite-plugin-mkcert: 1.9.0
   vite-tsconfig-paths: 3.5.0
 
 dependencies:
@@ -51,7 +51,7 @@ devDependencies:
   prettier-plugin-tailwindcss: 0.1.12_prettier@2.7.1
   typescript: 4.7.4
   vite: 3.0.0_terser@5.14.2
-  vite-plugin-mkcert: 1.8.1_terser@5.14.2
+  vite-plugin-mkcert: 1.9.0_terser@5.14.2
   vite-tsconfig-paths: 3.5.0_vite@3.0.0
 
 packages:
@@ -608,7 +608,7 @@ packages:
       '@octokit/graphql': 5.0.0
       '@octokit/request': 6.2.0
       '@octokit/request-error': 3.0.0
-      '@octokit/types': 6.34.0
+      '@octokit/types': 6.39.0
       before-after-hook: 2.2.2
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -633,10 +633,6 @@ packages:
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
       - encoding
-    dev: true
-
-  /@octokit/openapi-types/11.2.0:
-    resolution: {integrity: sha512-PBsVO+15KSlGmiI8QAzaqvsNlZlrDlyAJYcrXBCvVUxCp7VnXjkwPoFHgjEJXx3WF9BAwkA6nfCUA7i9sODzKA==}
     dev: true
 
   /@octokit/openapi-types/12.9.0:
@@ -705,12 +701,6 @@ packages:
       '@octokit/plugin-rest-endpoint-methods': 6.0.1_@octokit+core@4.0.4
     transitivePeerDependencies:
       - encoding
-    dev: true
-
-  /@octokit/types/6.34.0:
-    resolution: {integrity: sha512-s1zLBjWhdEI2zwaoSgyOFoKSl109CUcVBCc7biPJ3aAf6LGLU6szDvi31JPU7bxfla2lqfhjbbg/5DdFNxOwHw==}
-    dependencies:
-      '@octokit/openapi-types': 11.2.0
     dev: true
 
   /@octokit/types/6.39.0:
@@ -3686,8 +3676,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-mkcert/1.8.1_terser@5.14.2:
-    resolution: {integrity: sha512-dQHeFG0J1ZYUXAYPMb/AMbrydR+U/9ExCiF/+iKlzAT0fyhgNAHZMfb9Rcv9nv+x0DXndXzmTjVlm0jaEnzVug==}
+  /vite-plugin-mkcert/1.9.0_terser@5.14.2:
+    resolution: {integrity: sha512-lKIOVJvbt1ijAMeF31TYGwEzH8iqK+Q8BiInpQRcAW543y8HYttZTRVGDAFqVaej6iE5o7XAisZ1aCg+q5tOfA==}
     engines: {node: '>=v16.0.0'}
     dependencies:
       '@octokit/rest': 19.0.3
