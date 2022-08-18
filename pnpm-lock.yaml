@@ -7,7 +7,7 @@ specifiers:
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.33.1
   '@typescript-eslint/parser': 5.33.1
-  '@vitejs/plugin-legacy': 2.0.0
+  '@vitejs/plugin-legacy': 2.0.1
   '@vitejs/plugin-react': 2.0.1
   eslint: 8.22.0
   eslint-config-prettier: 8.5.0
@@ -37,7 +37,7 @@ devDependencies:
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.33.1_vsoshirnpb7xw6mr7xomgfas2i
   '@typescript-eslint/parser': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
-  '@vitejs/plugin-legacy': 2.0.0_terser@5.14.2+vite@3.0.8
+  '@vitejs/plugin-legacy': 2.0.1_terser@5.14.2+vite@3.0.8
   '@vitejs/plugin-react': 2.0.1_vite@3.0.8
   eslint: 8.22.0
   eslint-config-prettier: 8.5.0_eslint@8.22.0
@@ -297,8 +297,8 @@ packages:
       '@babel/types': 7.18.10
     dev: true
 
-  /@babel/standalone/7.18.8:
-    resolution: {integrity: sha512-cDayR7x6IAp7k1947fYeo7OxD7QwT9/UZ+BT05Zq2pfsOzkhOJZdY19X0NvL6fYaszwnzO0zVHgp04OspPh3SA==}
+  /@babel/standalone/7.18.12:
+    resolution: {integrity: sha512-wDh3K5IUJiSMAY0MLYBFoCaj2RCZwvDz5BHn2uHat9KOsGWEVDFgFQFIOO+81Js2phFKNppLC45iOCsZVfJniw==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -912,15 +912,15 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-legacy/2.0.0_terser@5.14.2+vite@3.0.8:
-    resolution: {integrity: sha512-cuc45C4BQo2VlOsHZML4fc3MPfSjOEFeezHxr+WWlOOmi+muy1rz2snnFiePtyjVc1CYGTsnxk13cXpzQvMZaw==}
-    engines: {node: '>=14.18.0'}
+  /@vitejs/plugin-legacy/2.0.1_terser@5.14.2+vite@3.0.8:
+    resolution: {integrity: sha512-kKC56rfsXwebApzyuZqdQlGmqTyH1ugy0l0rY58gx5OXzq4/t5/DCqGUoz53Db51OqfjRqsHfqmvq9or6w9k/Q==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       terser: ^5.4.0
       vite: ^3.0.0
     dependencies:
-      '@babel/standalone': 7.18.8
-      core-js: 3.23.4
+      '@babel/standalone': 7.18.12
+      core-js: 3.24.1
       magic-string: 0.26.2
       regenerator-runtime: 0.13.9
       systemjs: 6.12.1
@@ -1297,8 +1297,8 @@ packages:
       safe-buffer: 5.1.2
     dev: true
 
-  /core-js/3.23.4:
-    resolution: {integrity: sha512-vjsKqRc1RyAJC3Ye2kYqgfdThb3zYnx9CrqoCcjMOENMtQPC7ZViBvlDxwYU/2z2NI/IPuiXw5mT4hWhddqjzQ==}
+  /core-js/3.24.1:
+    resolution: {integrity: sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==}
     requiresBuild: true
     dev: true
 
