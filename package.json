@@ -2,12 +2,13 @@
   "name": "template",
   "version": "0.0.0",
   "private": "true",
+  "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite",
+    "build": "wireit",
+    "dev": "wireit",
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install",
-    "preview": "vite preview"
+    "preview": "wireit"
   },
   "commitlint": {
     "extends": [
@@ -15,13 +16,19 @@
     ]
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint",
-    "*.{js,ts,tsx,md,html,css,json}": "prettier --write",
+    "*.{cjs,ts,tsx}": [
+      "prettier --write",
+      "eslint"
+    ],
+    "*.{js,md,html,css,json}": "prettier --write",
     "!(*pnpm-lock).yaml": "prettier --write"
   },
   "dependencies": {
+    "rc-basic": "0.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.0-pre.13",
+    "tilg": "0.1.1"
   },
   "devDependencies": {
     "@0x219/commitlint-config": "1.0.2",
@@ -32,19 +39,63 @@
     "@typescript-eslint/parser": "5.36.0",
     "@vitejs/plugin-legacy": "2.0.1",
     "@vitejs/plugin-react": "2.0.1",
+    "autoprefixer": "10.4.8",
     "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.1",
+    "eslint-plugin-react-hooks": "4.7.0-next-e61fd91f5-20220630",
     "husky": "8.0.1",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
+    "postcss": "8.4.16",
     "prettier": "2.7.1",
     "prettier-plugin-packagejson": "2.2.18",
     "prettier-plugin-tailwindcss": "0.1.13",
+    "sort-package-json": "1.57.0",
+    "tailwindcss": "3.1.8",
     "typescript": "4.8.2",
     "vite": "3.0.9",
     "vite-plugin-mkcert": "1.9.0",
-    "vite-tsconfig-paths": "3.5.0"
+    "vite-tsconfig-paths": "3.5.0",
+    "wireit": "0.7.1"
+  },
+  "wireit": {
+    "dev": {
+      "command": "vite",
+      "files": [
+        "src/**/*.{ts,tsx,svg,css}",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "packageLocks": [
+        "pnpm-lock.yaml"
+      ]
+    },
+    "build": {
+      "command": "tsc && vite build",
+      "files": [
+        "src/**/*.{ts,tsx,svg,css}",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "output": [
+        "dist/**"
+      ],
+      "packageLocks": [
+        "pnpm-lock.yaml"
+      ]
+    },
+    "preview": {
+      "command": "vite preview",
+      "files": [
+        "src/**/*.{ts,tsx,svg,css}",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "packageLocks": [
+        "pnpm-lock.yaml"
+      ]
+    }
   }
 }

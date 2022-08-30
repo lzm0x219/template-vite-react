@@ -1,3 +1,14 @@
+import { Fragment } from "react";
+import { Outlet, ScrollRestoration } from "react-router-dom";
+import useDebugRender from "tilg";
+
 export default function App() {
-  return <div className="App">hello world</div>;
+  useDebugRender();
+
+  return (
+    <Fragment>
+      <Outlet />
+      <ScrollRestoration />
+    </Fragment>
+  );
 }

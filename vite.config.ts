@@ -1,12 +1,11 @@
 import { defineConfig } from "vite";
-import type { UserConfig } from "vite"; 
 import react from "@vitejs/plugin-react";
 import legacy from "@vitejs/plugin-legacy";
 import tsconfigPaths from "vite-tsconfig-paths";
 import mkcert from "vite-plugin-mkcert";
 
-export default defineConfig(({ command, mode }) => {
-  const config: UserConfig = {
+export default defineConfig(() => {
+  return {
     server: {
       https: true,
     },
@@ -28,6 +27,8 @@ export default defineConfig(({ command, mode }) => {
         },
       },
     },
+    optimizeDeps: {
+      include: ["react/jsx-runtime"],
+    },
   };
-  return config;
 });
