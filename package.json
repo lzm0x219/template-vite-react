@@ -43,7 +43,7 @@
     "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.31.5",
+    "eslint-plugin-react": "7.31.6",
     "eslint-plugin-react-hooks": "4.7.0-next-e61fd91f5-20220630",
     "husky": "8.0.1",
     "is-ci": "3.0.1",
