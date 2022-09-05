@@ -7,7 +7,7 @@ specifiers:
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.36.1
   '@typescript-eslint/parser': 5.36.1
-  '@vitejs/plugin-legacy': 2.0.1
+  '@vitejs/plugin-legacy': 2.1.0
   '@vitejs/plugin-react': 2.0.1
   autoprefixer: 10.4.8
   eslint: 8.23.0
@@ -49,7 +49,7 @@ devDependencies:
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.36.1_lbwfnm54o3pmr3ypeqp3btnera
   '@typescript-eslint/parser': 5.36.1_yqf6kl63nyoq5megxukfnom5rm
-  '@vitejs/plugin-legacy': 2.0.1_terser@5.14.2+vite@3.0.9
+  '@vitejs/plugin-legacy': 2.1.0_terser@5.14.2+vite@3.0.9
   '@vitejs/plugin-react': 2.0.1_vite@3.0.9
   autoprefixer: 10.4.8_postcss@8.4.16
   eslint: 8.23.0
@@ -315,8 +315,8 @@ packages:
       '@babel/types': 7.18.10
     dev: true
 
-  /@babel/standalone/7.18.12:
-    resolution: {integrity: sha512-wDh3K5IUJiSMAY0MLYBFoCaj2RCZwvDz5BHn2uHat9KOsGWEVDFgFQFIOO+81Js2phFKNppLC45iOCsZVfJniw==}
+  /@babel/standalone/7.18.13:
+    resolution: {integrity: sha512-5hjvvFkaXyfQri+s4CAZtx6FTKclfTNd2QN2RwgzCVJhnYYgKh4YFBCnNJSxurzvpSKD2NmpCkoWAkMc+j9y+g==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -945,18 +945,18 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-legacy/2.0.1_terser@5.14.2+vite@3.0.9:
-    resolution: {integrity: sha512-kKC56rfsXwebApzyuZqdQlGmqTyH1ugy0l0rY58gx5OXzq4/t5/DCqGUoz53Db51OqfjRqsHfqmvq9or6w9k/Q==}
+  /@vitejs/plugin-legacy/2.1.0_terser@5.14.2+vite@3.0.9:
+    resolution: {integrity: sha512-en3h0L7okBonSYKJx81bU8AVFPjSCiUSz8xUDAW8J0CxskfxSt/VJKbZO6G9yCVgZLywGoO8PNAfOQWVLUWZ2A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       terser: ^5.4.0
       vite: ^3.0.0
     dependencies:
-      '@babel/standalone': 7.18.12
-      core-js: 3.24.1
+      '@babel/standalone': 7.18.13
+      core-js: 3.25.0
       magic-string: 0.26.2
       regenerator-runtime: 0.13.9
-      systemjs: 6.12.1
+      systemjs: 6.12.6
       terser: 5.14.2
       vite: 3.0.9_terser@5.14.2
     dev: true
@@ -1417,8 +1417,8 @@ packages:
       safe-buffer: 5.1.2
     dev: true
 
-  /core-js/3.24.1:
-    resolution: {integrity: sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==}
+  /core-js/3.25.0:
+    resolution: {integrity: sha512-CVU1xvJEfJGhyCpBrzzzU1kjCfgsGUxhEvwUV2e/cOedYWHdmluamx+knDnmhqALddMG16fZvIqvs9aijsHHaA==}
     requiresBuild: true
     dev: true
 
@@ -3825,8 +3825,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /systemjs/6.12.1:
-    resolution: {integrity: sha512-hqTN6kW+pN6/qro6G9OZ7ceDQOcYno020zBQKpZQLsJhYTDMCMNfXi/Y8duF5iW+4WWZr42ry0MMkcRGpbwG2A==}
+  /systemjs/6.12.6:
+    resolution: {integrity: sha512-SawLiWya8/uNR4p12OggSYZ35tP4U4QTpfV57DdZEOPr6+J6zlLSeeEpMmzYTEoBAsMhctdEE+SWJUDYX4EaKw==}
     dev: true
 
   /tailwindcss/3.1.8_57znarxsqwmnneadci5z5fd5gu:
