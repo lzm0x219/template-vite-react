@@ -5,7 +5,7 @@ import App from "@/App";
 const Index = lazy(() => import("@/routes/index"));
 const Notfound = lazy(() => import("@/routes/404"));
 
-const routes: Array<RouteObject> = [
+export const routes: Array<RouteObject> = [
   {
     path: "/",
     element: <App />,
