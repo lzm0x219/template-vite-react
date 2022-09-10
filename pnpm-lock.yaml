@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 17.1.2
-  '@types/react': 18.0.18
+  '@types/react': 18.0.19
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.36.2
   '@typescript-eslint/parser': 5.36.2
@@ -45,7 +45,7 @@ dependencies:
 devDependencies:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 17.1.2
-  '@types/react': 18.0.18
+  '@types/react': 18.0.19
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.36.2_2l2r3i3lm6jysqd4ac3ql4n2mm
   '@typescript-eslint/parser': 5.36.2_itqs5654cmlnjraw6gjzqacppi
@@ -809,11 +809,11 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 18.0.18
+      '@types/react': 18.0.19
     dev: true
 
-  /@types/react/18.0.18:
-    resolution: {integrity: sha512-6hI08umYs6NaiHFEEGioXnxJ+oEhY3eRz8VCUaudZmGdtvPviCJB8mgaMxaDWAdPSYd4eFavrPk2QIolwbLYrg==}
+  /@types/react/18.0.19:
+    resolution: {integrity: sha512-BDc3Q+4Q3zsn7k9xZrKfjWyJsSlEDMs38gD1qp2eDazLCdcPqAT+vq1ND+Z8AGel/UiwzNUk8ptpywgNQcJ1MQ==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -3311,7 +3311,7 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-polymorphic-types: 2.0.0_@types+react@18.0.18
+      react-polymorphic-types: 2.0.0_@types+react@18.0.19
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:
@@ -3328,12 +3328,12 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react-polymorphic-types/2.0.0_@types+react@18.0.18:
+  /react-polymorphic-types/2.0.0_@types+react@18.0.19:
     resolution: {integrity: sha512-Xfz5qfEzLAvB2ijL9hZfHRa9bsQG6te262KHjnbezZ2XyubnSDzh3TV6OgvBsQsz7FCRHjbDbqA5UTkNEziTlw==}
     peerDependencies:
       '@types/react': '>=16.8.6'
     dependencies:
-      '@types/react': 18.0.18
+      '@types/react': 18.0.19
     dev: false
 
   /react-refresh/0.14.0:
