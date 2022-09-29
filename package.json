@@ -50,7 +50,7 @@
     "lint-staged": "13.0.3",
     "postcss": "8.4.16",
     "prettier": "2.7.1",
-    "prettier-plugin-packagejson": "2.2.18",
+    "prettier-plugin-packagejson": "2.3.0",
     "prettier-plugin-tailwindcss": "0.1.13",
     "react-polymorphic-types": "2.0.0",
     "sort-package-json": "1.57.0",
