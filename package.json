@@ -48,7 +48,7 @@
     "husky": "8.0.1",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
-    "postcss": "8.4.16",
+    "postcss": "8.4.17",
     "prettier": "2.7.1",
     "prettier-plugin-packagejson": "2.3.0",
     "prettier-plugin-tailwindcss": "0.1.13",
