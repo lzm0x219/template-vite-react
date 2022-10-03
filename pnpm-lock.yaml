@@ -22,7 +22,7 @@ specifiers:
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.3.0
   prettier-plugin-tailwindcss: 0.1.13
-  rc-basic: 0.0.1
+  rc-basic: 1.0.0
   react: 18.2.0
   react-dom: 18.2.0
   react-polymorphic-types: 2.0.0
@@ -38,7 +38,7 @@ specifiers:
   wireit: 0.7.2
 
 dependencies:
-  rc-basic: 0.0.1_xx4qr4ryhm3te24j46fq7s632a
+  rc-basic: 1.0.0_frti3mhoyelwtj2awsc6vrkmty
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.1_biqbaboplfbrettd7655fr4n2y
@@ -825,7 +825,6 @@ packages:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
       '@types/react': 18.0.21
-    dev: true
 
   /@types/react/18.0.21:
     resolution: {integrity: sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==}
@@ -3354,14 +3353,25 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /rc-basic/0.0.1_xx4qr4ryhm3te24j46fq7s632a:
-    resolution: {integrity: sha512-jb3mEPozyVOl4LKbOtL1U9jEq+4MsBOwZU9HyKSfP8EHs+1izjj1Q+4KqfI42WqRo9Up6HEzDYgsNgoIHCwLPg==}
+  /rc-basic/1.0.0_frti3mhoyelwtj2awsc6vrkmty:
+    resolution: {integrity: sha512-/AqrrrNOGc9SZsAU4k+Bp0ZbcMXT57Nj15B3yBI48VqMM8GUHR3Jt+SObQIPAU5Z/Lvb76Z/bEcirusIReCwfw==}
     requiresBuild: true
     peerDependencies:
+      '@types/react': 18.x
+      '@types/react-dom': 18.x
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
       react-polymorphic-types: ^2.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+      react-polymorphic-types:
+        optional: true
     dependencies:
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-polymorphic-types: 2.0.0_@types+react@18.0.21
