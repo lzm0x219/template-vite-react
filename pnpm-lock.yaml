@@ -22,7 +22,7 @@ specifiers:
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.3.0
   prettier-plugin-tailwindcss: 0.1.13
-  rc-basic: 1.0.0
+  rc-basic: 1.0.2
   react: 18.2.0
   react-dom: 18.2.0
   react-polymorphic-types: 2.0.0
@@ -38,7 +38,7 @@ specifiers:
   wireit: 0.7.2
 
 dependencies:
-  rc-basic: 1.0.0_frti3mhoyelwtj2awsc6vrkmty
+  rc-basic: 1.0.2_frti3mhoyelwtj2awsc6vrkmty
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.1_biqbaboplfbrettd7655fr4n2y
@@ -3353,8 +3353,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /rc-basic/1.0.0_frti3mhoyelwtj2awsc6vrkmty:
-    resolution: {integrity: sha512-/AqrrrNOGc9SZsAU4k+Bp0ZbcMXT57Nj15B3yBI48VqMM8GUHR3Jt+SObQIPAU5Z/Lvb76Z/bEcirusIReCwfw==}
+  /rc-basic/1.0.2_frti3mhoyelwtj2awsc6vrkmty:
+    resolution: {integrity: sha512-0ZYWIT1/xInHSzEazlhM713VRFxRmnRzBNQ6XsBDWJ+IbWVBCncUwNcT9pO+U2q6UNxjHcaeXN3ghwKxdNSwIw==}
     requiresBuild: true
     peerDependencies:
       '@types/react': 18.x
