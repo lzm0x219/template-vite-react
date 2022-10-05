@@ -26,7 +26,7 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   react-polymorphic-types: 2.0.0
-  react-router-dom: 6.4.1
+  react-router-dom: 6.4.2
   sort-package-json: 2.0.0
   tailwindcss: 3.1.8
   terser: 5.15.0
@@ -41,7 +41,7 @@ dependencies:
   rc-basic: 1.0.2_frti3mhoyelwtj2awsc6vrkmty
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-router-dom: 6.4.1_biqbaboplfbrettd7655fr4n2y
+  react-router-dom: 6.4.2_biqbaboplfbrettd7655fr4n2y
   tilg: 0.1.1_react@18.2.0
 
 devDependencies:
@@ -762,8 +762,8 @@ packages:
       '@octokit/openapi-types': 13.12.0
     dev: true
 
-  /@remix-run/router/1.0.1:
-    resolution: {integrity: sha512-eBV5rvW4dRFOU1eajN7FmYxjAIVz/mRHgUE9En9mBn6m3mulK3WTR5C3iQhL9MZ14rWAq+xOlEaCkDiW0/heOg==}
+  /@remix-run/router/1.0.2:
+    resolution: {integrity: sha512-GRSOFhJzjGN+d4sKHTMSvNeUPoZiDHWmRnXfzaxrqe7dE/Nzlc8BiMSJdLDESZlndM7jIUrZ/F4yWqVYlI0rwQ==}
     engines: {node: '>=14'}
     dev: false
 
@@ -3403,26 +3403,26 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom/6.4.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-MY7NJCrGNVJtGp8ODMOBHu20UaIkmwD2V3YsAOUQoCXFk7Ppdwf55RdcGyrSj+ycSL9Uiwrb3gTLYSnzcRoXww==}
+  /react-router-dom/6.4.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-yM1kjoTkpfjgczPrcyWrp+OuQMyB1WleICiiGfstnQYo/S8hPEEnVjr/RdmlH6yKK4Tnj1UGXFSa7uwAtmDoLQ==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.0.1
+      '@remix-run/router': 1.0.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-router: 6.4.1_react@18.2.0
+      react-router: 6.4.2_react@18.2.0
     dev: false
 
-  /react-router/6.4.1_react@18.2.0:
-    resolution: {integrity: sha512-OJASKp5AykDWFewgWUim1vlLr7yfD4vO/h+bSgcP/ix8Md+LMHuAjovA74MQfsfhQJGGN1nHRhwS5qQQbbBt3A==}
+  /react-router/6.4.2_react@18.2.0:
+    resolution: {integrity: sha512-Rb0BAX9KHhVzT1OKhMvCDMw776aTYM0DtkxqUBP8dNBom3mPXlfNs76JNGK8wKJ1IZEY1+WGj+cvZxHVk/GiKw==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.0.1
+      '@remix-run/router': 1.0.2
       react: 18.2.0
     dev: false
 
