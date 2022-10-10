@@ -32,7 +32,7 @@ specifiers:
   terser: 5.15.1
   tilg: 0.1.1
   typescript: 4.8.4
-  vite: 3.1.6
+  vite: 3.1.7
   vite-plugin-mkcert: 1.10.1
   vite-tsconfig-paths: 3.5.1
   wireit: 0.7.2
@@ -51,8 +51,8 @@ devDependencies:
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.39.0_cfd7h3iktziq6hcwahu2qxhjhy
   '@typescript-eslint/parser': 5.39.0_z4bbprzjrhnsfa24uvmcbu7f5q
-  '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.6
-  '@vitejs/plugin-react': 2.1.0_vite@3.1.6
+  '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.7
+  '@vitejs/plugin-react': 2.1.0_vite@3.1.7
   autoprefixer: 10.4.12_postcss@8.4.17
   eslint: 8.25.0
   eslint-config-prettier: 8.5.0_eslint@8.25.0
@@ -71,9 +71,9 @@ devDependencies:
   tailwindcss: 3.1.8_postcss@8.4.17
   terser: 5.15.1
   typescript: 4.8.4
-  vite: 3.1.6_terser@5.15.1
-  vite-plugin-mkcert: 1.10.1_vite@3.1.6
-  vite-tsconfig-paths: 3.5.1_vite@3.1.6
+  vite: 3.1.7_terser@5.15.1
+  vite-plugin-mkcert: 1.10.1_vite@3.1.7
+  vite-tsconfig-paths: 3.5.1_vite@3.1.7
   wireit: 0.7.2
 
 packages:
@@ -967,7 +967,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-legacy/2.2.0_terser@5.15.1+vite@3.1.6:
+  /@vitejs/plugin-legacy/2.2.0_terser@5.15.1+vite@3.1.7:
     resolution: {integrity: sha512-xkSXZl2LNk0KKyo5CJknNW84mSlmHIClFzsBuFXkX3yBt+Lr8UO/n4QOg2X7+jvurgBRies9FRn3ZvMem+TmIg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -980,10 +980,10 @@ packages:
       regenerator-runtime: 0.13.9
       systemjs: 6.12.6
       terser: 5.15.1
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
     dev: true
 
-  /@vitejs/plugin-react/2.1.0_vite@3.1.6:
+  /@vitejs/plugin-react/2.1.0_vite@3.1.7:
     resolution: {integrity: sha512-am6rPyyU3LzUYne3Gd9oj9c4Rzbq5hQnuGXSMT6Gujq45Il/+bunwq3lrB7wghLkiF45ygMwft37vgJ/NE8IAA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -996,7 +996,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.18.13
       magic-string: 0.26.2
       react-refresh: 0.14.0
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4134,7 +4134,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-mkcert/1.10.1_vite@3.1.6:
+  /vite-plugin-mkcert/1.10.1_vite@3.1.7:
     resolution: {integrity: sha512-fNNC0z+AcBZExKedjWC7bWlDMf4+WZJqO/4aYf7C/vYY1dqYVOM+zowwTYV0xSx5ZQgplfangPkZk+RwdUlpBg==}
     engines: {node: '>=v16.0.0'}
     peerDependencies:
@@ -4144,13 +4144,13 @@ packages:
       axios: 0.21.4_debug@4.3.4
       debug: 4.3.4
       picocolors: 1.0.0
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.5.1_vite@3.1.6:
+  /vite-tsconfig-paths/3.5.1_vite@3.1.7:
     resolution: {integrity: sha512-t7cPvDMDxOCUxxNLqngXiX+L6jPYBr+eMgkeVadknxBb89d2s1aejz+wFEep010VfXjGVAUWGEFPe1fkRYTFvg==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -4159,13 +4159,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.1
       tsconfig-paths: 4.0.0
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.1.6_terser@5.15.1:
-    resolution: {integrity: sha512-qMXIwnehvvcK5XfJiXQUiTxoYAEMKhM+jqCY6ZSTKFBKu1hJnAKEzP3AOcnTerI0cMZYAaJ4wpW1wiXLMDt4mA==}
+  /vite/3.1.7_terser@5.15.1:
+    resolution: {integrity: sha512-5vCAmU4S8lyVdFCInu9M54f/g8qbOMakVw5xJ4pjoaDy5wgy9sLLZkGdSLN52dlsBqh0tBqxjaqqa8LgPqwRAA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
