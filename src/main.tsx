@@ -18,6 +18,10 @@ const router = createBrowserRouter([
   },
 ]);
 
+if (import.meta.hot) {
+  import.meta.hot.dispose(() => router.dispose());
+}
+
 root.render(
   <StrictMode>
     <RouterProvider router={router} fallbackElement={<div>loading...</div>} />
