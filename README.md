@@ -33,7 +33,7 @@ cd myapp
 #### `pnpm dev`
 
 Runs the app in development mode.
-Open https://localhost:3000 to view it in the browser.
+Open https://localhost:5173 to view it in the browser.
 
 The page will automatically reload if you make changes to the code.
 You will see the build errors and lint warnings in the console.
