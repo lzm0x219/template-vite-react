@@ -59,7 +59,7 @@
     "typescript": "4.8.4",
     "vite": "3.1.8",
     "vite-plugin-mkcert": "1.10.1",
-    "vite-tsconfig-paths": "3.5.1",
+    "vite-tsconfig-paths": "3.5.2",
     "wireit": "0.7.2"
   },
   "wireit": {
