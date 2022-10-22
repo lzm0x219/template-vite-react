@@ -28,7 +28,7 @@ specifiers:
   react-polymorphic-types: 2.0.0
   react-router-dom: 6.4.2
   sort-package-json: 2.0.0
-  tailwindcss: 3.2.0
+  tailwindcss: 3.2.1
   terser: 5.15.1
   tilg: 0.1.1
   typescript: 4.8.4
@@ -68,7 +68,7 @@ devDependencies:
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   react-polymorphic-types: 2.0.0_@types+react@18.0.21
   sort-package-json: 2.0.0
-  tailwindcss: 3.2.0_postcss@8.4.18
+  tailwindcss: 3.2.1_postcss@8.4.18
   terser: 5.15.1
   typescript: 4.8.4
   vite: 3.1.8_terser@5.15.1
@@ -3914,8 +3914,8 @@ packages:
     resolution: {integrity: sha512-SawLiWya8/uNR4p12OggSYZ35tP4U4QTpfV57DdZEOPr6+J6zlLSeeEpMmzYTEoBAsMhctdEE+SWJUDYX4EaKw==}
     dev: true
 
-  /tailwindcss/3.2.0_postcss@8.4.18:
-    resolution: {integrity: sha512-ARh/W0uH5UlWIC2nn02V0+5fyF0k6qZliyt4QYic2upOhPUE/Spu1EURNc9txJ3+4j8OEmdigqfDpw4d2tA4vA==}
+  /tailwindcss/3.2.1_postcss@8.4.18:
+    resolution: {integrity: sha512-Uw+GVSxp5CM48krnjHObqoOwlCt5Qo6nw1jlCRwfGy68dSYb/LwS9ZFidYGRiM+w6rMawkZiu1mEMAsHYAfoLg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -3931,6 +3931,7 @@ packages:
       glob-parent: 6.0.2
       is-glob: 4.0.3
       lilconfig: 2.0.6
+      micromatch: 4.0.5
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
