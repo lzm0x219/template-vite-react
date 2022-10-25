@@ -4,7 +4,7 @@ specifiers:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 17.1.2
   '@types/react': 18.0.22
-  '@types/react-dom': 18.0.6
+  '@types/react-dom': 18.0.7
   '@typescript-eslint/eslint-plugin': 5.41.0
   '@typescript-eslint/parser': 5.41.0
   '@vitejs/plugin-legacy': 2.2.0
@@ -38,7 +38,7 @@ specifiers:
   wireit: 0.7.2
 
 dependencies:
-  rc-basic: 1.0.2_dwvlhh6p6cdzahqqcszm6njeyi
+  rc-basic: 1.0.2_gkmizgx6yfzlqqoq45iszu32p4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.2_biqbaboplfbrettd7655fr4n2y
@@ -48,7 +48,7 @@ devDependencies:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 17.1.2
   '@types/react': 18.0.22
-  '@types/react-dom': 18.0.6
+  '@types/react-dom': 18.0.7
   '@typescript-eslint/eslint-plugin': 5.41.0_huremdigmcnkianavgfk3x6iou
   '@typescript-eslint/parser': 5.41.0_wyqvi574yv7oiwfeinomdzmc3m
   '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.8
@@ -826,8 +826,8 @@ packages:
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
 
-  /@types/react-dom/18.0.6:
-    resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
+  /@types/react-dom/18.0.7:
+    resolution: {integrity: sha512-HaXc+BbqAZE1RdsK3tC8SbkFy6UL2xF76lT9rQs5JkPrJg3rWA3Ou/Lhw3YJQzEDkBpmJ79nBsfnd05WrBd2QQ==}
     dependencies:
       '@types/react': 18.0.22
 
@@ -3381,7 +3381,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /rc-basic/1.0.2_dwvlhh6p6cdzahqqcszm6njeyi:
+  /rc-basic/1.0.2_gkmizgx6yfzlqqoq45iszu32p4:
     resolution: {integrity: sha512-0ZYWIT1/xInHSzEazlhM713VRFxRmnRzBNQ6XsBDWJ+IbWVBCncUwNcT9pO+U2q6UNxjHcaeXN3ghwKxdNSwIw==}
     requiresBuild: true
     peerDependencies:
@@ -3399,7 +3399,7 @@ packages:
         optional: true
     dependencies:
       '@types/react': 18.0.22
-      '@types/react-dom': 18.0.6
+      '@types/react-dom': 18.0.7
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-polymorphic-types: 2.0.0_@types+react@18.0.22
