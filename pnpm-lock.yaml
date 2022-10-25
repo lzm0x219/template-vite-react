@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 17.1.2
-  '@types/react': 18.0.22
+  '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   '@typescript-eslint/eslint-plugin': 5.41.0
   '@typescript-eslint/parser': 5.41.0
@@ -38,7 +38,7 @@ specifiers:
   wireit: 0.7.2
 
 dependencies:
-  rc-basic: 1.0.2_gkmizgx6yfzlqqoq45iszu32p4
+  rc-basic: 1.0.2_h5m4dgk5njox6nu3e2valmfzmi
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.2_biqbaboplfbrettd7655fr4n2y
@@ -47,7 +47,7 @@ dependencies:
 devDependencies:
   '@0x219/commitlint-config': 1.0.2
   '@commitlint/cli': 17.1.2
-  '@types/react': 18.0.22
+  '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   '@typescript-eslint/eslint-plugin': 5.41.0_huremdigmcnkianavgfk3x6iou
   '@typescript-eslint/parser': 5.41.0_wyqvi574yv7oiwfeinomdzmc3m
@@ -66,7 +66,7 @@ devDependencies:
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.3.0_prettier@2.7.1
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
-  react-polymorphic-types: 2.0.0_@types+react@18.0.22
+  react-polymorphic-types: 2.0.0_@types+react@18.0.23
   sort-package-json: 2.0.0
   tailwindcss: 3.2.1_postcss@8.4.18
   terser: 5.15.1
@@ -829,10 +829,10 @@ packages:
   /@types/react-dom/18.0.7:
     resolution: {integrity: sha512-HaXc+BbqAZE1RdsK3tC8SbkFy6UL2xF76lT9rQs5JkPrJg3rWA3Ou/Lhw3YJQzEDkBpmJ79nBsfnd05WrBd2QQ==}
     dependencies:
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
 
-  /@types/react/18.0.22:
-    resolution: {integrity: sha512-4yWc5PyCkZN8ke8K9rQHkTXxHIWHxLzzW6RI1kXVoepkD3vULpKzC2sDtAMKn78h92BRYuzf+7b/ms7ajE6hFw==}
+  /@types/react/18.0.23:
+    resolution: {integrity: sha512-R1wTULtCiJkudAN2DJGoYYySbGtOdzZyUWAACYinKdiQC8auxso4kLDUhQ7AJ2kh3F6A6z4v69U6tNY39hihVQ==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -3381,7 +3381,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /rc-basic/1.0.2_gkmizgx6yfzlqqoq45iszu32p4:
+  /rc-basic/1.0.2_h5m4dgk5njox6nu3e2valmfzmi:
     resolution: {integrity: sha512-0ZYWIT1/xInHSzEazlhM713VRFxRmnRzBNQ6XsBDWJ+IbWVBCncUwNcT9pO+U2q6UNxjHcaeXN3ghwKxdNSwIw==}
     requiresBuild: true
     peerDependencies:
@@ -3398,11 +3398,11 @@ packages:
       react-polymorphic-types:
         optional: true
     dependencies:
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
       '@types/react-dom': 18.0.7
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-polymorphic-types: 2.0.0_@types+react@18.0.22
+      react-polymorphic-types: 2.0.0_@types+react@18.0.23
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:
@@ -3419,12 +3419,12 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react-polymorphic-types/2.0.0_@types+react@18.0.22:
+  /react-polymorphic-types/2.0.0_@types+react@18.0.23:
     resolution: {integrity: sha512-Xfz5qfEzLAvB2ijL9hZfHRa9bsQG6te262KHjnbezZ2XyubnSDzh3TV6OgvBsQsz7FCRHjbDbqA5UTkNEziTlw==}
     peerDependencies:
       '@types/react': '>=16.8.6'
     dependencies:
-      '@types/react': 18.0.22
+      '@types/react': 18.0.23
 
   /react-refresh/0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
