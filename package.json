@@ -4,23 +4,18 @@
   "private": "true",
   "type": "module",
   "scripts": {
-    "build": "wireit",
-    "dev": "wireit",
+    "build": "vite build",
+    "dev": "vite",
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install",
-    "preview": "wireit"
-  },
-  "commitlint": {
-    "extends": [
-      "@0x219"
-    ]
+    "preview": "vite preview"
   },
   "lint-staged": {
-    "*.{cjs,ts,tsx}": [
+    "*.{js,cjs,ts,tsx}": [
       "prettier --write",
       "eslint"
     ],
-    "*.{js,md,html,css,json}": "prettier --write",
+    "*.{md,html,css,json}": "prettier --write",
     "!(*pnpm-lock).yaml": "prettier --write"
   },
   "dependencies": {
@@ -31,8 +26,6 @@
     "tilg": "0.1.1"
   },
   "devDependencies": {
-    "@0x219/commitlint-config": "1.0.2",
-    "@commitlint/cli": "17.1.2",
     "@types/react": "18.0.23",
     "@types/react-dom": "18.0.7",
     "@typescript-eslint/eslint-plugin": "5.41.0",
@@ -44,7 +37,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.10",
-    "eslint-plugin-react-hooks": "4.7.0-next-e61fd91f5-20220630",
+    "eslint-plugin-react-hooks": "4.6.0",
     "husky": "8.0.1",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
@@ -59,45 +52,6 @@
     "typescript": "4.8.4",
     "vite": "3.1.8",
     "vite-plugin-mkcert": "1.10.1",
-    "vite-tsconfig-paths": "3.5.2",
-    "wireit": "0.7.2"
-  },
-  "wireit": {
-    "dev": {
-      "command": "vite",
-      "files": [
-        "src/**/*.{ts,tsx,svg,css}",
-        "tsconfig.json",
-        "vite.config.ts"
-      ],
-      "packageLocks": [
-        "pnpm-lock.yaml"
-      ]
-    },
-    "build": {
-      "command": "tsc && vite build",
-      "files": [
-        "src/**/*.{ts,tsx,svg,css}",
-        "tsconfig.json",
-        "vite.config.ts"
-      ],
-      "output": [
-        "dist/**"
-      ],
-      "packageLocks": [
-        "pnpm-lock.yaml"
-      ]
-    },
-    "preview": {
-      "command": "vite preview",
-      "files": [
-        "src/**/*.{ts,tsx,svg,css}",
-        "tsconfig.json",
-        "vite.config.ts"
-      ],
-      "packageLocks": [
-        "pnpm-lock.yaml"
-      ]
-    }
+    "vite-tsconfig-paths": "3.5.2"
   }
 }
