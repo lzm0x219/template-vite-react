@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
 import legacy from "@vitejs/plugin-legacy";
+import { swcReactRefresh } from "vite-plugin-swc-react-refresh";
 import tsconfigPaths from "vite-tsconfig-paths";
 import mkcert from "vite-plugin-mkcert";
 
@@ -10,13 +10,14 @@ export default defineConfig(() => {
       https: true,
     },
     plugins: [
-      react(),
+      swcReactRefresh(),
       tsconfigPaths(),
       legacy(),
       mkcert({
         source: "coding",
       }),
     ],
+    esbuild: { jsx: "automatic" },
     build: {
       rollupOptions: {
         output: {
