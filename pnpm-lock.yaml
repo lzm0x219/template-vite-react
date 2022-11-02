@@ -31,7 +31,7 @@ specifiers:
   typescript: 4.8.4
   vite: 3.2.2
   vite-plugin-mkcert: 1.10.1
-  vite-plugin-swc-react-refresh: 2.2.0
+  vite-plugin-swc-react-refresh: 2.2.1
   vite-tsconfig-paths: 3.5.2
 
 dependencies:
@@ -67,7 +67,7 @@ devDependencies:
   typescript: 4.8.4
   vite: 3.2.2_terser@5.15.1
   vite-plugin-mkcert: 1.10.1_vite@3.2.2
-  vite-plugin-swc-react-refresh: 2.2.0_vite@3.2.2
+  vite-plugin-swc-react-refresh: 2.2.1_vite@3.2.2
   vite-tsconfig-paths: 3.5.2_vite@3.2.2
 
 packages:
@@ -3117,8 +3117,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-swc-react-refresh/2.2.0_vite@3.2.2:
-    resolution: {integrity: sha512-OMVYgynu69ayMkegwPpGe7rc8CJ5fe+wFfpxtdy43mfU7jxNAw9H3uYw5RNFToGkPFETQZbxDzyzODx56+bmSg==}
+  /vite-plugin-swc-react-refresh/2.2.1_vite@3.2.2:
+    resolution: {integrity: sha512-5j1y3VYVboNRmeuPsN2GKK2aZfEeYcxx6OBcGVT8zGdwouzIoA1cBIZtqFpcYH7AawHlQ840gCJT6hJibC+64Q==}
     peerDependencies:
       vite: ^2 || ^3
     dependencies:
