@@ -25,7 +25,7 @@ specifiers:
   react-polymorphic-types: 2.0.0
   react-router-dom: 6.4.3
   sort-package-json: 2.1.0
-  tailwindcss: 3.2.2
+  tailwindcss: 3.2.3
   terser: 5.15.1
   tilg: 0.1.1
   typescript: 4.8.4
@@ -62,7 +62,7 @@ devDependencies:
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   react-polymorphic-types: 2.0.0_@types+react@18.0.25
   sort-package-json: 2.1.0
-  tailwindcss: 3.2.2_postcss@8.4.18
+  tailwindcss: 3.2.3_postcss@8.4.18
   terser: 5.15.1
   typescript: 4.8.4
   vite: 3.2.3_terser@5.15.1
@@ -2946,8 +2946,8 @@ packages:
     resolution: {integrity: sha512-P3cgh2bpaPvAO2NE3uRp/n6hmk4xPX4DQf+UzTlCAycssKdqhp6hjw+ENWe+aUS7TogKRFtptMosTSFeC6R55g==}
     dev: true
 
-  /tailwindcss/3.2.2_postcss@8.4.18:
-    resolution: {integrity: sha512-c2GtSdqg+harR4QeoTmex0Ngfg8IIHNeLQH5yr2B9uZbZR1Xt1rYbjWOWTcj3YLTZhrmZnPowoQDbSRFyZHQ5Q==}
+  /tailwindcss/3.2.3_postcss@8.4.18:
+    resolution: {integrity: sha512-Xt9D4PK4zuuQCEB8bwK9JUCKmTgUwyac/6b0/42Vqhgl6YJkep+Wf5wq+5uXYfmrupdAD0YY2NY1hyZp1HjRrg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
