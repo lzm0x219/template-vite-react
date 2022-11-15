@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/react': 18.0.25
-  '@types/react-dom': 18.0.8
+  '@types/react-dom': 18.0.9
   autoprefixer: 10.4.13
   husky: 8.0.2
   is-ci: 3.0.1
@@ -26,7 +26,7 @@ specifiers:
   vite-tsconfig-paths: 3.5.2
 
 dependencies:
-  rc-basic: 1.0.2_gqczyrwmhlwpr6z64d3xh3wv54
+  rc-basic: 1.0.2_cn3ejhfta5lq2dae4xucvtkwvu
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.3_biqbaboplfbrettd7655fr4n2y
@@ -34,7 +34,7 @@ dependencies:
 
 devDependencies:
   '@types/react': 18.0.25
-  '@types/react-dom': 18.0.8
+  '@types/react-dom': 18.0.9
   autoprefixer: 10.4.13_postcss@8.4.19
   husky: 8.0.2
   is-ci: 3.0.1
@@ -392,8 +392,8 @@ packages:
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
 
-  /@types/react-dom/18.0.8:
-    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
+  /@types/react-dom/18.0.9:
+    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
     dependencies:
       '@types/react': 18.0.25
 
@@ -1576,7 +1576,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /rc-basic/1.0.2_gqczyrwmhlwpr6z64d3xh3wv54:
+  /rc-basic/1.0.2_cn3ejhfta5lq2dae4xucvtkwvu:
     resolution: {integrity: sha512-0ZYWIT1/xInHSzEazlhM713VRFxRmnRzBNQ6XsBDWJ+IbWVBCncUwNcT9pO+U2q6UNxjHcaeXN3ghwKxdNSwIw==}
     requiresBuild: true
     peerDependencies:
@@ -1593,7 +1593,7 @@ packages:
         optional: true
     dependencies:
       '@types/react': 18.0.25
-      '@types/react-dom': 18.0.8
+      '@types/react-dom': 18.0.9
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-polymorphic-types: 2.0.0_@types+react@18.0.25
