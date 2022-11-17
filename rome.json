@@ -1,4 +1,12 @@
 {
+  "formatter": {
+    "enabled": true,
+    "indentSize": 2,
+    "indentStyle": "space",
+    "formatWithErrors": true,
+    "lineWidth": 80,
+    "ignore": ["dist/**/*.js"]
+  },
   "linter": {
     "enabled": true,
     "rules": {
