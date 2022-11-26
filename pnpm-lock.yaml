@@ -11,7 +11,7 @@ specifiers:
   prettier: 2.7.1
   prettier-plugin-packagejson: 2.3.0
   prettier-plugin-tailwindcss: 0.1.13
-  rc-basic: 1.0.2
+  rc-basic: 1.1.0
   react: 18.2.0
   react-dom: 18.2.0
   react-router-dom: 6.4.3
@@ -26,7 +26,7 @@ specifiers:
   vite-tsconfig-paths: 3.6.0
 
 dependencies:
-  rc-basic: 1.0.2_cn3ejhfta5lq2dae4xucvtkwvu
+  rc-basic: 1.1.0_cn3ejhfta5lq2dae4xucvtkwvu
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.3_biqbaboplfbrettd7655fr4n2y
@@ -1576,14 +1576,16 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /rc-basic/1.0.2_cn3ejhfta5lq2dae4xucvtkwvu:
-    resolution: {integrity: sha512-0ZYWIT1/xInHSzEazlhM713VRFxRmnRzBNQ6XsBDWJ+IbWVBCncUwNcT9pO+U2q6UNxjHcaeXN3ghwKxdNSwIw==}
+  /rc-basic/1.1.0_cn3ejhfta5lq2dae4xucvtkwvu:
+    resolution: {integrity: sha512-yfbq/n9C4tIVaSoVKyjnfYIwI0DvmiV8IyIxNsVZ2/6p1nzNt/Q0zHG3MwS3PxpXfrywRV+vJtBpP8NZ/eaAlQ==}
+    engines: {node: '>=14.18.0', pnpm: '>=7.0.0'}
     requiresBuild: true
     peerDependencies:
       '@types/react': 18.x
       '@types/react-dom': 18.x
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
+      react-polymorphic-types: ^2.0.0
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -1596,7 +1598,6 @@ packages:
       '@types/react-dom': 18.0.9
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-polymorphic-types: 2.0.0_@types+react@18.0.25
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:
@@ -1607,14 +1608,6 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
-    dev: false
-
-  /react-polymorphic-types/2.0.0_@types+react@18.0.25:
-    resolution: {integrity: sha512-Xfz5qfEzLAvB2ijL9hZfHRa9bsQG6te262KHjnbezZ2XyubnSDzh3TV6OgvBsQsz7FCRHjbDbqA5UTkNEziTlw==}
-    peerDependencies:
-      '@types/react': '>=16.8.6'
-    dependencies:
-      '@types/react': 18.0.25
     dev: false
 
   /react-router-dom/6.4.3_biqbaboplfbrettd7655fr4n2y:
