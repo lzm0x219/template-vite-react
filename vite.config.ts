@@ -1,18 +1,23 @@
 import { defineConfig } from "vite";
-import legacy from "@vitejs/plugin-legacy";
 import { swcReactRefresh } from "vite-plugin-swc-react-refresh";
-import tsconfigPaths from "vite-tsconfig-paths";
 import mkcert from "vite-plugin-mkcert";
+import { resolve } from "node:path";
 
 export default defineConfig(() => {
   return {
+    resolve: {
+      alias: [
+        {
+          find: "@",
+          replacement: resolve(__dirname, "src"),
+        },
+      ],
+    },
     server: {
       https: true,
     },
     plugins: [
       swcReactRefresh(),
-      tsconfigPaths(),
-      legacy(),
       mkcert({
         source: "coding",
       }),
