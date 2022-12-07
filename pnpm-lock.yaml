@@ -20,7 +20,7 @@ specifiers:
   tailwindcss: 3.2.4
   tilg: 0.1.1
   typescript: 4.9.3
-  vite: 3.2.4
+  vite: 3.2.5
   vite-plugin-mkcert: 1.10.1
   vite-plugin-swc-react-refresh: 2.2.1
 
@@ -46,9 +46,9 @@ devDependencies:
   sort-package-json: 2.1.0
   tailwindcss: 3.2.4_postcss@8.4.19
   typescript: 4.9.3
-  vite: 3.2.4
-  vite-plugin-mkcert: 1.10.1_vite@3.2.4
-  vite-plugin-swc-react-refresh: 2.2.1_vite@3.2.4
+  vite: 3.2.5
+  vite-plugin-mkcert: 1.10.1_vite@3.2.5
+  vite-plugin-swc-react-refresh: 2.2.1_vite@3.2.5
 
 packages:
 
@@ -1875,7 +1875,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-mkcert/1.10.1_vite@3.2.4:
+  /vite-plugin-mkcert/1.10.1_vite@3.2.5:
     resolution: {integrity: sha512-fNNC0z+AcBZExKedjWC7bWlDMf4+WZJqO/4aYf7C/vYY1dqYVOM+zowwTYV0xSx5ZQgplfangPkZk+RwdUlpBg==}
     engines: {node: '>=v16.0.0'}
     peerDependencies:
@@ -1885,23 +1885,23 @@ packages:
       axios: 0.21.4_debug@4.3.4
       debug: 4.3.4
       picocolors: 1.0.0
-      vite: 3.2.4
+      vite: 3.2.5
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /vite-plugin-swc-react-refresh/2.2.1_vite@3.2.4:
+  /vite-plugin-swc-react-refresh/2.2.1_vite@3.2.5:
     resolution: {integrity: sha512-5j1y3VYVboNRmeuPsN2GKK2aZfEeYcxx6OBcGVT8zGdwouzIoA1cBIZtqFpcYH7AawHlQ840gCJT6hJibC+64Q==}
     peerDependencies:
       vite: ^2 || ^3
     dependencies:
       '@swc/core': 1.3.16
-      vite: 3.2.4
+      vite: 3.2.5
     dev: true
 
-  /vite/3.2.4:
-    resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
+  /vite/3.2.5:
+    resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
