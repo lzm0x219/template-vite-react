@@ -10,7 +10,7 @@ specifiers:
   postcss: 8.4.19
   prettier: 2.8.1
   prettier-plugin-packagejson: 2.3.0
-  prettier-plugin-tailwindcss: 0.2.0
+  prettier-plugin-tailwindcss: 0.2.1
   rc-basic: 1.1.0
   react: 18.2.0
   react-dom: 18.2.0
@@ -41,7 +41,7 @@ devDependencies:
   postcss: 8.4.19
   prettier: 2.8.1
   prettier-plugin-packagejson: 2.3.0_prettier@2.8.1
-  prettier-plugin-tailwindcss: 0.2.0_prettier@2.8.1
+  prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.1
   rome: 11.0.0
   sort-package-json: 2.1.0
   tailwindcss: 3.2.4_postcss@8.4.19
@@ -1485,8 +1485,8 @@ packages:
       sort-package-json: 1.57.0
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.0_prettier@2.8.1:
-    resolution: {integrity: sha512-Ruqig/mdWCSpqdq9WK44nrmqM4BFWTzBPhPGwC5NK3coV9eZntEQPB84MGZbjAg0XQU02jVRHXNRPREBzxvM+A==}
+  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.1:
+    resolution: {integrity: sha512-aIO8IguumORyRsmT+E7JfJ3A9FEoyhqZR7Au7TBOege3VZkgMvHJMkufeYp4zjnDK2iq4ktkvGMNOQR9T8lisQ==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
