@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import { swcReactRefresh } from "vite-plugin-swc-react-refresh";
+import react from "@vitejs/plugin-react-swc";
 import mkcert from "vite-plugin-mkcert";
 import { resolve } from "node:path";
 
@@ -17,12 +17,11 @@ export default defineConfig(() => {
       https: true,
     },
     plugins: [
-      swcReactRefresh(),
+      react(),
       mkcert({
         source: "coding",
       }),
     ],
-    esbuild: { jsx: "automatic" },
     build: {
       rollupOptions: {
         output: {
