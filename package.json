@@ -6,6 +6,8 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "is-ci || husky install",
     "preview": "vite preview"
   },
   "lint-staged": {
