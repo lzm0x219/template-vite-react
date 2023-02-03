@@ -17,7 +17,7 @@ specifiers:
   react-dom: 18.2.0
   react-router-dom: 6.7.0
   rome: 11.0.0
-  sort-package-json: 2.1.0
+  sort-package-json: 2.4.0
   tailwindcss: 3.2.4
   tilg: 0.1.1
   typescript: 4.9.5
@@ -44,7 +44,7 @@ devDependencies:
   prettier-plugin-packagejson: 2.4.2_prettier@2.8.3
   prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.3
   rome: 11.0.0
-  sort-package-json: 2.1.0
+  sort-package-json: 2.4.0
   tailwindcss: 3.2.4_postcss@8.4.21
   typescript: 4.9.5
   vite: 4.0.4
@@ -1698,8 +1698,8 @@ packages:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
     dev: true
 
-  /sort-package-json/2.1.0:
-    resolution: {integrity: sha512-M5ctkdnn7znAkoVQJ0Y+PHDUieyXMhydPyW7r2J9ZM0Iwc3BTyEf5cmoSRfHNo07FEvzWwnphcP7GlrAX164UQ==}
+  /sort-package-json/2.2.0:
+    resolution: {integrity: sha512-ux712xsrPqkW+0b51GdmC8QTvImM3wsdip9mNVSQTY9ZV3/1eTAK6jIcQ8Vz9kfN1WHL4wv/pLn89mrqeyQu6A==}
     hasBin: true
     dependencies:
       detect-indent: 7.0.1
@@ -1710,8 +1710,8 @@ packages:
       sort-object-keys: 1.1.3
     dev: true
 
-  /sort-package-json/2.2.0:
-    resolution: {integrity: sha512-ux712xsrPqkW+0b51GdmC8QTvImM3wsdip9mNVSQTY9ZV3/1eTAK6jIcQ8Vz9kfN1WHL4wv/pLn89mrqeyQu6A==}
+  /sort-package-json/2.4.0:
+    resolution: {integrity: sha512-vhoGWP7XDlQbO7/sBchjOetLyTKb26kyZaQQklfTJpH5BuDaXII/61wQ/o8fZgdx1kPwMbNiCoBUs3+qCEDJsQ==}
     hasBin: true
     dependencies:
       detect-indent: 7.0.1
