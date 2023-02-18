@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
-    "@vitejs/plugin-react-swc": "3.1.0",
+    "@vitejs/plugin-react-swc": "3.2.0",
     "autoprefixer": "10.4.13",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
