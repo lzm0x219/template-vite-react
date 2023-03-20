@@ -20,7 +20,7 @@ specifiers:
   sort-package-json: 2.4.1
   tailwindcss: 3.2.7
   tilg: 0.1.1
-  typescript: 4.9.5
+  typescript: 5.0.2
   vite: 4.2.0
   vite-plugin-mkcert: 1.13.3
 
@@ -46,7 +46,7 @@ devDependencies:
   rome: 11.0.0
   sort-package-json: 2.4.1
   tailwindcss: 3.2.7_postcss@8.4.21
-  typescript: 4.9.5
+  typescript: 5.0.2
   vite: 4.2.0
   vite-plugin-mkcert: 1.13.3_vite@4.2.0
 
@@ -1898,9 +1898,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript/4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: true
 
