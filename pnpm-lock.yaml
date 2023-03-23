@@ -22,7 +22,7 @@ specifiers:
   tilg: 0.1.1
   typescript: 5.0.2
   vite: 4.2.1
-  vite-plugin-mkcert: 1.13.3
+  vite-plugin-mkcert: 1.13.4
 
 dependencies:
   rc-basic: 1.1.0_3xleytyzprlgycb2ded54tx72i
@@ -48,7 +48,7 @@ devDependencies:
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 5.0.2
   vite: 4.2.1
-  vite-plugin-mkcert: 1.13.3_vite@4.2.1
+  vite-plugin-mkcert: 1.13.4_vite@4.2.1
 
 packages:
 
@@ -1923,8 +1923,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-mkcert/1.13.3_vite@4.2.1:
-    resolution: {integrity: sha512-cuAbOb6bHyTMhha9YimL6ZB/WoCcFy8d3uaf5n5Ovgybix1yvEu3pxARy2HjC5LJIS1qq6fFXG0+oj6/XMUapA==}
+  /vite-plugin-mkcert/1.13.4_vite@4.2.1:
+    resolution: {integrity: sha512-sBk/VOoqJijXG0yBir4nqdwktGqhkl6sm260wJLh27KEHPi1wz+dAHs2OfcJszfMbFXKcVzMZKoXwRrKze+NYg==}
     engines: {node: '>=v16.7.0'}
     peerDependencies:
       vite: '>=3'
