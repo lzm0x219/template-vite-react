@@ -3,7 +3,7 @@ lockfileVersion: '6.0'
 dependencies:
   rc-basic:
     specifier: 1.1.0
-    version: 1.1.0(@types/react-dom@18.0.11)(@types/react@18.0.30)(react-dom@18.2.0)(react@18.2.0)
+    version: 1.1.0(@types/react-dom@18.0.11)(@types/react@18.0.31)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -19,8 +19,8 @@ dependencies:
 
 devDependencies:
   '@types/react':
-    specifier: 18.0.30
-    version: 18.0.30
+    specifier: 18.0.31
+    version: 18.0.31
   '@types/react-dom':
     specifier: 18.0.11
     version: 18.0.11
@@ -585,10 +585,10 @@ packages:
   /@types/react-dom@18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
 
-  /@types/react@18.0.30:
-    resolution: {integrity: sha512-AnME2cHDH11Pxt/yYX6r0w448BfTwQOLEhQEjCdwB7QskEI7EKtxhGUsExTQe/MsY3D9D5rMtu62WRocw9A8FA==}
+  /@types/react@18.0.31:
+    resolution: {integrity: sha512-EEG67of7DsvRDU6BLLI0p+k1GojDLz9+lZsnCpCRTa/lOokvyPBvp8S5x+A24hME3yyQuIipcP70KJ6H7Qupww==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -1625,7 +1625,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /rc-basic@1.1.0(@types/react-dom@18.0.11)(@types/react@18.0.30)(react-dom@18.2.0)(react@18.2.0):
+  /rc-basic@1.1.0(@types/react-dom@18.0.11)(@types/react@18.0.31)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-yfbq/n9C4tIVaSoVKyjnfYIwI0DvmiV8IyIxNsVZ2/6p1nzNt/Q0zHG3MwS3PxpXfrywRV+vJtBpP8NZ/eaAlQ==}
     engines: {node: '>=14.18.0', pnpm: '>=7.0.0'}
     requiresBuild: true
@@ -1643,7 +1643,7 @@ packages:
       react-polymorphic-types:
         optional: true
     dependencies:
-      '@types/react': 18.0.30
+      '@types/react': 18.0.31
       '@types/react-dom': 18.0.11
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
