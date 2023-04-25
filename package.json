@@ -27,8 +27,8 @@
     "tilg": "0.1.1"
   },
   "devDependencies": {
-    "@types/react": "18.0.38",
-    "@types/react-dom": "18.0.11",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
     "@vitejs/plugin-react-swc": "3.3.0",
     "autoprefixer": "10.4.14",
     "husky": "8.0.3",
