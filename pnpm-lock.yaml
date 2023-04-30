@@ -67,8 +67,8 @@ devDependencies:
     specifier: 4.3.3
     version: 4.3.3
   vite-plugin-mkcert:
-    specifier: 1.14.0
-    version: 1.14.0(vite@4.3.3)
+    specifier: 1.14.1
+    version: 1.14.1(vite@4.3.3)
 
 packages:
 
@@ -2029,8 +2029,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-mkcert@1.14.0(vite@4.3.3):
-    resolution: {integrity: sha512-TXLqRYeKKv2kGIpDVMXPLAlTQLXfZ5/VtC4VVhV0ky2vKt5W/TDvFKpmelQPmn0IB7uz9KXvQj8Op+pkT9Ln9A==}
+  /vite-plugin-mkcert@1.14.1(vite@4.3.3):
+    resolution: {integrity: sha512-s/TmH62VA3DYXaqX2230PomrHXSRwfYyXur1c8hN5fGEUrT+w9KnXHnurZ53AMSUc/bI7RF6bQ1K5J+hZQTjoQ==}
     engines: {node: '>=v16.7.0'}
     peerDependencies:
       vite: '>=3'
