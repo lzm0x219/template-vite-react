@@ -38,7 +38,7 @@
     "prettier": "2.8.8",
     "prettier-plugin-packagejson": "2.4.3",
     "prettier-plugin-tailwindcss": "0.3.0",
-    "rome": "12.1.1",
+    "rome": "12.1.2",
     "sort-package-json": "2.4.1",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4",

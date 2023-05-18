@@ -52,8 +52,8 @@ devDependencies:
     specifier: 0.3.0
     version: 0.3.0(prettier@2.8.8)
   rome:
-    specifier: 12.1.1
-    version: 12.1.1
+    specifier: 12.1.2
+    version: 12.1.2
   sort-package-json:
     specifier: 2.4.1
     version: 2.4.1
@@ -463,48 +463,48 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@rometools/cli-darwin-arm64@12.1.1:
-    resolution: {integrity: sha512-9ohLIjRnZtgvgBizhZPHzJ3hXR+cTI1v9TmBO7hgUyScnyMrmqr3G3INl4FVFdyjgOWf8y6IT9mvkbCOvHNncQ==}
+  /@rometools/cli-darwin-arm64@12.1.2:
+    resolution: {integrity: sha512-9QxtAwNyX9n7ysxo+9qWczl70I1opulmX7LFNsRJKS9qqyTNc5K++btnNK07vWAIeQsMx4QYwr7241thuBMlFw==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-darwin-x64@12.1.1:
-    resolution: {integrity: sha512-5H7vWFofuU5qLxgzIaSCHVpc5mcXfs0HCluXhoX9yxeVVxnMEJkwFT6RrXzpud9j82BHiDOFaQmrNUeT1fc+KQ==}
+  /@rometools/cli-darwin-x64@12.1.2:
+    resolution: {integrity: sha512-w28NkGYK/rSmQU2WkNzw1h7ec8IR5a7LzYwPHDvG2ogY5sTcygkg0TGKOF/MHUvixU6EBPrFobua2gPhpr/m5A==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-linux-arm64@12.1.1:
-    resolution: {integrity: sha512-jKJeT6SI1d9bkAlMOYl3dQtzvTi98dsJAzEM91SVXLl5Onjk55Z9QG9f1E4nbS76LK4eZaNMcKqs7F2hSyVedQ==}
+  /@rometools/cli-linux-arm64@12.1.2:
+    resolution: {integrity: sha512-7BPGqPtnJy1O8B/ucJ5Vg+p6EUvJJ9DazrT1UEdVR/4inPqAVac9PIZDjjHXyMrt/3IngnetPyn5EXNTAqpJVw==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-linux-x64@12.1.1:
-    resolution: {integrity: sha512-CsLjZYtLQdKoMcroXXKUmZdyFQfgVl7C8oIIDcJNzmHZKdVwRhI1M+nK/0vpiFtVjCt6j+Cw2gDYkoQSihTt0w==}
+  /@rometools/cli-linux-x64@12.1.2:
+    resolution: {integrity: sha512-qH2iJKPLp34D0GFK1gLolHGkTA8q2vGKh2Ae1AwoTh87g0mXyyeQf4mAtxJtf4/ydMgjEkAZdEwyaevbTX8gnQ==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-win32-arm64@12.1.1:
-    resolution: {integrity: sha512-HHaBZNTIup5xEZRwgAdH15oMBQVnVWG54BizqGJn4oR6zlXkf8S012MNOfgVdEIWW+KDhyfX6vxAH/SBf1Yp1w==}
+  /@rometools/cli-win32-arm64@12.1.2:
+    resolution: {integrity: sha512-iIdqss2R8bni7C7isA9OLBj1UAA3MeKfca0aHNZr+2gSRdiSxO/47j6s3Tpebso99xsJBAFdWBOruG+l/C+LQg==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rometools/cli-win32-x64@12.1.1:
-    resolution: {integrity: sha512-yPQPEvaBp/uCulnwl5d5xOxWsb/DtccmBPGg5A8TOm0Lfcts4zSUgEaq3yZ9vwXw1KepMS5NHnZ+zuDjzdtV/Q==}
+  /@rometools/cli-win32-x64@12.1.2:
+    resolution: {integrity: sha512-MKOd02sSnd/Biogh3rIKpLFZzYbDSVvRNAxbFHJOpyGLbeQHfAg7QxjKwz0PqyrHVjZaTEEPlswrf4IFii0GNg==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -1777,18 +1777,18 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rome@12.1.1:
-    resolution: {integrity: sha512-pUUAf8KHHzzxYCXja80wIlPNvHeU2TEFmxapKOXLfYr4C5XmAjGj3ial4cJOk1JzBGZmd8fgBU3y/mxP3XqiYA==}
+  /rome@12.1.2:
+    resolution: {integrity: sha512-ObyDevKRU6k3R9fAK9hDvrX9FSPEJ0JWNv5i65enknV+epWjEIL0jnDuijPUX7MSVS6M/ngTiKUaeF3w63SJXw==}
     engines: {node: '>=14.*'}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      '@rometools/cli-darwin-arm64': 12.1.1
-      '@rometools/cli-darwin-x64': 12.1.1
-      '@rometools/cli-linux-arm64': 12.1.1
-      '@rometools/cli-linux-x64': 12.1.1
-      '@rometools/cli-win32-arm64': 12.1.1
-      '@rometools/cli-win32-x64': 12.1.1
+      '@rometools/cli-darwin-arm64': 12.1.2
+      '@rometools/cli-darwin-x64': 12.1.2
+      '@rometools/cli-linux-arm64': 12.1.2
+      '@rometools/cli-linux-x64': 12.1.2
+      '@rometools/cli-win32-arm64': 12.1.2
+      '@rometools/cli-win32-x64': 12.1.2
     dev: true
 
   /run-parallel@1.2.0:
