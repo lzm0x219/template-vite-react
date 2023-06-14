@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -7,7 +7,7 @@ settings:
 dependencies:
   rc-basic:
     specifier: 1.1.0
-    version: 1.1.0(@types/react-dom@18.2.4)(@types/react@18.2.9)(react-dom@18.2.0)(react@18.2.0)
+    version: 1.1.0(@types/react-dom@18.2.5)(@types/react@18.2.12)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -26,11 +26,11 @@ devDependencies:
     specifier: 20.3.0
     version: 20.3.0
   '@types/react':
-    specifier: 18.2.9
-    version: 18.2.9
+    specifier: 18.2.12
+    version: 18.2.12
   '@types/react-dom':
-    specifier: 18.2.4
-    version: 18.2.4
+    specifier: 18.2.5
+    version: 18.2.5
   '@vitejs/plugin-react-swc':
     specifier: 3.3.2
     version: 3.3.2(vite@4.3.9)
@@ -637,13 +637,13 @@ packages:
   /@types/prop-types@15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
 
-  /@types/react-dom@18.2.4:
-    resolution: {integrity: sha512-G2mHoTMTL4yoydITgOGwWdWMVd8sNgyEP85xVmMKAPUBwQWm9wBPQUmvbeF4V3WBY1P7mmL4BkjQ0SqUpf1snw==}
+  /@types/react-dom@18.2.5:
+    resolution: {integrity: sha512-sRQsOS/sCLnpQhR4DSKGTtWFE3FZjpQa86KPVbhUqdYMRZ9FEFcfAytKhR/vUG2rH1oFbOOej6cuD7MFSobDRQ==}
     dependencies:
-      '@types/react': 18.2.9
+      '@types/react': 18.2.12
 
-  /@types/react@18.2.9:
-    resolution: {integrity: sha512-pL3JAesUkF7PEQGxh5XOwdXGV907te6m1/Qe1ERJLgomojS6Ne790QiA7GUl434JEkFA2aAaB6qJ5z4e1zJn/w==}
+  /@types/react@18.2.12:
+    resolution: {integrity: sha512-ndmBMLCgn38v3SntMeoJaIrO6tGHYKMEBohCUmw8HoLLQdRMOIGXfeYaBTLe2lsFaSB3MOK1VXscYFnmLtTSmw==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -1677,7 +1677,7 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /rc-basic@1.1.0(@types/react-dom@18.2.4)(@types/react@18.2.9)(react-dom@18.2.0)(react@18.2.0):
+  /rc-basic@1.1.0(@types/react-dom@18.2.5)(@types/react@18.2.12)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-yfbq/n9C4tIVaSoVKyjnfYIwI0DvmiV8IyIxNsVZ2/6p1nzNt/Q0zHG3MwS3PxpXfrywRV+vJtBpP8NZ/eaAlQ==}
     engines: {node: '>=14.18.0', pnpm: '>=7.0.0'}
     requiresBuild: true
@@ -1695,8 +1695,8 @@ packages:
       react-polymorphic-types:
         optional: true
     dependencies:
-      '@types/react': 18.2.9
-      '@types/react-dom': 18.2.4
+      '@types/react': 18.2.12
+      '@types/react-dom': 18.2.5
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
