@@ -7,7 +7,7 @@ settings:
 dependencies:
   rc-basic:
     specifier: 1.1.0
-    version: 1.1.0(@types/react-dom@18.2.6)(@types/react@18.2.13)(react-dom@18.2.0)(react@18.2.0)
+    version: 1.1.0(@types/react-dom@18.2.6)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 20.3.2
     version: 20.3.2
   '@types/react':
-    specifier: 18.2.13
-    version: 18.2.13
+    specifier: 18.2.14
+    version: 18.2.14
   '@types/react-dom':
     specifier: 18.2.6
     version: 18.2.6
@@ -640,10 +640,10 @@ packages:
   /@types/react-dom@18.2.6:
     resolution: {integrity: sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==}
     dependencies:
-      '@types/react': 18.2.13
+      '@types/react': 18.2.14
 
-  /@types/react@18.2.13:
-    resolution: {integrity: sha512-vJ+zElvi/Zn9cVXB5slX2xL8PZodPCwPRDpittQdw43JR2AJ5k3vKdgJJyneV/cYgIbLQUwXa9JVDvUZXGba+Q==}
+  /@types/react@18.2.14:
+    resolution: {integrity: sha512-A0zjq+QN/O0Kpe30hA1GidzyFjatVvrpIvWLxD+xv67Vt91TWWgco9IvrJBkeyHm1trGaFS/FSGqPlhyeZRm0g==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -1677,7 +1677,7 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /rc-basic@1.1.0(@types/react-dom@18.2.6)(@types/react@18.2.13)(react-dom@18.2.0)(react@18.2.0):
+  /rc-basic@1.1.0(@types/react-dom@18.2.6)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-yfbq/n9C4tIVaSoVKyjnfYIwI0DvmiV8IyIxNsVZ2/6p1nzNt/Q0zHG3MwS3PxpXfrywRV+vJtBpP8NZ/eaAlQ==}
     engines: {node: '>=14.18.0', pnpm: '>=7.0.0'}
     requiresBuild: true
@@ -1695,7 +1695,7 @@ packages:
       react-polymorphic-types:
         optional: true
     dependencies:
-      '@types/react': 18.2.13
+      '@types/react': 18.2.14
       '@types/react-dom': 18.2.6
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
