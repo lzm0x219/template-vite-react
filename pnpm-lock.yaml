@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 20.3.3
-    version: 20.3.3
+    specifier: 20.4.0
+    version: 20.4.0
   '@types/react':
     specifier: 18.2.14
     version: 18.2.14
@@ -72,7 +72,7 @@ devDependencies:
     version: 5.1.6
   vite:
     specifier: 4.3.9
-    version: 4.3.9(@types/node@20.3.3)
+    version: 4.3.9(@types/node@20.4.0)
   vite-plugin-mkcert:
     specifier: 1.16.0
     version: 1.16.0(vite@4.3.9)
@@ -630,8 +630,8 @@ packages:
       '@swc/core-win32-x64-msvc': 1.3.62
     dev: true
 
-  /@types/node@20.3.3:
-    resolution: {integrity: sha512-wheIYdr4NYML61AjC8MKj/2jrR/kDQri/CIpVoZwldwhnIrD/j9jIU5bJ8yBKuB2VhpFV7Ab6G2XkBjv9r9Zzw==}
+  /@types/node@20.4.0:
+    resolution: {integrity: sha512-jfT7iTf/4kOQ9S7CHV9BIyRaQqHu67mOjsIQBC3BKZvzvUB6zLxEwJ6sBE3ozcvP8kF6Uk5PXN0Q+c0dfhGX0g==}
     dev: true
 
   /@types/prop-types@15.7.4:
@@ -658,7 +658,7 @@ packages:
       vite: ^4
     dependencies:
       '@swc/core': 1.3.62
-      vite: 4.3.9(@types/node@20.3.3)
+      vite: 4.3.9(@types/node@20.4.0)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -2098,13 +2098,13 @@ packages:
       axios: 1.2.2(debug@4.3.4)
       debug: 4.3.4
       picocolors: 1.0.0
-      vite: 4.3.9(@types/node@20.3.3)
+      vite: 4.3.9(@types/node@20.4.0)
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /vite@4.3.9(@types/node@20.3.3):
+  /vite@4.3.9(@types/node@20.4.0):
     resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2129,7 +2129,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.3.3
+      '@types/node': 20.4.0
       esbuild: 0.17.12
       postcss: 8.4.24
       rollup: 3.21.0
