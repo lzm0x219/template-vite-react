@@ -59,8 +59,8 @@ devDependencies:
     specifier: 0.5.4
     version: 0.5.4(prettier@3.0.3)
   sort-package-json:
-    specifier: 2.5.1
-    version: 2.5.1
+    specifier: 2.6.0
+    version: 2.6.0
   tailwindcss:
     specifier: 3.3.3
     version: 3.3.3
