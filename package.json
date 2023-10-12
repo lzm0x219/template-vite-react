@@ -1,20 +1,22 @@
 {
   "name": "template",
   "version": "0.0.0",
-  "private": "true",
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
-    "dev": "vite --host",
+    "build": "turbo vite.build",
+    "dev": "turbo vite.dev",
+    "lint": "tsc",
     "prepare": "is-ci || husky install",
-    "preview": "vite preview"
+    "preview": "turbo vite.preview",
+    "vite.build": "vite build",
+    "vite.dev": "vite --host",
+    "vite.preview": "vite preview"
   },
   "lint-staged": {
     "*.{ts,tsx,js,cjs}": [
       "prettier --write"
     ],
     "*.{md,html,css,json,yml}": "prettier --write",
-    "!(*pnpm-lock).yaml": "prettier --write",
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
@@ -39,6 +41,7 @@
     "prettier-plugin-tailwindcss": "0.5.5",
     "sort-package-json": "2.6.0",
     "tailwindcss": "3.3.3",
+    "turbo": "1.10.15",
     "typescript": "5.2.2",
     "vite": "4.4.11",
     "vite-plugin-mkcert": "1.16.0",
