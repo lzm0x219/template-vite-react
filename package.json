@@ -45,7 +45,7 @@
     "turbo": "1.10.16",
     "typescript": "5.2.2",
     "vite": "5.0.0",
-    "vite-plugin-mkcert": "1.16.0",
+    "vite-plugin-mkcert": "1.17.1",
     "vite-tsconfig-paths": "4.2.1"
   }
 }
