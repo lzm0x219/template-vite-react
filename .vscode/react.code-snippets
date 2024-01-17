@@ -1,0 +1,34 @@
+{
+  "Import module (example)": {
+    "scope": "javascriptreact,typescriptreact,typescript,javascript",
+    "prefix": "imp",
+    "description": "This import module",
+    "body": ["import {$2} from '$1'"],
+  },
+  "Export module (example)": {
+    "scope": "javascriptreact,typescriptreact,typescript,javascript",
+    "prefix": "exp",
+    "description": "This import module",
+    "body": ["export {$2} from '$1'"],
+  },
+  "Create function  default (example)": {
+    "scope": "javascriptreact,typescriptreact,typescript,javascript",
+    "prefix": "edf",
+    "description": "Create function export",
+    "body": [
+      "export default function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}}(){",
+      "  return <${2:div}>$4</$2>",
+      "}",
+    ],
+  },
+  "Create function export (example)": {
+    "scope": "javascriptreact,typescriptreact,typescript,javascript",
+    "prefix": "ef",
+    "description": "Create function export",
+    "body": [
+      "export function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}}(){",
+      "  return <${2:div}>$4</$2>",
+      "}",
+    ],
+  },
+}
