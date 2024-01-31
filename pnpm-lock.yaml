@@ -56,8 +56,8 @@ devDependencies:
     specifier: 3.2.4
     version: 3.2.4
   prettier-plugin-packagejson:
-    specifier: 2.4.9
-    version: 2.4.9(prettier@3.2.4)
+    specifier: 2.4.10
+    version: 2.4.10(prettier@3.2.4)
   prettier-plugin-tailwindcss:
     specifier: 0.5.11
     version: 0.5.11(prettier@3.2.4)
@@ -1672,8 +1672,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-packagejson@2.4.9(prettier@3.2.4):
-    resolution: {integrity: sha512-b3Q7agXVqxK3UpYEJr0xLD51SxriYXESWUCjmxOBUGqnPFZOg9jZGZ+Ptzq252I6OqzXN2rj1tJIFq6KOGLLJw==}
+  /prettier-plugin-packagejson@2.4.10(prettier@3.2.4):
+    resolution: {integrity: sha512-qFzOfQDHi1tzvVJRuZ2jh1j6IFV5MURh5m5WDt+qfEMOf4SSL5RpwSysiX8u0W1PJYsM0vKJGNULt43wwteKiQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -1681,7 +1681,7 @@ packages:
         optional: true
     dependencies:
       prettier: 3.2.4
-      sort-package-json: 2.6.0
+      sort-package-json: 2.7.0
       synckit: 0.9.0
     dev: true
 
@@ -1906,19 +1906,6 @@ packages:
 
   /sort-object-keys@1.1.3:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
-    dev: true
-
-  /sort-package-json@2.6.0:
-    resolution: {integrity: sha512-XSQ+lY9bAYA8ZsoChcEoPlgcSMaheziEp1beox1JVxy1SV4F2jSq9+h2rJ+3mC/Dhu9Ius1DLnInD5AWcsDXZw==}
-    hasBin: true
-    dependencies:
-      detect-indent: 7.0.1
-      detect-newline: 4.0.0
-      get-stdin: 9.0.0
-      git-hooks-list: 3.0.0
-      globby: 13.1.2
-      is-plain-obj: 4.1.0
-      sort-object-keys: 1.1.3
     dev: true
 
   /sort-package-json@2.7.0:
