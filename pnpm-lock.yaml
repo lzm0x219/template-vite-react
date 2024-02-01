@@ -38,8 +38,8 @@ devDependencies:
     specifier: 10.4.17
     version: 10.4.17(postcss@8.4.33)
   husky:
-    specifier: 9.0.7
-    version: 9.0.7
+    specifier: 9.0.9
+    version: 9.0.9
   is-ci:
     specifier: 3.0.1
     version: 3.0.1
@@ -1174,8 +1174,8 @@ packages:
     engines: {node: '>=16.17.0'}
     dev: true
 
-  /husky@9.0.7:
-    resolution: {integrity: sha512-vWdusw+y12DUEeoZqW1kplOFqk3tedGV8qlga8/SF6a3lOiWLqGZZQvfWvY0fQYdfiRi/u1DFNpudTSV9l1aCg==}
+  /husky@9.0.9:
+    resolution: {integrity: sha512-eW92PRr1XPKDWd7/iM2JvAl9gEKK3TF69yvbllQtKSYBw+Wtoi+P38NqH1Z7++sSd80FBkFagBFJkoQvMhCnGw==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true
