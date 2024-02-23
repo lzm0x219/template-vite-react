@@ -28,7 +28,7 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "0.5.1",
     "@types/node": "20.11.20",
-    "@types/react": "18.2.57",
+    "@types/react": "18.2.58",
     "@types/react-dom": "18.2.19",
     "@vitejs/plugin-react-swc": "3.6.0",
     "autoprefixer": "10.4.17",
