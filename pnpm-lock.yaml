@@ -65,8 +65,8 @@ devDependencies:
     specifier: 2.9.0
     version: 2.9.0
   tailwindcss:
-    specifier: 3.4.2
-    version: 3.4.2
+    specifier: 3.4.3
+    version: 3.4.3
   turbo:
     specifier: 1.13.0
     version: 1.13.0
@@ -1999,8 +1999,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwindcss@3.4.2:
-    resolution: {integrity: sha512-1kIzVecynNKMhhX8mPTOwTkkVHupUTMbEvk4n1ByxdM8sQTJ8fE41Y4TdORG6GmiVXHhfZ/++0hiIFJFwfadsA==}
+  /tailwindcss@3.4.3:
+    resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
