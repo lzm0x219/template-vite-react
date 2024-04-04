@@ -71,8 +71,8 @@ devDependencies:
     specifier: 1.13.2
     version: 1.13.2
   typescript:
-    specifier: 5.4.3
-    version: 5.4.3
+    specifier: 5.4.4
+    version: 5.4.4
   vite:
     specifier: 5.2.8
     version: 5.2.8(@types/node@20.12.4)(lightningcss@1.24.1)
@@ -81,7 +81,7 @@ devDependencies:
     version: 1.17.5(vite@5.2.8)
   vite-tsconfig-paths:
     specifier: 4.3.2
-    version: 4.3.2(typescript@5.4.3)(vite@5.2.8)
+    version: 4.3.2(typescript@5.4.4)(vite@5.2.8)
 
 packages:
 
@@ -2065,7 +2065,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsconfck@3.0.3(typescript@5.4.3):
+  /tsconfck@3.0.3(typescript@5.4.4):
     resolution: {integrity: sha512-4t0noZX9t6GcPTfBAbIbbIU4pfpCwh0ueq3S4O/5qXI1VwK1outmxhe9dOiEWqMz3MW2LKgDTpqWV+37IWuVbA==}
     engines: {node: ^18 || >=20}
     hasBin: true
@@ -2075,7 +2075,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: 5.4.3
+      typescript: 5.4.4
     dev: true
 
   /tslib@2.6.2:
@@ -2147,8 +2147,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: true
 
-  /typescript@5.4.3:
-    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
+  /typescript@5.4.4:
+    resolution: {integrity: sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -2191,7 +2191,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths@4.3.2(typescript@5.4.3)(vite@5.2.8):
+  /vite-tsconfig-paths@4.3.2(typescript@5.4.4)(vite@5.2.8):
     resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
     peerDependencies:
       vite: '*'
@@ -2201,7 +2201,7 @@ packages:
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
-      tsconfck: 3.0.3(typescript@5.4.3)
+      tsconfck: 3.0.3(typescript@5.4.4)
       vite: 5.2.8(@types/node@20.12.4)(lightningcss@1.24.1)
     transitivePeerDependencies:
       - supports-color
