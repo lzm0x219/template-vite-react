@@ -34,7 +34,7 @@
     "autoprefixer": "10.4.19",
     "husky": "9.0.11",
     "is-ci": "3.0.1",
-    "lightningcss": "1.25.0",
+    "lightningcss": "1.25.1",
     "lint-staged": "15.2.4",
     "postcss": "8.4.38",
     "prettier": "3.2.5",
