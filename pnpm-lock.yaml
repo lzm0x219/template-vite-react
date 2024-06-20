@@ -73,8 +73,8 @@ importers:
         specifier: 2.0.4
         version: 2.0.4
       typescript:
-        specifier: 5.4.5
-        version: 5.4.5
+        specifier: 5.5.2
+        version: 5.5.2
       vite:
         specifier: 5.3.1
         version: 5.3.1(@types/node@20.14.6)(lightningcss@1.25.1)
@@ -83,7 +83,7 @@ importers:
         version: 1.17.5(vite@5.3.1(@types/node@20.14.6)(lightningcss@1.25.1))
       vite-tsconfig-paths:
         specifier: 4.3.2
-        version: 4.3.2(typescript@5.4.5)(vite@5.3.1(@types/node@20.14.6)(lightningcss@1.25.1))
+        version: 4.3.2(typescript@5.5.2)(vite@5.3.1(@types/node@20.14.6)(lightningcss@1.25.1))
 
 packages:
 
@@ -1326,8 +1326,8 @@ packages:
     resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
     engines: {node: '>=14.16'}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2410,9 +2410,9 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsconfck@3.0.3(typescript@5.4.5):
+  tsconfck@3.0.3(typescript@5.5.2):
     optionalDependencies:
-      typescript: 5.4.5
+      typescript: 5.5.2
 
   tslib@2.6.2: {}
 
@@ -2445,7 +2445,7 @@ snapshots:
 
   type-fest@3.13.1: {}
 
-  typescript@5.4.5: {}
+  typescript@5.5.2: {}
 
   undici-types@5.26.5: {}
 
@@ -2469,11 +2469,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite-tsconfig-paths@4.3.2(typescript@5.4.5)(vite@5.3.1(@types/node@20.14.6)(lightningcss@1.25.1)):
+  vite-tsconfig-paths@4.3.2(typescript@5.5.2)(vite@5.3.1(@types/node@20.14.6)(lightningcss@1.25.1)):
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
-      tsconfck: 3.0.3(typescript@5.4.5)
+      tsconfck: 3.0.3(typescript@5.5.2)
     optionalDependencies:
       vite: 5.3.1(@types/node@20.14.6)(lightningcss@1.25.1)
     transitivePeerDependencies:
