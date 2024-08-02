@@ -31,7 +31,7 @@
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@vitejs/plugin-react-swc": "3.7.0",
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "husky": "9.1.4",
     "is-ci": "3.0.1",
     "lightningcss": "1.25.1",
