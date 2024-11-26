@@ -34,8 +34,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1
       '@vitejs/plugin-react-swc':
-        specifier: 3.7.1
-        version: 3.7.1(vite@5.4.11(@types/node@22.10.0)(lightningcss@1.28.2))
+        specifier: 3.7.2
+        version: 3.7.2(vite@5.4.11(@types/node@22.10.0)(lightningcss@1.28.2))
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -508,10 +508,10 @@ packages:
   '@types/react@18.3.12':
     resolution: {integrity: sha512-D2wOSq/d6Agt28q7rSI3jhU7G6aiuzljDGZ2hTZHIkrTLUI+AF3WMeKkEZ9nN2fkBAlcktT6vcZjDFiIhMYEQw==}
 
-  '@vitejs/plugin-react-swc@3.7.1':
-    resolution: {integrity: sha512-vgWOY0i1EROUK0Ctg1hwhtC3SdcDjZcdit4Ups4aPkDcB1jYhmo+RMYWY87cmXMhvtD5uf8lV89j2w16vkdSVg==}
+  '@vitejs/plugin-react-swc@3.7.2':
+    resolution: {integrity: sha512-y0byko2b2tSVVf5Gpng1eEhX1OvPC7x8yns1Fx8jDzlJp4LS6CMkCPfLw47cjyoMrshQDoQw4qcgjsU9VvlCew==}
     peerDependencies:
-      vite: ^4 || ^5
+      vite: ^4 || ^5 || ^6
 
   ansi-escapes@7.0.0:
     resolution: {integrity: sha512-GdYO7a61mR0fOlAsvC9/rIHf7L96sBc6dEWzeOu+KAea5bZyQRPIpojrVoI4AXGJS/ycu/fBTdLrUkA4ODrvjw==}
@@ -1821,7 +1821,7 @@ snapshots:
       '@types/prop-types': 15.7.4
       csstype: 3.0.8
 
-  '@vitejs/plugin-react-swc@3.7.1(vite@5.4.11(@types/node@22.10.0)(lightningcss@1.28.2))':
+  '@vitejs/plugin-react-swc@3.7.2(vite@5.4.11(@types/node@22.10.0)(lightningcss@1.28.2))':
     dependencies:
       '@swc/core': 1.7.26
       vite: 5.4.11(@types/node@22.10.0)(lightningcss@1.28.2)
