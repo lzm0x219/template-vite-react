@@ -28,8 +28,8 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "22.10.5",
-    "@types/react": "19.0.4",
-    "@types/react-dom": "19.0.2",
+    "@types/react": "19.0.5",
+    "@types/react-dom": "19.0.3",
     "@vitejs/plugin-react-swc": "3.7.2",
     "autoprefixer": "10.4.20",
     "husky": "9.1.7",
