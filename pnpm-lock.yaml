@@ -79,8 +79,8 @@ importers:
         specifier: 6.2.2
         version: 6.2.2(@types/node@22.13.10)(jiti@1.21.6)(lightningcss@1.29.2)(yaml@2.7.0)
       vite-plugin-mkcert:
-        specifier: 1.17.7
-        version: 1.17.7(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.6)(lightningcss@1.29.2)(yaml@2.7.0))
+        specifier: 1.17.8
+        version: 1.17.8(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.6)(lightningcss@1.29.2)(yaml@2.7.0))
       vite-tsconfig-paths:
         specifier: 5.1.4
         version: 5.1.4(typescript@5.8.2)(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.6)(lightningcss@1.29.2)(yaml@2.7.0))
@@ -458,8 +458,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  axios@1.8.1:
-    resolution: {integrity: sha512-NN+fvwH/kV01dYUQ3PTOZns4LWtWhOFCAhQ/pHb88WQ1hNe5V/dvFwc4VJcDL11LT9xSX0QtsR8sWUuyOuOq7g==}
+  axios@1.8.3:
+    resolution: {integrity: sha512-iP4DebzoNlP/YN2dpwCgb8zoCmhtkajzS48JvwmkSkXvPI3DHc7m+XYL5tGnSlJtR6nImXZmdCuN5aP8dh1d8A==}
 
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
@@ -1107,8 +1107,8 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  vite-plugin-mkcert@1.17.7:
-    resolution: {integrity: sha512-w6897ZmEbn1dzQxY9fxXZBMEFNxeHWYDLJb42DBHSbLx+ASRnq5Mfy4v9bDMhqIGDz9ufhm2qXbVoCFe+8dazg==}
+  vite-plugin-mkcert@1.17.8:
+    resolution: {integrity: sha512-S+4tNEyGqdZQ3RLAG54ETeO2qyURHWrVjUWKYikLAbmhh/iJ+36gDEja4OWwFyXNuvyXcZwNt5TZZR9itPeG5Q==}
     engines: {node: '>=v16.7.0'}
     peerDependencies:
       vite: '>=3'
@@ -1411,7 +1411,7 @@ snapshots:
       postcss: 8.5.3
       postcss-value-parser: 4.2.0
 
-  axios@1.8.1(debug@4.4.0):
+  axios@1.8.3(debug@4.4.0):
     dependencies:
       follow-redirects: 1.15.6(debug@4.4.0)
       form-data: 4.0.0
@@ -1943,9 +1943,9 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  vite-plugin-mkcert@1.17.7(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.6)(lightningcss@1.29.2)(yaml@2.7.0)):
+  vite-plugin-mkcert@1.17.8(vite@6.2.2(@types/node@22.13.10)(jiti@1.21.6)(lightningcss@1.29.2)(yaml@2.7.0)):
     dependencies:
-      axios: 1.8.1(debug@4.4.0)
+      axios: 1.8.3(debug@4.4.0)
       debug: 4.4.0
       picocolors: 1.1.1
       vite: 6.2.2(@types/node@22.13.10)(jiti@1.21.6)(lightningcss@1.29.2)(yaml@2.7.0)
