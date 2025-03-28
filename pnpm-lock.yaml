@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       react:
-        specifier: 19.0.0
-        version: 19.0.0
+        specifier: 19.1.0
+        version: 19.1.0
       react-dom:
-        specifier: 19.0.0
-        version: 19.0.0(react@19.0.0)
+        specifier: 19.1.0
+        version: 19.1.0(react@19.1.0)
       react-router-dom:
         specifier: 7.4.1
-        version: 7.4.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 7.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       tilg:
         specifier: 0.1.1
-        version: 0.1.1(react@19.0.0)
+        version: 0.1.1(react@19.1.0)
     devDependencies:
       '@total-typescript/ts-reset':
         specifier: 0.6.1
@@ -914,10 +914,10 @@ packages:
   proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
 
-  react-dom@19.0.0:
-    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
+  react-dom@19.1.0:
+    resolution: {integrity: sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==}
     peerDependencies:
-      react: ^19.0.0
+      react: ^19.1.0
 
   react-router-dom@7.4.1:
     resolution: {integrity: sha512-L3/4tig0Lvs6m6THK0HRV4eHUdpx0dlJasgCxXKnavwhh4tKYgpuZk75HRYNoRKDyDWi9QgzGXsQ1oQSBlWpAA==}
@@ -936,8 +936,8 @@ packages:
       react-dom:
         optional: true
 
-  react@19.0.0:
-    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
+  react@19.1.0:
+    resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
     engines: {node: '>=0.10.0'}
 
   restore-cursor@5.1.0:
@@ -952,8 +952,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  scheduler@0.25.0:
-    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
+  scheduler@0.26.0:
+    resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
 
   semver@7.6.0:
     resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
@@ -1750,28 +1750,28 @@ snapshots:
 
   proxy-from-env@1.1.0: {}
 
-  react-dom@19.0.0(react@19.0.0):
+  react-dom@19.1.0(react@19.1.0):
     dependencies:
-      react: 19.0.0
-      scheduler: 0.25.0
+      react: 19.1.0
+      scheduler: 0.26.0
 
-  react-router-dom@7.4.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-router-dom@7.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
-      react-router: 7.4.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+      react-router: 7.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
-  react-router@7.4.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-router@7.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       '@types/cookie': 0.6.0
       cookie: 1.0.2
-      react: 19.0.0
+      react: 19.1.0
       set-cookie-parser: 2.7.1
       turbo-stream: 2.4.0
     optionalDependencies:
-      react-dom: 19.0.0(react@19.0.0)
+      react-dom: 19.1.0(react@19.1.0)
 
-  react@19.0.0: {}
+  react@19.1.0: {}
 
   restore-cursor@5.1.0:
     dependencies:
@@ -1805,7 +1805,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.34.3
       fsevents: 2.3.3
 
-  scheduler@0.25.0: {}
+  scheduler@0.26.0: {}
 
   semver@7.6.0:
     dependencies:
@@ -1880,9 +1880,9 @@ snapshots:
 
   tailwindcss@4.0.17: {}
 
-  tilg@0.1.1(react@19.0.0):
+  tilg@0.1.1(react@19.1.0):
     dependencies:
-      react: 19.0.0
+      react: 19.1.0
 
   tinyglobby@0.2.10:
     dependencies:
