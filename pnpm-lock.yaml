@@ -28,11 +28,11 @@ importers:
         specifier: 22.13.17
         version: 22.13.17
       '@types/react':
-        specifier: 19.0.12
-        version: 19.0.12
+        specifier: 19.1.0
+        version: 19.1.0
       '@types/react-dom':
-        specifier: 19.0.4
-        version: 19.0.4(@types/react@19.0.12)
+        specifier: 19.1.1
+        version: 19.1.1(@types/react@19.1.0)
       '@vitejs/plugin-react-swc':
         specifier: 3.8.1
         version: 3.8.1(vite@6.2.4(@types/node@22.13.17)(jiti@1.21.6)(lightningcss@1.29.3)(yaml@2.7.0))
@@ -423,13 +423,13 @@ packages:
   '@types/node@22.13.17':
     resolution: {integrity: sha512-nAJuQXoyPj04uLgu+obZcSmsfOenUg6DxPKogeUy6yNCFwWaj5sBF8/G/pNo8EtBJjAfSVgfIlugR/BCOleO+g==}
 
-  '@types/react-dom@19.0.4':
-    resolution: {integrity: sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==}
+  '@types/react-dom@19.1.1':
+    resolution: {integrity: sha512-jFf/woGTVTjUJsl2O7hcopJ1r0upqoq/vIOoCj0yLh3RIXxWcljlpuZ+vEBRXsymD1jhfeJrlyTy/S1UW+4y1w==}
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.0.12':
-    resolution: {integrity: sha512-V6Ar115dBDrjbtXSrS+/Oruobc+qVbbUxDFC1RSbRqLt5SYvxxyIDrSC85RWml54g+jfNeEMZhEj7wW07ONQhA==}
+  '@types/react@19.1.0':
+    resolution: {integrity: sha512-UaicktuQI+9UKyA4njtDOGBD/67t8YEBt2xdfqu8+gP9hqPUPsiXlNPcpS2gVdjmis5GKPG3fCxbQLVgxsQZ8w==}
 
   '@vitejs/plugin-react-swc@3.8.1':
     resolution: {integrity: sha512-aEUPCckHDcFyxpwFm0AIkbtv6PpUp3xTb9wYGFjtABynXjCYKkWoxX0AOK9NT9XCrdk6mBBUOeHQS+RKdcNO1A==}
@@ -1376,11 +1376,11 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/react-dom@19.0.4(@types/react@19.0.12)':
+  '@types/react-dom@19.1.1(@types/react@19.1.0)':
     dependencies:
-      '@types/react': 19.0.12
+      '@types/react': 19.1.0
 
-  '@types/react@19.0.12':
+  '@types/react@19.1.0':
     dependencies:
       csstype: 3.0.8
 
