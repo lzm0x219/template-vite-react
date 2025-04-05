@@ -73,8 +73,8 @@ importers:
         specifier: 2.5.0
         version: 2.5.0
       typescript:
-        specifier: 5.8.2
-        version: 5.8.2
+        specifier: 5.8.3
+        version: 5.8.3
       vite:
         specifier: 6.2.5
         version: 6.2.5(@types/node@22.14.0)(jiti@1.21.6)(lightningcss@1.29.3)(yaml@2.7.0)
@@ -83,7 +83,7 @@ importers:
         version: 1.17.8(vite@6.2.5(@types/node@22.14.0)(jiti@1.21.6)(lightningcss@1.29.3)(yaml@2.7.0))
       vite-tsconfig-paths:
         specifier: 5.1.4
-        version: 5.1.4(typescript@5.8.2)(vite@6.2.5(@types/node@22.14.0)(jiti@1.21.6)(lightningcss@1.29.3)(yaml@2.7.0))
+        version: 5.1.4(typescript@5.8.3)(vite@6.2.5(@types/node@22.14.0)(jiti@1.21.6)(lightningcss@1.29.3)(yaml@2.7.0))
 
 packages:
 
@@ -1093,8 +1093,8 @@ packages:
     resolution: {integrity: sha512-PvSRruOsitjy6qdqwIIyolv99+fEn57gP6gn4zhsHTEcCYgXPhv6BAxzAjleS8XKpo+Y582vTTA9nuqYDmbRuA==}
     hasBin: true
 
-  typescript@5.8.2:
-    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1898,9 +1898,9 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  tsconfck@3.0.3(typescript@5.8.2):
+  tsconfck@3.0.3(typescript@5.8.3):
     optionalDependencies:
-      typescript: 5.8.2
+      typescript: 5.8.3
 
   tslib@2.6.2: {}
 
@@ -1933,7 +1933,7 @@ snapshots:
       turbo-windows-64: 2.5.0
       turbo-windows-arm64: 2.5.0
 
-  typescript@5.8.2: {}
+  typescript@5.8.3: {}
 
   undici-types@6.21.0: {}
 
@@ -1952,11 +1952,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite-tsconfig-paths@5.1.4(typescript@5.8.2)(vite@6.2.5(@types/node@22.14.0)(jiti@1.21.6)(lightningcss@1.29.3)(yaml@2.7.0)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.2.5(@types/node@22.14.0)(jiti@1.21.6)(lightningcss@1.29.3)(yaml@2.7.0)):
     dependencies:
       debug: 4.3.6
       globrex: 0.1.2
-      tsconfck: 3.0.3(typescript@5.8.2)
+      tsconfck: 3.0.3(typescript@5.8.3)
     optionalDependencies:
       vite: 6.2.5(@types/node@22.14.0)(jiti@1.21.6)(lightningcss@1.29.3)(yaml@2.7.0)
     transitivePeerDependencies:
