@@ -41,7 +41,7 @@
     "prettier-plugin-packagejson": "2.5.11",
     "prettier-plugin-tailwindcss": "0.6.11",
     "sort-package-json": "3.2.1",
-    "tailwindcss": "4.1.5",
+    "tailwindcss": "4.1.6",
     "turbo": "2.5.3",
     "typescript": "5.8.3",
     "vite": "6.3.5",
