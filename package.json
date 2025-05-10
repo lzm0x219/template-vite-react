@@ -35,7 +35,7 @@
     "husky": "9.1.7",
     "is-ci": "4.1.0",
     "lightningcss": "1.29.3",
-    "lint-staged": "15.5.2",
+    "lint-staged": "16.0.0",
     "postcss": "8.5.3",
     "prettier": "3.5.3",
     "prettier-plugin-packagejson": "2.5.12",
