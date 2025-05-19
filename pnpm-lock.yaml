@@ -58,8 +58,8 @@ importers:
         specifier: 3.5.3
         version: 3.5.3
       prettier-plugin-packagejson:
-        specifier: 2.5.13
-        version: 2.5.13(prettier@3.5.3)
+        specifier: 2.5.14
+        version: 2.5.14(prettier@3.5.3)
       prettier-plugin-tailwindcss:
         specifier: 0.6.11
         version: 0.6.11(prettier@3.5.3)
@@ -783,8 +783,8 @@ packages:
     resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier-plugin-packagejson@2.5.13:
-    resolution: {integrity: sha512-94B/Xy25HwiwSkGUGnwQw3cBw9jg9L5LfKCHpuRMjC8ETPq4oCMa2S4EblV628E0XER9n6v5rH0TQY9cUd10pg==}
+  prettier-plugin-packagejson@2.5.14:
+    resolution: {integrity: sha512-h+3tSpr2nVpp+YOK1MDIYtYhHVXr8/0V59UUbJpIJFaqi3w4fvUokJo6eV8W+vELrUXIZzJ+DKm5G7lYzrMcKQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -938,8 +938,8 @@ packages:
     resolution: {integrity: sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==}
     engines: {node: '>=12'}
 
-  synckit@0.11.5:
-    resolution: {integrity: sha512-frqvfWyDA5VPVdrWfH24uM6SI/O8NLpVbIIJxb8t/a3YGsp4AW9CYgSKC0OaSEfexnp7Y1pVh2Y6IHO8ggGDmA==}
+  synckit@0.11.6:
+    resolution: {integrity: sha512-2pR2ubZSV64f/vqm9eLPz/KOvR9Dm+Co/5ChLgeHl0yEDRc6h5hXHoxEQH8Y5Ljycozd3p1k5TTSVdzYGkPvLw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
   tailwindcss@4.1.7:
@@ -967,9 +967,6 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
-
-  tslib@2.8.1:
-    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   turbo-darwin-64@2.5.3:
     resolution: {integrity: sha512-YSItEVBUIvAGPUDpAB9etEmSqZI3T6BHrkBkeSErvICXn3dfqXUfeLx35LfptLDEbrzFUdwYFNmt8QXOwe9yaw==}
@@ -1588,10 +1585,10 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@2.5.13(prettier@3.5.3):
+  prettier-plugin-packagejson@2.5.14(prettier@3.5.3):
     dependencies:
       sort-package-json: 3.2.1
-      synckit: 0.11.5
+      synckit: 0.11.6
     optionalDependencies:
       prettier: 3.5.3
 
@@ -1701,10 +1698,9 @@ snapshots:
     dependencies:
       ansi-regex: 6.0.1
 
-  synckit@0.11.5:
+  synckit@0.11.6:
     dependencies:
       '@pkgr/core': 0.2.4
-      tslib: 2.8.1
 
   tailwindcss@4.1.7: {}
 
@@ -1724,8 +1720,6 @@ snapshots:
   tsconfck@3.0.3(typescript@5.8.3):
     optionalDependencies:
       typescript: 5.8.3
-
-  tslib@2.8.1: {}
 
   turbo-darwin-64@2.5.3:
     optional: true
