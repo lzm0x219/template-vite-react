@@ -67,8 +67,8 @@ importers:
         specifier: 3.2.1
         version: 3.2.1
       tailwindcss:
-        specifier: 4.1.7
-        version: 4.1.7
+        specifier: 4.1.8
+        version: 4.1.8
       turbo:
         specifier: 2.5.3
         version: 2.5.3
@@ -954,8 +954,8 @@ packages:
     resolution: {integrity: sha512-2pR2ubZSV64f/vqm9eLPz/KOvR9Dm+Co/5ChLgeHl0yEDRc6h5hXHoxEQH8Y5Ljycozd3p1k5TTSVdzYGkPvLw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tailwindcss@4.1.7:
-    resolution: {integrity: sha512-kr1o/ErIdNhTz8uzAYL7TpaUuzKIE6QPQ4qmSdxnoX/lo+5wmUHQA6h3L5yIqEImSRnAAURDirLu/BgiXGPAhg==}
+  tailwindcss@4.1.8:
+    resolution: {integrity: sha512-kjeW8gjdxasbmFKpVGrGd5T4i40mV5J2Rasw48QARfYeQ8YS9x02ON9SFWax3Qf616rt4Cp3nVNIj6Hd1mP3og==}
 
   tilg@0.1.1:
     resolution: {integrity: sha512-0uHyTAUM0tJL792LeviRPFkJtCbF6Za3/hbbnRmWGUaicOhbJ0IpvBViXiXTF7nk6R0L6vve2XLesQzn5jEVng==}
@@ -1721,7 +1721,7 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.2.4
 
-  tailwindcss@4.1.7: {}
+  tailwindcss@4.1.8: {}
 
   tilg@0.1.1(react@19.1.0):
     dependencies:
