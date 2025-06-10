@@ -30,7 +30,7 @@
     "@types/node": "22.15.31",
     "@types/react": "19.1.7",
     "@types/react-dom": "19.1.6",
-    "@vitejs/plugin-react-swc": "3.10.1",
+    "@vitejs/plugin-react-swc": "3.10.2",
     "autoprefixer": "10.4.21",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
