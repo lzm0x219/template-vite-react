@@ -39,7 +39,7 @@
     "postcss": "8.5.6",
     "prettier": "3.5.3",
     "prettier-plugin-packagejson": "2.5.15",
-    "prettier-plugin-tailwindcss": "0.6.12",
+    "prettier-plugin-tailwindcss": "0.6.13",
     "sort-package-json": "3.2.1",
     "tailwindcss": "4.1.10",
     "turbo": "2.5.4",
