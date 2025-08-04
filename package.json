@@ -43,7 +43,7 @@
     "sort-package-json": "3.4.0",
     "tailwindcss": "4.1.11",
     "turbo": "2.5.5",
-    "typescript": "5.8.3",
+    "typescript": "5.9.2",
     "vite": "7.0.6",
     "vite-plugin-mkcert": "1.17.8",
     "vite-tsconfig-paths": "5.1.4"
