@@ -20,16 +20,16 @@
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "react-router-dom": "7.9.3",
     "tilg": "0.1.1"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "22.18.8",
-    "@types/react": "19.1.17",
-    "@types/react-dom": "19.1.11",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
     "@vitejs/plugin-react-swc": "4.1.0",
     "autoprefixer": "10.4.21",
     "husky": "9.1.7",
