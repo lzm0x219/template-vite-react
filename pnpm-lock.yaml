@@ -25,8 +25,8 @@ importers:
         specifier: 0.6.1
         version: 0.6.1
       '@types/node':
-        specifier: 22.18.9
-        version: 22.18.9
+        specifier: 22.18.10
+        version: 22.18.10
       '@types/react':
         specifier: 19.2.2
         version: 19.2.2
@@ -35,7 +35,7 @@ importers:
         version: 19.2.1(@types/react@19.2.2)
       '@vitejs/plugin-react-swc':
         specifier: 4.1.0
-        version: 4.1.0(vite@7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1))
+        version: 4.1.0(vite@7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1))
       autoprefixer:
         specifier: 10.4.21
         version: 10.4.21(postcss@8.5.6)
@@ -77,13 +77,13 @@ importers:
         version: 5.9.3
       vite:
         specifier: 7.1.9
-        version: 7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)
+        version: 7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)
       vite-plugin-mkcert:
         specifier: 1.17.9
-        version: 1.17.9(vite@7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1))
+        version: 1.17.9(vite@7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1))
       vite-tsconfig-paths:
         specifier: 5.1.4
-        version: 5.1.4(typescript@5.9.3)(vite@7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1))
+        version: 5.1.4(typescript@5.9.3)(vite@7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1))
 
 packages:
 
@@ -425,8 +425,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@22.18.9':
-    resolution: {integrity: sha512-5yBtK0k/q8PjkMXbTfeIEP/XVYnz1R9qZJ3yUicdEW7ppdDJfe+MqXEhpqDL3mtn4Wvs1u0KLEG0RXzCgNpsSg==}
+  '@types/node@22.18.10':
+    resolution: {integrity: sha512-anNG/V/Efn/YZY4pRzbACnKxNKoBng2VTFydVu8RRs5hQjikP8CQfaeAV59VFSCzKNp90mXiVXW2QzV56rwMrg==}
 
   '@types/react-dom@19.2.1':
     resolution: {integrity: sha512-/EEvYBdT3BflCWvTMO7YkYBHVE9Ci6XdqZciZANQgKpaiDRGOLIlRo91jbTNRQjgPFWVaRxcYc0luVNFitz57A==}
@@ -1349,7 +1349,7 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@22.18.9':
+  '@types/node@22.18.10':
     dependencies:
       undici-types: 6.21.0
 
@@ -1361,11 +1361,11 @@ snapshots:
     dependencies:
       csstype: 3.0.8
 
-  '@vitejs/plugin-react-swc@4.1.0(vite@7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1))':
+  '@vitejs/plugin-react-swc@4.1.0(vite@7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.35
       '@swc/core': 1.13.5
-      vite: 7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)
+      vite: 7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -1898,27 +1898,27 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  vite-plugin-mkcert@1.17.9(vite@7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)):
+  vite-plugin-mkcert@1.17.9(vite@7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)):
     dependencies:
       axios: 1.12.2(debug@4.4.3)
       debug: 4.4.3
       picocolors: 1.1.1
-      vite: 7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)
+      vite: 7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)):
+  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)):
     dependencies:
       debug: 4.3.6
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.9.3)
     optionalDependencies:
-      vite: 7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)
+      vite: 7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@7.1.9(@types/node@22.18.9)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1):
+  vite@7.1.9(@types/node@22.18.10)(jiti@1.21.6)(lightningcss@1.30.2)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.5.0(picomatch@4.0.3)
@@ -1927,7 +1927,7 @@ snapshots:
       rollup: 4.46.2
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 22.18.9
+      '@types/node': 22.18.10
       fsevents: 2.3.3
       jiti: 1.21.6
       lightningcss: 1.30.2
