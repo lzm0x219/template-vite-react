@@ -1,11 +1,11 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
+import react from "@vitejs/plugin-react";
 import mkcert from "vite-plugin-mkcert";
 import tsPaths from "vite-tsconfig-paths";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   server: {
-    https: true,
     port: 5173,
   },
   plugins: [
@@ -14,9 +14,9 @@ export default defineConfig({
       source: "coding",
     }),
     tsPaths(),
+    tailwindcss(),
   ],
   build: {
-    cssMinify: "lightningcss",
     rollupOptions: {
       output: {
         manualChunks: {
