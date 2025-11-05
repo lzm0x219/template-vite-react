@@ -20,6 +20,6 @@ const router = createBrowserRouter([
 
 root.render(
   <StrictMode>
-    <RouterProvider router={router} fallbackElement={<div>loading...</div>} />
+    <RouterProvider router={router} />
   </StrictMode>,
 );
