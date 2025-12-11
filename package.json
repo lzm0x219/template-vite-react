@@ -16,7 +16,7 @@
     "react-router-dom": "7.10.1"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "4.1.17",
+    "@tailwindcss/vite": "4.1.18",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "24.10.3",
     "@types/react": "19.2.7",
@@ -33,7 +33,7 @@
     "prettier-plugin-packagejson": "2.5.20",
     "prettier-plugin-tailwindcss": "0.7.2",
     "sort-package-json": "3.5.1",
-    "tailwindcss": "4.1.17",
+    "tailwindcss": "4.1.18",
     "turbo": "2.6.3",
     "typescript": "5.9.3",
     "vite": "7.2.7",
