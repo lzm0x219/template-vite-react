@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       react:
-        specifier: 19.2.2
-        version: 19.2.2
+        specifier: 19.2.3
+        version: 19.2.3
       react-dom:
-        specifier: 19.2.2
-        version: 19.2.2(react@19.2.2)
+        specifier: 19.2.3
+        version: 19.2.3(react@19.2.3)
       react-router-dom:
         specifier: 7.10.1
-        version: 7.10.1(react-dom@19.2.2(react@19.2.2))(react@19.2.2)
+        version: 7.10.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
     devDependencies:
       '@tailwindcss/vite':
         specifier: 4.1.18
@@ -1331,10 +1331,10 @@ packages:
     resolution: {integrity: sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==}
     engines: {node: '>=0.6'}
 
-  react-dom@19.2.2:
-    resolution: {integrity: sha512-fhyD2BLrew6qYf4NNtHff1rLXvzR25rq49p+FeqByOazc6TcSi2n8EYulo5C1PbH+1uBW++5S1SG7FcUU6mlDg==}
+  react-dom@19.2.3:
+    resolution: {integrity: sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg==}
     peerDependencies:
-      react: ^19.2.2
+      react: ^19.2.3
 
   react-refresh@0.18.0:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
@@ -1357,8 +1357,8 @@ packages:
       react-dom:
         optional: true
 
-  react@19.2.2:
-    resolution: {integrity: sha512-BdOGOY8OKRBcgoDkwqA8Q5XvOIhoNx/Sh6BnGJlet2Abt0X5BK0BDrqGyQgLhAVjD2nAg5f6o01u/OPUhG022Q==}
+  react@19.2.3:
+    resolution: {integrity: sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA==}
     engines: {node: '>=0.10.0'}
 
   readline2@1.0.1:
@@ -2671,28 +2671,28 @@ snapshots:
 
   qs@6.5.3: {}
 
-  react-dom@19.2.2(react@19.2.2):
+  react-dom@19.2.3(react@19.2.3):
     dependencies:
-      react: 19.2.2
+      react: 19.2.3
       scheduler: 0.27.0
 
   react-refresh@0.18.0: {}
 
-  react-router-dom@7.10.1(react-dom@19.2.2(react@19.2.2))(react@19.2.2):
+  react-router-dom@7.10.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
-      react: 19.2.2
-      react-dom: 19.2.2(react@19.2.2)
-      react-router: 7.10.1(react-dom@19.2.2(react@19.2.2))(react@19.2.2)
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
+      react-router: 7.10.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
 
-  react-router@7.10.1(react-dom@19.2.2(react@19.2.2))(react@19.2.2):
+  react-router@7.10.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       cookie: 1.0.2
-      react: 19.2.2
+      react: 19.2.3
       set-cookie-parser: 2.7.1
     optionalDependencies:
-      react-dom: 19.2.2(react@19.2.2)
+      react-dom: 19.2.3(react@19.2.3)
 
-  react@19.2.2: {}
+  react@19.2.3: {}
 
   readline2@1.0.1:
     dependencies:
