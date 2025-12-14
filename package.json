@@ -23,7 +23,7 @@
     "@types/react-dom": "19.2.3",
     "@typescript/native-preview": "7.0.0-dev.20251214.1",
     "@vitejs/plugin-react": "5.1.2",
-    "autoprefixer": "10.4.22",
+    "autoprefixer": "10.4.23",
     "biome": "0.3.3",
     "is-ci": "4.1.0",
     "lefthook": "2.0.11",
