@@ -85,8 +85,8 @@ importers:
         specifier: 1.17.9
         version: 1.17.9(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.1))
       vite-tsconfig-paths:
-        specifier: 5.1.4
-        version: 5.1.4(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.1))
+        specifier: 6.0.0
+        version: 6.0.0(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.1))
 
 packages:
 
@@ -751,15 +751,6 @@ packages:
     resolution: {integrity: sha512-jRFi8UDGo6j+odZiEpjazZaWqEal3w/basFjQHQEwVtZJGDpxbH1MeYluwCS8Xq5wmLJooDlMgvVarmWfGM44g==}
     engines: {node: '>=0.10'}
 
-  debug@4.3.6:
-    resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
     engines: {node: '>=6.0'}
@@ -1197,9 +1188,6 @@ packages:
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
-  ms@2.1.2:
-    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
-
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
@@ -1593,8 +1581,8 @@ packages:
     peerDependencies:
       vite: '>=3'
 
-  vite-tsconfig-paths@5.1.4:
-    resolution: {integrity: sha512-cYj0LRuLV2c2sMqhqhGpaO3LretdtMn/BVX4cPLanIZuwwrkVl+lK84E/miEXkCHWXuq65rhNN4rXsBcOB3S4w==}
+  vite-tsconfig-paths@6.0.0:
+    resolution: {integrity: sha512-0lGkM62rud1ShKWLbJpbTHPoJuZIL9QW1ecCueDhqxWrStIRsyHapBQ4eV05tBqrW9z6jkp9ybBVgLSWp+Mv1A==}
     peerDependencies:
       vite: '*'
     peerDependenciesMeta:
@@ -2212,10 +2200,6 @@ snapshots:
     dependencies:
       assert-plus: 1.0.0
 
-  debug@4.3.6:
-    dependencies:
-      ms: 2.1.2
-
   debug@4.4.3:
     dependencies:
       ms: 2.1.3
@@ -2630,8 +2614,6 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.12
 
-  ms@2.1.2: {}
-
   ms@2.1.3: {}
 
   mute-stream@0.0.5: {}
@@ -2970,9 +2952,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.1)):
+  vite-tsconfig-paths@6.0.0(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.4)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.1)):
     dependencies:
-      debug: 4.3.6
+      debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.9.3)
     optionalDependencies:
