@@ -21,7 +21,7 @@
     "@types/node": "24.10.4",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "@typescript/native-preview": "7.0.0-dev.20251229.1",
+    "@typescript/native-preview": "7.0.0-dev.20251230.1",
     "@vitejs/plugin-react": "5.1.2",
     "autoprefixer": "10.4.23",
     "biome": "0.3.3",
