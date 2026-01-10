@@ -28,11 +28,11 @@ importers:
         specifier: 24.10.6
         version: 24.10.6
       '@types/react':
-        specifier: 19.2.7
-        version: 19.2.7
+        specifier: 19.2.8
+        version: 19.2.8
       '@types/react-dom':
         specifier: 19.2.3
-        version: 19.2.3(@types/react@19.2.7)
+        version: 19.2.3(@types/react@19.2.8)
       '@typescript/native-preview':
         specifier: 7.0.0-dev.20260109.1
         version: 7.0.0-dev.20260109.1
@@ -568,8 +568,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.7':
-    resolution: {integrity: sha512-MWtvHrGZLFttgeEj28VXHxpmwYbor/ATPYbBfSFZEIRK0ecCFLl2Qo55z52Hss+UV9CRN7trSeq1zbgx7YDWWg==}
+  '@types/react@19.2.8':
+    resolution: {integrity: sha512-3MbSL37jEchWZz2p2mjntRZtPt837ij10ApxKfgmXCTuHWagYg7iA5bqPw6C8BMPfwidlvfPI/fxOc42HLhcyg==}
 
   '@typescript/native-preview-darwin-arm64@7.0.0-dev.20260109.1':
     resolution: {integrity: sha512-rEY7JFH9JhIQ7SCjD+cpwPhIBLzNOgA7IVkfIcOpbWTmtOufx0sTZejR5B2b81x2fLCJDPZGpUv71wD1LP45iA==}
@@ -2018,11 +2018,11 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  '@types/react-dom@19.2.3(@types/react@19.2.7)':
+  '@types/react-dom@19.2.3(@types/react@19.2.8)':
     dependencies:
-      '@types/react': 19.2.7
+      '@types/react': 19.2.8
 
-  '@types/react@19.2.7':
+  '@types/react@19.2.8':
     dependencies:
       csstype: 3.2.3
 
