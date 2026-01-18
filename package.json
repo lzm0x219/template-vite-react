@@ -30,7 +30,7 @@
     "lightningcss": "1.30.2",
     "postcss": "8.5.6",
     "prettier": "3.8.0",
-    "prettier-plugin-packagejson": "2.5.21",
+    "prettier-plugin-packagejson": "2.5.22",
     "prettier-plugin-tailwindcss": "0.7.2",
     "sort-package-json": "3.6.0",
     "tailwindcss": "4.1.18",
