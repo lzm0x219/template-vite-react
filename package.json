@@ -34,7 +34,7 @@
     "prettier-plugin-tailwindcss": "0.7.2",
     "sort-package-json": "3.6.1",
     "tailwindcss": "4.1.18",
-    "turbo": "2.8.2",
+    "turbo": "2.8.3",
     "typescript": "5.9.3",
     "vite": "7.3.1",
     "vite-plugin-mkcert": "1.17.9",
