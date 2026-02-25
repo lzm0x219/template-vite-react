@@ -37,7 +37,7 @@
     "turbo": "2.8.10",
     "typescript": "5.9.3",
     "vite": "7.3.1",
-    "vite-plugin-mkcert": "1.17.9",
+    "vite-plugin-mkcert": "1.17.10",
     "vite-tsconfig-paths": "6.1.1"
   },
   "packageManager": "pnpm@10.30.2",
