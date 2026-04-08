@@ -28,7 +28,7 @@
     "is-ci": "4.1.0",
     "lefthook": "2.1.5",
     "lightningcss": "1.32.0",
-    "postcss": "8.5.8",
+    "postcss": "8.5.9",
     "prettier": "3.8.1",
     "prettier-plugin-packagejson": "3.0.2",
     "prettier-plugin-tailwindcss": "0.7.2",
