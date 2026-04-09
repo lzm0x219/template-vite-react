@@ -36,7 +36,7 @@
     "tailwindcss": "4.2.2",
     "turbo": "2.9.5",
     "typescript": "6.0.2",
-    "vite": "8.0.7",
+    "vite": "8.0.8",
     "vite-plugin-mkcert": "1.17.12",
     "vite-tsconfig-paths": "6.1.1"
   },
