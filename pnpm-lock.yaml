@@ -82,8 +82,8 @@ importers:
         specifier: 8.0.8
         version: 8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1)
       vite-plugin-mkcert:
-        specifier: 1.17.12
-        version: 1.17.12(vite@8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1))
+        specifier: 2.0.0
+        version: 2.0.0(vite@8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1))
       vite-tsconfig-paths:
         specifier: 6.1.1
         version: 6.1.1(typescript@6.0.2)(vite@8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1))
@@ -1286,6 +1286,10 @@ packages:
     resolution: {integrity: sha512-VhumSSbBqDTP8p2ZLKj40UjBCV4+v8bUSEpUb4KjRgWk9pbqGF4REFj6KEagidb2f/M6AzC0EmFyDNGaw9OCzg==}
     engines: {node: '>=0.10.0'}
 
+  supports-color@10.2.2:
+    resolution: {integrity: sha512-SS+jx45GF1QjgEXQx4NJZV9ImqmO2NPz5FNsIHrsDjh2YsHnawpan7SNQ1o8NuhrbHZy9AZhIoCUiCeaW/C80g==}
+    engines: {node: '>=18'}
+
   supports-color@2.0.0:
     resolution: {integrity: sha512-KKNVtd6pCYgPIKU4cp2733HWYCpplQhddZLBUryaAHou723x+FRzQ5Df824Fj+IyyuiQTRoub4SnIFfIcrp70g==}
     engines: {node: '>=0.8.0'}
@@ -1346,6 +1350,10 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
+  undici@8.0.2:
+    resolution: {integrity: sha512-B9MeU5wuFhkFAuNeA19K2GDFcQXZxq33fL0nRy2Aq30wdufZbyyvxW3/ChaeipXVfy/wUweZyzovQGk39+9k2w==}
+    engines: {node: '>=22.19.0'}
+
   untildify@3.0.3:
     resolution: {integrity: sha512-iSk/J8efr8uPT/Z4eSUywnqyrQU7DSdMfdqK4iWEaUVVmcP5JcnpRqmVMwcwcnmI1ATFNgC5V90u09tBynNFKA==}
     engines: {node: '>=4'}
@@ -1372,9 +1380,9 @@ packages:
     resolution: {integrity: sha512-ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==}
     engines: {'0': node >=0.6.0}
 
-  vite-plugin-mkcert@1.17.12:
-    resolution: {integrity: sha512-HhLyUZnvkKLuk9o+HBaMlGIa6CqPTfLbVlLFBjrkN4mpZ4saYFRfFx5R12a46UxmzWT9dO8fijmblVvCYvCD3A==}
-    engines: {node: '>=v18.0.0'}
+  vite-plugin-mkcert@2.0.0:
+    resolution: {integrity: sha512-+5roXeOT91WRO3NKFRcDZKEHhze/1uahSSKOIq3vz2w19mJojBcyOo0JyLRHbME31Ym5qPRNJ8CwKO0mu4RJ2Q==}
+    engines: {node: '>=22.19.0'}
     peerDependencies:
       vite: '>=3'
 
@@ -1865,9 +1873,11 @@ snapshots:
     dependencies:
       assert-plus: 1.0.0
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@10.2.2):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 10.2.2
 
   delayed-stream@1.0.0: {}
 
@@ -2402,6 +2412,8 @@ snapshots:
     dependencies:
       ansi-regex: 2.1.1
 
+  supports-color@10.2.2: {}
+
   supports-color@2.0.0: {}
 
   tailwindcss@4.2.2: {}
@@ -2454,6 +2466,8 @@ snapshots:
 
   undici-types@7.16.0: {}
 
+  undici@8.0.2: {}
+
   untildify@3.0.3: {}
 
   update-browserslist-db@1.2.2(browserslist@4.28.1):
@@ -2478,17 +2492,16 @@ snapshots:
       core-util-is: 1.0.2
       extsprintf: 1.3.0
 
-  vite-plugin-mkcert@1.17.12(vite@8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1)):
+  vite-plugin-mkcert@2.0.0(vite@8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1)):
     dependencies:
-      debug: 4.4.3
-      picocolors: 1.1.1
+      debug: 4.4.3(supports-color@10.2.2)
+      supports-color: 10.2.2
+      undici: 8.0.2
       vite: 8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1)
-    transitivePeerDependencies:
-      - supports-color
 
   vite-tsconfig-paths@6.1.1(typescript@6.0.2)(vite@8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1)):
     dependencies:
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@10.2.2)
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@6.0.2)
       vite: 8.0.8(@types/node@24.12.2)(esbuild@0.27.1)(jiti@2.6.1)(yaml@2.8.1)
