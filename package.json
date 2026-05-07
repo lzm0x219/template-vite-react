@@ -40,7 +40,7 @@
     "vite-plugin-mkcert": "2.0.0",
     "vite-tsconfig-paths": "6.1.1"
   },
-  "packageManager": "pnpm@10.33.4",
+  "packageManager": "pnpm@11.0.8",
   "engines": {
     "node": ">=24"
   }
