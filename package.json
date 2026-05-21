@@ -19,7 +19,7 @@
     "@tailwindcss/vite": "4.3.0",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "24.12.4",
-    "@types/react": "19.2.14",
+    "@types/react": "19.2.15",
     "@types/react-dom": "19.2.3",
     "@typescript/native-preview": "7.0.0-dev.20260519.1",
     "@vitejs/plugin-react": "6.0.2",
