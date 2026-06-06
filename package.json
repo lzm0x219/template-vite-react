@@ -11,15 +11,15 @@
     "vite.build": "vite build"
   },
   "dependencies": {
-    "react": "19.2.6",
-    "react-dom": "19.2.6",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
     "react-router-dom": "7.16.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.3.0",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "24.12.4",
-    "@types/react": "19.2.15",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "@typescript/native-preview": "7.0.0-dev.20260606.1",
     "@vitejs/plugin-react": "6.0.2",
