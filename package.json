@@ -20,7 +20,7 @@
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "24.13.3",
     "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.5",
+    "@types/react-dom": "19.2.7",
     "@typescript/native-preview": "7.0.0-dev.20260707.2",
     "@vitejs/plugin-react": "6.1.1",
     "autoprefixer": "10.5.4",
