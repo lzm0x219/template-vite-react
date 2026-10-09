@@ -26,7 +26,7 @@
     "autoprefixer": "10.6.1",
     "biome": "0.3.3",
     "is-ci": "4.1.0",
-    "lefthook": "2.1.17",
+    "lefthook": "2.2.1",
     "lightningcss": "1.33.0",
     "postcss": "8.5.29",
     "prettier": "3.9.9",
