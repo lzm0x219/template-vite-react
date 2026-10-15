@@ -11,8 +11,8 @@
     "vite.build": "vite build"
   },
   "dependencies": {
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "react-router-dom": "7.18.4"
   },
   "devDependencies": {
